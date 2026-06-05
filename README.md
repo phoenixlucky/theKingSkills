@@ -6,13 +6,14 @@
 
 本项目是一份**索引清单**，不存储 Skill 文件本身，而是告诉 AI Agent **去哪里获取每个 Skill**（GitHub 仓库、官方来源等）。
 
-目前已收录 **13 个热门 Skill**，覆盖四大类：
+目前已收录 **19 个热门 Skill**，覆盖五大类：
 
 | 分类 | 包含 Skill |
 |------|-----------|
 | 🛠 **基础 Skill** | Skill Creator, Find Skills, ZeroToken Skill |
 | 💻 **产品开发** | Superpowers, gstack, Frontend Design, ui-ux-pro-max |
 | 🎨 **内容创作** | baoyu-skills, NotebookLM Skill, Moon Lovers（白月光） |
+| 🎬 **视频制作** | HyperFrames, video-use, Remotion Skills, Generative Media Skills, videocut-skills, seedance2-skill |
 | 📊 **商业与分析** | Business Data Analyst, Weiliaozi Analysis, Financial Analyst |
 
 ## 🚀 快速使用

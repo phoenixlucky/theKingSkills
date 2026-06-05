@@ -14,13 +14,15 @@
 | `install-king-skills.bat` | BAT 启动器，自动检测 pwsh/powershell 并运行 PS1 |
 | `README.md` | 项目总览 |
 
-## 已收录 Skill（共 13 个）
+## 已收录 Skill（共 19 个）
 
 **基础 Skill：** Skill Creator, Find Skills, ZeroToken Skill
 
 **产品开发：** Superpowers, gstack, Frontend Design, ui-ux-pro-max
 
 **内容创作：** baoyu-skills, NotebookLM Skill, Moon Lovers
+
+**视频制作：** HyperFrames, video-use, Remotion Skills, Generative Media Skills, videocut-skills, seedance2-skill
 
 **商业与分析：** Business Data Analyst, Weiliaozi Analysis, Financial Analyst
 

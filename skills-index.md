@@ -2,7 +2,7 @@
 title:   "The King Skills — AI 一键安装索引"
 version: "1.1"
 updated: "2026-06-04"
-total:   13
+total:   19
 ---
 
 # 🎯 The King Skills — AI 一键安装索引
@@ -204,6 +204,118 @@ total:   13
 
 ---
 
+## 🎬 视频制作 Skill
+
+用代码和 AI 批量制作、剪辑和生成视频，从分镜到成品全流程覆盖。
+
+### 14 — HyperFrames
+
+| 字段 | 值 |
+|------|-----|
+| **来源** | heygen-com |
+| **分类** | 视频制作 Skill |
+| **一句话** | 一句话生成动效视频：HTML/CSS/动画制作产品介绍/动态海报/知识视频，输出 MP4 |
+
+**安装指令：**
+
+```
+安装 HyperFrames Skill。
+来源：https://github.com/heygen-com/hyperframes
+安装后，告诉 Codex 视频主题，它可以用 HTML、CSS 和动画制作产品介绍、动态海报、知识视频和 PPT 风格视频，最后渲染为 MP4。
+```
+
+---
+
+### 15 — video-use
+
+| 字段 | 值 |
+|------|-----|
+| **来源** | browser-use |
+| **分类** | 视频制作 Skill |
+| **一句话** | Agent 帮你剪视频：删除停顿/错误片段/口头禅，处理字幕/音频/调色/画面动效 |
+
+**安装指令：**
+
+```
+安装 video-use Skill。
+来源：https://github.com/browser-use/video-use
+安装后，把拍摄素材交给 Agent，它可以协助删除停顿、错误片段和口头禅，继续处理字幕、音频、调色与画面动效。
+```
+
+---
+
+### 16 — Remotion Skills
+
+| 字段 | 值 |
+|------|-----|
+| **来源** | Remotion 官方 |
+| **分类** | 视频制作 Skill |
+| **一句话** | 用 React 代码批量制作视频：排行榜/数据周报/产品更新/固定栏目视频 |
+
+**安装指令：**
+
+```
+安装 Remotion Skills。
+来源：https://github.com/remotion-dev/skills
+安装后，可以使用 React 编写视频，统一控制画面、字幕、动画和时间轴。特别适合批量制作排行榜、数据周报、产品更新和固定栏目视频。
+```
+
+---
+
+### 17 — Generative Media Skills
+
+| 字段 | 值 |
+|------|-----|
+| **来源** | SamurAIGPT |
+| **分类** | 视频制作 Skill |
+| **一句话** | AI 视频/图片/音频生成工具箱：广告/UGC/音乐视频/社交媒体短片 |
+
+**安装指令：**
+
+```
+安装 Generative Media Skills。
+来源：https://github.com/SamurAIGPT/Generative-Media-Skills
+安装后，可以调用 AI 模型制作产品广告、UGC 视频、音乐视频和社交媒体短片。部分功能需要配置 MuAPI，并会产生生成费用。
+```
+
+---
+
+### 18 — videocut-skills
+
+| 字段 | 值 |
+|------|-----|
+| **来源** | Ceeon |
+| **分类** | 视频制作 Skill |
+| **一句话** | 面向中文创作者的视频剪辑 Skills：素材/字幕/短视频制作流程 |
+
+**安装指令：**
+
+```
+安装 videocut-skills。
+来源：https://github.com/Ceeon/videocut-skills
+安装后，Agent 可以理解剪辑需求，并协助处理素材、字幕和短视频制作流程。中文用户想用 Claude Code 或其他 Agent 剪视频，可以重点研究。
+```
+
+---
+
+### 19 — seedance2-skill
+
+| 字段 | 值 |
+|------|-----|
+| **来源** | dexhunter |
+| **分类** | 视频制作 Skill |
+| **一句话** | 为即梦 Seedance 2.0 设计逐秒分镜/运镜/提示词，输出专业视频提示词 |
+
+**安装指令：**
+
+```
+安装 seedance2-skill。
+来源：https://github.com/dexhunter/seedance2-skill
+安装后，告诉 Codex 一个视频创意，它会设计逐秒分镜、人物动作、运镜、对白、音效和素材引用方式。生成的提示词可以直接交给即梦 Seedance 2.0 制作核心镜头。
+```
+
+---
+
 ## 📊 商业与分析 Skill
 
 商业决策、金融投资和结构化分析。
@@ -285,6 +397,14 @@ total:   13
 7. baoyu-skills — @dotey，20 个视觉设计 Skill
 8. NotebookLM Skill — 打通 Agent 与 NotebookLM
 12. Moon Lovers — 白月光风格恋爱聊天回复
+
+【视频制作 Skill】
+14. HyperFrames — 用 HTML/动画一键生成动效视频
+15. video-use — Agent 辅助剪辑视频
+16. Remotion Skills — 用 React 代码批量制作视频
+17. Generative Media Skills — AI 视频/图片/音频生成
+18. videocut-skills — 面向中文创作者的视频剪辑
+19. seedance2-skill — 为即梦设计逐秒分镜提示词
 
 【商业与分析 Skill】
 10. Business Data Analyst — 商业分析与指标拆解

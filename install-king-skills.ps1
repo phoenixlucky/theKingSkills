@@ -21,6 +21,12 @@ $skills = @(
     @{ Name="Business Data Analyst"; CatIcon="[A]"; Repo="https://github.com/phoenixlucky/business-data-analyst-skill";                                   Desc="商业分析与指标拆解：业务问题→分析方案→可执行建议";     Source="phoenixlucky";      Stars=$null },
     @{ Name="Moon Lovers";           CatIcon="[M]"; Repo="https://github.com/phoenixlucky/moon-lovers-skill";                                             Desc="白月光聊天回复：温柔/克制/留白感强的恋爱聊天辅助";       Source="phoenixlucky";      Stars=$null },
     @{ Name="Financial Analyst";     CatIcon="[E]"; Repo="https://github.com/phoenixlucky/financial-analyst-skill";                                       Desc="金融投资分析：周期定位→六栏框架→交易策略与风险判断";     Source="phoenixlucky";      Stars=$null }
+    @{ Name="HyperFrames";           CatIcon="[H]"; Repo="https://github.com/heygen-com/hyperframes";                                                Desc="一句话生成动效视频：HTML/CSS/动画制作产品介绍/动态海报/知识视频"; Source="heygen-com";      Stars=$null },
+    @{ Name="video-use";             CatIcon="[V]"; Repo="https://github.com/browser-use/video-use";                                                  Desc="Agent 帮你剪视频：删除停顿/错误、处理字幕/调色/画面动效";  Source="browser-use";      Stars=$null },
+    @{ Name="Remotion Skills";       CatIcon="[R]"; Repo="https://github.com/remotion-dev/skills";                                                    Desc="用 React 代码批量制作视频：排行榜/数据周报/产品更新/栏目";  Source="Remotion 官方";    Stars=$null },
+    @{ Name="Generative Media Skills";CatIcon="[Y]";Repo="https://github.com/SamurAIGPT/Generative-Media-Skills";                                     Desc="AI 视频/图片/音频生成工具箱：广告/UGC/音乐视频/社交媒体短片";Source="SamurAIGPT";      Stars=$null },
+    @{ Name="videocut-skills";       CatIcon="[C]"; Repo="https://github.com/Ceeon/videocut-skills";                                                  Desc="面向中文创作者的视频剪辑 Skills：素材/字幕/短视频制作";     Source="Ceeon";            Stars=$null },
+    @{ Name="seedance2-skill";       CatIcon="[D]"; Repo="https://github.com/dexhunter/seedance2-skill";                                              Desc="为即梦 Seedance 2.0 设计逐秒分镜/运镜/提示词，输出专业视频提示词"; Source="dexhunter";      Stars=$null }
 )
 
 $skillCount = $skills.Count
