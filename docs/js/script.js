@@ -98,6 +98,9 @@
     for (const s of skills) {
       const isSelected = selected.has(s.id);
       const starBadge = s.stars ? `<span class="skill-stars">${s.stars}</span>` : '';
+      const repoLink = s.repo && !s.repo.startsWith('搜索') 
+        ? `<a href="${s.repo}" class="skill-repo" target="_blank" rel="noopener" title="${s.repo}">${s.repo}</a>`
+        : '';
       html += `
         <div class="skill-card ${isSelected ? 'selected' : ''}" data-id="${s.id}">
           <div class="skill-check">${isSelected ? '✓' : ''}</div>
@@ -109,6 +112,7 @@
               <span class="skill-source">${s.source}</span>
             </div>
             <div class="skill-desc">${s.desc}</div>
+            ${repoLink}
           </div>
         </div>
       `;
@@ -178,7 +182,8 @@
       text += `【${catName}】\n`;
       for (const s of items) {
         const star = s.stars ? `（${s.stars}）` : '';
-        text += `${s.id}. ${s.name} — ${s.source}${star}，${s.desc}\n`;
+        const repo = s.repo && !s.repo.startsWith('搜索') ? `\n   地址：${s.repo}` : '';
+        text += `${s.id}. ${s.name} — ${s.source}${star}，${s.desc}${repo}\n`;
       }
       text += '\n';
     }

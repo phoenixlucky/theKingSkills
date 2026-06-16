@@ -19,28 +19,25 @@
 
 ## 🚀 快速使用
 
-### 方式一：弹窗勾选安装向导（推荐 ⭐）
-
-双击运行 `install-king-skills.bat`，会弹出 Windows 窗口，**勾选**你想安装的 Skill 后点击「Generate Instructions」，即可复制带 GitHub 地址的安装说明给 AI Agent。
-
-```
-install-king-skills.bat
-```
-
-### 方式二：AI 直接读取
+### 方式：AI 直接读取 ⭐
 
 将 `skills-index.md` 提供给 AI Agent（Claude Code / CodeX 等），它会自动读取每个 Skill 的来源和安装方式。
+
+> 💡 **每个 Skill 现在都标注了明确的来源 GitHub 仓库地址和 Star 数**，AI Agent 可以直接根据来源完成安装。
+
+~~旧版弹窗安装向导（`install-king-skills.bat` / `.ps1`）已归档至 `archive/` 目录，不再维护。~~
 
 ## 📂 项目文件
 
 ```
 theKingSkills/
 ├── README.md                         # 本文件
-├── skills-index.md                   # AI 直接读取的索引文档
+├── skills-index.md                   # 🌟 AI 直接读取的索引文档（核心，唯一需维护）
 ├── CLAUDE.md                         # Claude Code 项目约定
 ├── AGENTS.md                         # Reasonix/通用 Agent 配置
-├── install-king-skills.ps1           # 🌟 弹窗勾选安装向导（核心）
-└── install-king-skills.bat           # 启动器，双击运行
+└── archive/                          # 已归档文件（旧版弹窗安装向导）
+    ├── install-king-skills.ps1
+    └── install-king-skills.bat
 ```
 
 ## 🤖 兼容的 AI Agent
@@ -54,13 +51,7 @@ theKingSkills/
 
 ## 🔧 如何扩展
 
-想添加新 Skill？编辑 `install-king-skills.ps1`，只需在 `$skills` 数组里加一行：
-
-```powershell
-@{ Name="你的Skill"; CatIcon="[X]"; Repo="https://github.com/xxx"; Desc="简介"; Source="作者"; Stars=$null }
-```
-
-同时更新 `skills-index.md` 增加对应条目即可。界面和索引文档会自动适配。
+想添加新 Skill？编辑 `skills-index.md`，在对应分类下增加一条新条目，包含名称、来源（GitHub URL）、分类、一句话描述及安装指令即可。
 
 ## 🤝 贡献
 

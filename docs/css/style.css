@@ -215,6 +215,20 @@ a:hover { text-decoration: underline; }
   overflow: hidden;
 }
 
+.skill-repo {
+  display: block;
+  font-size: .72rem;
+  font-family: "SF Mono", "Fira Code", "Consolas", monospace;
+  color: var(--primary);
+  margin-top: 6px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  opacity: .75;
+  transition: opacity .15s;
+}
+.skill-repo:hover { opacity: 1; text-decoration: underline; }
+
 .skill-card.hidden { display: none; }
 
 /* ===== Output Section ===== */

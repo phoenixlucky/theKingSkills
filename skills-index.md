@@ -1,7 +1,7 @@
 ---
 title:   "The King Skills — AI 一键安装索引"
-version: "1.1"
-updated: "2026-06-04"
+version: "1.2"
+updated: "2026-06-16"
 total:   26
 ---
 
@@ -47,6 +47,7 @@ total:   26
 
 ```
 安装 Find Skills。
+来源：https://github.com/mechanicianwang/skillspool-find-skill
 安装后，你可以说「帮我找一个配图 Skill」，它会搜出几个备选项，选好后直接帮你装上。
 ```
 
@@ -133,7 +134,7 @@ total:   26
 
 | 字段 | 值 |
 |------|-----|
-| **来源** | 社区 |
+| **来源** | nextlevelbuilder（⭐ 92.2k） |
 | **分类** | 产品开发 Skill |
 | **一句话** | 设计资源库：50 种设计风格 + 97 种配色方案 + 9 个技术栈 |
 
@@ -141,6 +142,7 @@ total:   26
 
 ```
 安装 ui-ux-pro-max Skill。
+来源：https://github.com/nextlevelbuilder/ui-ux-pro-max-skill（⭐ 92.2k）
 安装后，生成页面时自动匹配适合的设计风格和配色方案。
 ```
 
@@ -226,7 +228,7 @@ total:   26
 
 | 字段 | 值 |
 |------|-----|
-| **来源** | @dotey |
+| **来源** | JimLiu（⭐ 21.7k） |
 | **分类** | 内容创作 Skill |
 | **一句话** | 约 20 个视觉设计 Skill 包：封面图/信息图/PPT/文章配图/长文排版 |
 
@@ -234,7 +236,7 @@ total:   26
 
 ```
 安装 baoyu-skills 技能包。
-来源：@dotey。
+来源：https://github.com/JimLiu/baoyu-skills（⭐ 21.7k）
 安装后，把文章发给它，它会自动找出适合配图的段落并生成插图放到对应位置。
 ```
 
@@ -244,7 +246,7 @@ total:   26
 
 | 字段 | 值 |
 |------|-----|
-| **来源** | 社区 |
+| **来源** | teng-lin（⭐ 1.5 万+） |
 | **分类** | 内容创作 Skill |
 | **一句话** | 打通 Agent 与 NotebookLM，Agent 可直接查询 NotebookLM 中的文档 |
 
@@ -252,6 +254,7 @@ total:   26
 
 ```
 安装 NotebookLM Skill。
+来源：https://github.com/teng-lin/notebooklm-py（⭐ 1.5 万+）
 安装后，Agent 可以查询和分析你在 NotebookLM 中存储的所有文档，
 显著减少 AI 幻觉，相当于给 Agent 接上超强长期记忆外挂。
 ```
@@ -511,29 +514,29 @@ total:   26
 
 ## 🚀 AI 一键安装（全文复制）
 
-> 将下方内容直接提供给 AI Agent，它会读取并依次安装所有 Skill：
+> 将下方内容直接提供给 AI Agent，它会读取每个 Skill 的来源和安装指令自动完成安装：
 
 ```
 请依次阅读并安装以下 Skill。
 
 【基础 Skill】
 1. Skill Creator — Anthropic 官方，用于创建 Skill 的 Skill
-2. Find Skills — Skill 搜索引擎
+2. Find Skills — Skill 搜索引擎（https://github.com/mechanicianwang/skillspool-find-skill）
 9. ZeroToken Skill — Token 高效约束，减少无效输出
 
 【产品开发 Skill】
 3. Superpowers — ⭐ 21 万+ Star，开发流程规范化
 4. gstack — YC 总裁 Gary Tan，23 个工程专家角色
 5. Frontend Design — Anthropic 官方，去 AI 感设计
-6. ui-ux-pro-max — 50 种设计风格 + 97 种配色方案
+6. ui-ux-pro-max — ⭐ 92.2k，50 种设计风格 + 97 种配色方案
 20. bug-hunt — 复现定位 Bug，最小修复验证
 21. code-review — 审查代码，发现缺陷和回归
 22. frontend-polish — 优化界面细节和视觉一致性
 24. release-notes — 整理发布说明和升级指南
 
 【内容创作 Skill】
-7. baoyu-skills — @dotey，20 个视觉设计 Skill
-8. NotebookLM Skill — 打通 Agent 与 NotebookLM
+7. baoyu-skills — JimLiu（⭐ 21.7k），20 个视觉设计 Skill
+8. NotebookLM Skill — ⭐ 1.5 万+，打通 Agent 与 NotebookLM
 12. Moon Lovers — 白月光风格恋爱聊天回复
 23. officecli — AI Agent 专用 Office 文档工具（⭐ 7.2k）
 

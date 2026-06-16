@@ -2,7 +2,7 @@
 
 ## 项目定位
 
-本项目的核心文件是 `skills-index.md` 和 `install-king-skills.ps1`。
+本项目的核心文件是 `skills-index.md`。
 不存储 Skill 源文件，只提供**索引 + 安装指令**，告诉 AI Agent 去哪里获取每个 Skill。
 
 ## 核心文件
@@ -10,8 +10,6 @@
 | 文件 | 用途 |
 |------|------|
 | `skills-index.md` | AI 直接读取的索引文档，包含全部 Skill 的来源/安装指令 |
-| `install-king-skills.ps1` | Windows GUI 弹窗安装向导（PowerShell WinForms） |
-| `install-king-skills.bat` | BAT 启动器，自动检测 pwsh/powershell 并运行 PS1 |
 | `README.md` | 项目总览 |
 
 ## 已收录 Skill（共 26 个）
@@ -30,21 +28,14 @@
 
 ## 使用方法
 
-### 方式一（Windows 弹窗）
-用户双击运行 `install-king-skills.bat` → 弹出勾选窗口 → 选好后生成安装指令。
-
-### 方式二（AI 直接读取）
+### AI 直接读取（唯一方式）
 将 `skills-index.md` 全部内容发给 AI Agent，Agent 依次读取并安装。
+
+> 旧版弹窗安装向导（install-king-skills.bat/.ps1）已归档至 `archive/`，不再维护。
 
 ## 扩展指南
 
-在 `install-king-skills.ps1` 的 `$skills` 数组末尾加一行即可：
-
-```powershell
-@{ Name="技能名"; CatIcon="[X]"; Repo="https://github.com/用户/仓库"; Desc="一句话简介"; Source="作者"; Stars=$null }
-```
-
-同时更新 `skills-index.md` 增加对应条目，保持两边一致。
+在 `skills-index.md` 的对应分类下增加一条新条目，包含名称、来源（GitHub URL）、分类、描述及安装指令即可。注意更新 `total` 字段和底部「一键安装」区列表。
 
 ## 语言偏好
 
