@@ -99,7 +99,7 @@
       const isSelected = selected.has(s.id);
       const starBadge = s.stars ? `<span class="skill-stars">${s.stars}</span>` : '';
       const repoLink = s.repo && !s.repo.startsWith('搜索') 
-        ? `<a href="${s.repo}" class="skill-repo" target="_blank" rel="noopener" title="${s.repo}">${s.repo}</a>`
+        ? `<a href="${s.repo}" class="skill-repo" target="_blank" rel="noopener" title="${s.repo}">📦 ${s.repo}</a>`
         : '';
       html += `
         <div class="skill-card ${isSelected ? 'selected' : ''}" data-id="${s.id}">
@@ -119,8 +119,9 @@
     }
     skillsGrid.innerHTML = html;
 
-    // Click to toggle
+    // Click to toggle (ignore link clicks)
     skillsGrid.addEventListener('click', (e) => {
+      if (e.target.closest('a')) return;
       const card = e.target.closest('.skill-card');
       if (!card) return;
       const id = parseInt(card.dataset.id);

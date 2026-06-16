@@ -216,18 +216,26 @@ a:hover { text-decoration: underline; }
 }
 
 .skill-repo {
-  display: block;
-  font-size: .72rem;
+  display: inline-block;
+  font-size: .7rem;
   font-family: "SF Mono", "Fira Code", "Consolas", monospace;
-  color: var(--primary);
+  color: #0366d6;
+  background: #f0f6ff;
+  border: 1px solid #d0e4ff;
+  border-radius: 6px;
+  padding: 2px 8px;
   margin-top: 6px;
-  white-space: nowrap;
+  max-width: 100%;
   overflow: hidden;
   text-overflow: ellipsis;
-  opacity: .75;
-  transition: opacity .15s;
+  white-space: nowrap;
+  transition: background .15s;
+  text-decoration: none;
 }
-.skill-repo:hover { opacity: 1; text-decoration: underline; }
+.skill-repo:hover {
+  background: #ddeeff;
+  text-decoration: underline;
+}
 
 .skill-card.hidden { display: none; }
 
