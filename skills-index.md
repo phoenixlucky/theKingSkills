@@ -2,7 +2,7 @@
 title:   "The King Skills — AI 一键安装索引"
 version: "1.1"
 updated: "2026-06-04"
-total:   19
+total:   26
 ---
 
 # 🎯 The King Skills — AI 一键安装索引
@@ -146,6 +146,78 @@ total:   19
 
 ---
 
+### 20 — bug-hunt
+
+| 字段 | 值 |
+|------|-----|
+| **来源** | Reasonix 内置 |
+| **分类** | 产品开发 Skill |
+| **一句话** | 复现并定位问题，给出最小修复和验证路径 |
+
+**安装指令：**
+
+```
+安装 bug-hunt Skill。
+来源：Reasonix 内置。
+安装后，输入 bug 描述，它会复现问题、定位根因，给出最小修复方案和验证步骤。
+```
+
+---
+
+### 21 — code-review
+
+| 字段 | 值 |
+|------|-----|
+| **来源** | Reasonix 内置 |
+| **分类** | 产品开发 Skill |
+| **一句话** | 审查代码变更，优先发现缺陷、回归和缺失测试 |
+
+**安装指令：**
+
+```
+安装 code-review Skill。
+来源：Reasonix 内置。
+安装后，提交代码变更时自动进行代码审查，标记缺陷、回归问题和测试遗漏。
+```
+
+---
+
+### 22 — frontend-polish
+
+| 字段 | 值 |
+|------|-----|
+| **来源** | Reasonix 内置 |
+| **分类** | 产品开发 Skill |
+| **一句话** | 优化界面细节、响应式状态和视觉一致性 |
+
+**安装指令：**
+
+```
+安装 frontend-polish Skill。
+来源：Reasonix 内置。
+安装后，自动优化前端界面细节，修复响应式布局问题，确保视觉一致性。
+```
+
+---
+
+### 24 — release-notes
+
+| 字段 | 值 |
+|------|-----|
+| **来源** | Reasonix 内置 |
+| **分类** | 产品开发 Skill |
+| **一句话** | 整理面向用户的发布说明和升级注意事项 |
+
+**安装指令：**
+
+```
+安装 release-notes Skill。
+来源：Reasonix 内置。
+安装后，根据代码变更自动生成面向用户的发布说明、更新日志和升级指南。
+```
+
+---
+
 ## 🎨 内容创作 Skill
 
 轻松处理做图、整理资料、排版发布等耗时工作。
@@ -200,6 +272,68 @@ total:   19
 安装 Moon Lovers Skill。
 来源：https://github.com/phoenixlucky/moon-lovers-skill
 安装后，提供对方消息或聊天上下文，生成自然克制、有白月光感的回复。
+```
+
+---
+
+### 23 — officecli
+
+| 字段 | 值 |
+|------|-----|
+| **来源** | iOfficeAI（⭐ 7.2k） |
+| **分类** | 内容创作 Skill |
+| **一句话** | AI Agent 专用 Office 文档工具：创建、编辑和自动化 Word/Excel/PPT |
+
+**安装指令：**
+
+```
+安装 officecli Skill。
+来源：https://github.com/iOfficeAI/OfficeCLI（⭐ 7.2k）
+安装后，Agent 可以直接创建、读取和修改 Word、Excel、PowerPoint 文件，
+支持模板合并、批量生成和格式检查。
+```
+
+---
+
+## 📄 文档处理 Skill
+
+创建、编辑和处理文档 —— Word 文档排版、PDF 工具链全覆盖。
+
+### 25 — docx
+
+| 字段 | 值 |
+|------|-----|
+| **来源** | kimi-skills（⭐ 187） |
+| **分类** | 文档处理 Skill |
+| **一句话** | 完整的 DOCX 文档创建、编辑与分析能力，支持修订、批注、格式保持和文本提取 |
+
+**安装指令：**
+
+```
+安装 docx Skill。
+来源：https://github.com/thvroyal/kimi-skills（⭐ 187）
+安装后，可以创建 Word 文档：设置封面/目录/页眉页脚/图表，支持修订跟踪和批注，
+也支持编辑现有文档，提取文本和结构。
+依赖：.NET SDK、Python 3、pandoc（可选）。
+```
+
+---
+
+### 26 — pdf
+
+| 字段 | 值 |
+|------|-----|
+| **来源** | zavora-ai（⭐ 1） |
+| **分类** | 文档处理 Skill |
+| **一句话** | 专业 PDF 工具集：报告生成/提取/合并/拆分/表单填写/安全处理（57 种工具） |
+
+**安装指令：**
+
+```
+安装 pdf Skill。
+来源：https://github.com/zavora-ai/skill-pdf-document-management（⭐ 1）
+安装后，可以处理 PDF：检查/分类/提取文本表格/生成发票合同/格式转换/
+合并拆分/加密脱敏/表单填写。依赖 mcp-pdf v3.0.0+。
 ```
 
 ---
@@ -392,11 +526,20 @@ total:   19
 4. gstack — YC 总裁 Gary Tan，23 个工程专家角色
 5. Frontend Design — Anthropic 官方，去 AI 感设计
 6. ui-ux-pro-max — 50 种设计风格 + 97 种配色方案
+20. bug-hunt — 复现定位 Bug，最小修复验证
+21. code-review — 审查代码，发现缺陷和回归
+22. frontend-polish — 优化界面细节和视觉一致性
+24. release-notes — 整理发布说明和升级指南
 
 【内容创作 Skill】
 7. baoyu-skills — @dotey，20 个视觉设计 Skill
 8. NotebookLM Skill — 打通 Agent 与 NotebookLM
 12. Moon Lovers — 白月光风格恋爱聊天回复
+23. officecli — AI Agent 专用 Office 文档工具（⭐ 7.2k）
+
+【文档处理 Skill】
+25. docx — 完整的 DOCX 创建、编辑与分析能力（⭐ 187）
+26. pdf — 专业 PDF 工具集：57 种工具，生成/提取/合并/表单（⭐ 1）
 
 【视频制作 Skill】
 14. HyperFrames — 用 HTML/动画一键生成动效视频

@@ -22,7 +22,7 @@ theKingSkills/
 
 ## 技能数据位置
 
-所有 Skill 数据在 `install-king-skills.ps1` 第 10-24 行的 `$skills` 数组：
+所有 Skill 数据在 `install-king-skills.ps1` 第 11-37 行的 `$skills` 数组：
 
 ```powershell
 $skills = @(
