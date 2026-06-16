@@ -114,7 +114,6 @@
             </div>
             <div class="skill-desc">${s.desc}</div>
           </div>
-          </div>
         </div>
       `;
     }
