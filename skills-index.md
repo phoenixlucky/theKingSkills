@@ -47,7 +47,7 @@ total:   26
 
 ```
 安装 Find Skills。
-来源：ClawHub（https://www.openclawdirectory.dev/）
+来源：https://clawhub.ai/isainazar/openclaw-find-skills
 安装后，你可以说「帮我找一个配图 Skill」，它会从 ClawHub 搜出备选项，选好后直接帮你装上。
 ```
 
@@ -521,7 +521,7 @@ total:   26
 
 【基础 Skill】
 1. Skill Creator — Anthropic 官方，用于创建 Skill 的 Skill
-2. Find Skills — ClawHub，从 ClawHub 全网搜索 Skill（https://www.openclawdirectory.dev/）
+2. Find Skills — ClawHub，从 ClawHub 全网搜索 Skill（https://clawhub.ai/isainazar/openclaw-find-skills）
 9. ZeroToken Skill — Token 高效约束，减少无效输出
 
 【产品开发 Skill】
