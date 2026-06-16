@@ -41,14 +41,14 @@ total:   26
 |------|-----|
 | **来源** | ClawHub |
 | **分类** | 基础 Skill |
-| **一句话** | Skill 搜索引擎，帮你快速找到想要的 Skill |
+| **一句话** | Skill 搜索引擎，帮你从 ClawHub 全网搜索想要的 Skill |
 
 **安装指令：**
 
 ```
 安装 Find Skills。
-来源：https://github.com/mechanicianwang/skillspool-find-skill
-安装后，你可以说「帮我找一个配图 Skill」，它会搜出几个备选项，选好后直接帮你装上。
+来源：ClawHub（https://www.openclawdirectory.dev/）
+安装后，你可以说「帮我找一个配图 Skill」，它会从 ClawHub 搜出备选项，选好后直接帮你装上。
 ```
 
 ---
@@ -521,7 +521,7 @@ total:   26
 
 【基础 Skill】
 1. Skill Creator — Anthropic 官方，用于创建 Skill 的 Skill
-2. Find Skills — Skill 搜索引擎（https://github.com/mechanicianwang/skillspool-find-skill）
+2. Find Skills — ClawHub，从 ClawHub 全网搜索 Skill（https://www.openclawdirectory.dev/）
 9. ZeroToken Skill — Token 高效约束，减少无效输出
 
 【产品开发 Skill】
