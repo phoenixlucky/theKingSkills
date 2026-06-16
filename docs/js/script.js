@@ -99,7 +99,7 @@
       const isSelected = selected.has(s.id);
       const starBadge = s.stars ? `<span class="skill-stars">${s.stars}</span>` : '';
       const repoLink = s.repo && !s.repo.startsWith('搜索') 
-        ? `<a href="${s.repo}" class="skill-repo" target="_blank" rel="noopener" title="${s.repo}">📦 ${s.repo}</a>`
+        ? `<a href="${s.repo}" class="skill-repo" target="_blank" rel="noopener" title="${s.repo}">GitHub ↗</a>`
         : '';
       html += `
         <div class="skill-card ${isSelected ? 'selected' : ''}" data-id="${s.id}">
@@ -110,9 +110,10 @@
               <span class="skill-name">${s.name}</span>
               ${starBadge}
               <span class="skill-source">${s.source}</span>
+              ${repoLink}
             </div>
             <div class="skill-desc">${s.desc}</div>
-            ${repoLink}
+          </div>
           </div>
         </div>
       `;
