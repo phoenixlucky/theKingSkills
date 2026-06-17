@@ -192,7 +192,7 @@
       for (const s of items) {
         const star = s.stars ? `（${s.stars}）` : '';
         const repo = s.repo && !s.repo.startsWith('搜索') ? `\n   地址：${s.repo}` : '';
-        text += `${s.id}. ${s.name} — ${s.source}${star}，${s.desc}${repo}\n`;
+        text += `${s.name} — ${s.source}${star}，${s.desc}${repo}\n`;
       }
       text += '\n';
     }
