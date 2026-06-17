@@ -1,2 +1,5 @@
 # CodeGraph metadata
 .codegraph/
+
+# Reasonix agent cache files
+.reasonix/

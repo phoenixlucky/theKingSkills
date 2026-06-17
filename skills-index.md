@@ -1,8 +1,8 @@
 ---
 title:   "The King Skills — AI 一键安装索引"
-version: "1.2"
-updated: "2026-06-16"
-total:   26
+version: "1.3"
+updated: "2026-06-17"
+total:   72
 ---
 
 # 🎯 The King Skills — AI 一键安装索引
@@ -67,6 +67,137 @@ total:   26
 安装 ZeroToken Skill。
 来源：https://github.com/phoenixlucky/zerotoken-skill
 安装后，Agent 默认以最少 token 和精准提示完成任务，减少无效上下文、无效解释和无效输出。
+```
+
+---
+
+### 30 — Self-Improving Agent（自我进化 Agent）
+
+| 字段 | 值 |
+|------|-----|
+| **来源** | ClawHub — pskoett（★ 3.8k，安装 6.9k） |
+| **分类** | 基础 Skill / Agent 能力增强 |
+| **一句话** | 持续学习与纠错：自动记录错误、纠正和经验，让 Agent 永久进化 |
+
+**安装指令：**
+
+```
+安装 Self-Improving Agent Skill。
+来源：https://clawhub.ai/pskoett/self-improving-agent（★ 3.8k）
+安装后，命令报错、被用户纠正或自我发现问题时，它会自动把经验写进 .learnings/ 目录，
+下次遇到同类场景会主动避开，相当于给 Agent 装上长期进化记忆。
+```
+
+---
+
+### 31 — Skill Vetter（技能安全审查）
+
+| 字段 | 值 |
+|------|-----|
+| **来源** | ClawHub — spclaudehome（★ 1.2k，安装 4.7k） |
+| **分类** | 基础 Skill / 安全 |
+| **一句话** | 安装任何第三方 Skill 前的安全审查，检查红旗、权限范围和可疑模式 |
+
+**安装指令：**
+
+```
+安装 Skill Vetter Skill。
+来源：https://clawhub.ai/spclaudehome/skill-vetter（★ 1.2k）
+安装后，从 ClawHub、GitHub 等任何来源安装新 Skill 前，先让它审查一遍：
+检查红旗、权限范围和可疑代码模式，确认安全再装。
+```
+
+---
+
+### 32 — Proactive Agent（主动型 Agent）
+
+| 字段 | 值 |
+|------|-----|
+| **来源** | ClawHub — halthelobster（★ 800，安装 3.0k） |
+| **分类** | 基础 Skill / Agent 能力增强 |
+| **一句话** | 把 Agent 从「等指令」变成「主动预判需求」，带 WAL 协议与自动定时任务 |
+
+**安装指令：**
+
+```
+安装 Proactive Agent Skill。
+来源：https://clawhub.ai/halthelobster/proactive-agent（★ 800）
+安装后，Agent 会主动预判你的需求、持续自我改进，并支持 WAL 协议、工作缓冲区和自动定时任务。
+Hal Stack 系列成员。
+```
+
+---
+
+### 33 — Self-Improving + Proactive Agent
+
+| 字段 | 值 |
+|------|-----|
+| **来源** | ClawHub — ivangdavila（★ 1.2k，安装 2.2k） |
+| **分类** | 基础 Skill / Agent 能力增强 |
+| **一句话** | 自我反思 + 自我批评 + 自我学习 + 自组织记忆，Agent 能评估自己的工作并永久改进 |
+
+**安装指令：**
+
+```
+安装 Self-Improving + Proactive Agent Skill。
+来源：https://clawhub.ai/ivangdavila/self-improving（★ 1.2k）
+安装后，Agent 会反思自己的工作、主动发现错误并永久改进，适合希望 Agent 越用越聪明的场景。
+```
+
+---
+
+### 34 — Ontology（知识图谱记忆）
+
+| 字段 | 值 |
+|------|-----|
+| **来源** | ClawHub — oswalpalash（★ 638，安装 1.4k） |
+| **分类** | 基础 Skill / Agent 能力增强 |
+| **一句话** | 类型化知识图谱，给 Agent 结构化记忆与可组合的技能能力 |
+
+**安装指令：**
+
+```
+安装 Ontology Skill。
+来源：https://clawhub.ai/oswalpalash/ontology（★ 638）
+安装后，可以用知识图谱创建/查询实体（人物、项目、任务、事件、文档）并建立关联，
+让 Agent 拥有结构化长期记忆。
+```
+
+---
+
+### 35 — Auto-Updater（自动更新）
+
+| 字段 | 值 |
+|------|-----|
+| **来源** | ClawHub — maximeprades（★ 428，安装 1.5k） |
+| **分类** | 基础 Skill / 维护工具 |
+| **一句话** | 每天自动检查并更新 Agent 本体和所有已安装 Skill，附变更摘要 |
+
+**安装指令：**
+
+```
+安装 Auto-Updater Skill。
+来源：https://clawhub.ai/maximeprades/auto-updater（★ 428）
+安装后，它会通过定时任务每天自动检查更新、应用更新，并把改动摘要发给你。
+```
+
+---
+
+### 75 — Skill Creator（ClawHub 版）
+
+| 字段 | 值 |
+|------|-----|
+| **来源** | ClawHub — chindden（★ 319，安装 2.5k） |
+| **分类** | 基础 Skill |
+| **一句话** | ClawHub 社区版 Skill 创建指南，扩展 Agent 的知识、工作流和工具集成 |
+
+**安装指令：**
+
+```
+安装 ClawHub 版 Skill Creator。
+来源：https://clawhub.ai/chindden/skill-creator（★ 319）
+安装后，当你想新建或更新 Skill 来扩展 Agent 能力时，它会按规范引导你完成创建。
+与上方 01 号 Anthropic 官方版互为补充，可按需选用。
 ```
 
 ---
@@ -298,6 +429,62 @@ total:   26
 
 ---
 
+### 70 — Nano Banana Pro（AI 绘图）
+
+| 字段 | 值 |
+|------|-----|
+| **来源** | ClawHub — steipete（★ 405，安装 1.9k） |
+| **分类** | 内容创作 Skill |
+| **一句话** | 用 Nano Banana Pro（Gemini 3 Pro Image）生成/编辑图片，支持文生图 + 图生图 |
+
+**安装指令：**
+
+```
+安装 Nano Banana Pro Skill。
+来源：https://clawhub.ai/steipete/nano-banana-pro（★ 405）
+安装后，Agent 可用 Nano Banana Pro（Gemini 3 Pro Image）生成或编辑图片，
+支持文生图和图生图（--input-image），可输出 1K/2K/4K 分辨率。
+```
+
+---
+
+### 71 — OpenAI Image Gen（批量绘图）
+
+| 字段 | 值 |
+|------|-----|
+| **来源** | ClawHub — steipete（★ 37，安装 1.1k） |
+| **分类** | 内容创作 Skill |
+| **一句话** | 通过 OpenAI Images API 批量生成图片，附随机 prompt 采样和画廊 |
+
+**安装指令：**
+
+```
+安装 OpenAI Image Gen Skill。
+来源：https://clawhub.ai/steipete/openai-image-gen（★ 37）
+安装后，Agent 可通过 OpenAI Images API 批量生成图片，内置随机 prompt 采样器和 index.html 画廊。
+```
+
+---
+
+### 72 — Humanizer（去 AI 味）
+
+| 字段 | 值 |
+|------|-----|
+| **来源** | ClawHub — biostartechnology（★ 669，安装 1.5k） |
+| **分类** | 内容创作 Skill |
+| **一句话** | 去除文本中的 AI 写作痕迹，基于维基百科「AI 写作迹象」清单改写得更自然 |
+
+**安装指令：**
+
+```
+安装 Humanizer Skill。
+来源：https://clawhub.ai/biostartechnology/humanizer（★ 669）
+安装后，编辑或审阅文本时可自动去除 AI 写作痕迹：
+夸张象征、推销用语、空泛归因、破折号滥用、三段式、AI 词汇、负面并列和过度连接词等。
+```
+
+---
+
 ## 📄 文档处理 Skill
 
 创建、编辑和处理文档 —— Word 文档排版、PDF 工具链全覆盖。
@@ -337,6 +524,24 @@ total:   26
 来源：https://github.com/zavora-ai/skill-pdf-document-management（⭐ 1）
 安装后，可以处理 PDF：检查/分类/提取文本表格/生成发票合同/格式转换/
 合并拆分/加密脱敏/表单填写。依赖 mcp-pdf v3.0.0+。
+```
+
+---
+
+### 73 — Nano PDF（自然语言编辑 PDF）
+
+| 字段 | 值 |
+|------|-----|
+| **来源** | ClawHub — steipete（★ 260，安装 2.6k） |
+| **分类** | 文档处理 Skill |
+| **一句话** | 用自然语言指令通过 nano-pdf CLI 编辑 PDF |
+
+**安装指令：**
+
+```
+安装 Nano PDF Skill。
+来源：https://clawhub.ai/steipete/nano-pdf（★ 260）
+安装后，Agent 可用自然语言指令通过 nano-pdf CLI 编辑 PDF 文档。
 ```
 
 ---
@@ -512,6 +717,664 @@ total:   26
 
 ---
 
+## 🔌 集成与工具 Skill
+
+打通第三方服务：GitHub、Google Workspace、Slack、Notion、邮件、日历等，让 Agent 直接操作外部系统。
+
+### 36 — Github
+
+| 字段 | 值 |
+|------|-----|
+| **来源** | ClawHub — steipete（★ 636，安装 4.5k） |
+| **分类** | 集成与工具 |
+| **一句话** | 用 `gh` CLI 操作 GitHub：issue、PR、CI 运行和高级查询 |
+
+**安装指令：**
+
+```
+安装 Github Skill。
+来源：https://clawhub.ai/steipete/github（★ 636）
+安装后，可以用 gh issue、gh pr、gh run、gh api 操作 GitHub 的 issue、PR、CI 和高级查询。
+```
+
+---
+
+### 37 — Gog（Google Workspace）
+
+| 字段 | 值 |
+|------|-----|
+| **来源** | ClawHub — steipete（★ 924，安装 3.7k） |
+| **分类** | 集成与工具 |
+| **一句话** | Google Workspace CLI：Gmail、日历、Drive、通讯录、Sheets、Docs 一站式操控 |
+
+**安装指令：**
+
+```
+安装 Gog Skill。
+来源：https://clawhub.ai/steipete/gog（★ 924）
+安装后，Agent 可直接操作 Gmail、Google 日历、Drive、通讯录、Sheets 和 Docs。
+```
+
+---
+
+### 38 — Slack
+
+| 字段 | 值 |
+|------|-----|
+| **来源** | ClawHub — steipete（★ 158，安装 1.4k） |
+| **分类** | 集成与工具 |
+| **一句话** | 从 Agent 控制 Slack：发消息、表情回复、置顶/取消置顶等 |
+
+**安装指令：**
+
+```
+安装 Slack Skill。
+来源：https://clawhub.ai/steipete/slack（★ 158）
+安装后，可以通过 slack 工具控制 Slack：发/改/删消息、表情回复、管理置顶和成员信息。
+```
+
+---
+
+### 39 — Trello
+
+| 字段 | 值 |
+|------|-----|
+| **来源** | ClawHub — steipete（★ 161，安装 1.3k） |
+| **分类** | 集成与工具 |
+| **一句话** | 通过 Trello REST API 管理看板、列表和卡片 |
+
+**安装指令：**
+
+```
+安装 Trello Skill。
+来源：https://clawhub.ai/steipete/trello（★ 161）
+安装后，Agent 可以管理 Trello 看板、列表和卡片。
+```
+
+---
+
+### 40 — Notion
+
+| 字段 | 值 |
+|------|-----|
+| **来源** | ClawHub — steipete（★ 259，安装 2.4k） |
+| **分类** | 集成与工具 |
+| **一句话** | Notion API 创建和管理页面、数据库与 block |
+
+**安装指令：**
+
+```
+安装 Notion Skill。
+来源：https://clawhub.ai/steipete/notion（★ 259）
+安装后，Agent 可通过 Notion API 创建和管理页面、数据库与 block。
+```
+
+---
+
+### 41 — Obsidian
+
+| 字段 | 值 |
+|------|-----|
+| **来源** | ClawHub — steipete（★ 428，安装 2.6k） |
+| **分类** | 集成与工具 |
+| **一句话** | 操作 Obsidian 笔记库（纯 Markdown）并通过 obsidian-cli 自动化 |
+
+**安装指令：**
+
+```
+安装 Obsidian Skill。
+来源：https://clawhub.ai/steipete/obsidian（★ 428）
+安装后，Agent 可以读写 Obsidian 笔记库（纯 Markdown），并通过 obsidian-cli 自动化笔记流程。
+```
+
+---
+
+### 42 — Discord
+
+| 字段 | 值 |
+|------|-----|
+| **来源** | ClawHub — steipete（★ 77，安装 1.3k） |
+| **分类** | 集成与工具 |
+| **一句话** | 从 Agent 控制 Discord：发消息、表情、投票、管理频道/成员/权限 |
+
+**安装指令：**
+
+```
+安装 Discord Skill。
+来源：https://clawhub.ai/steipete/discord（★ 77）
+安装后，可以通过 discord 工具控制 Discord：发消息、表情、贴纸、投票，
+管理话题/置顶/搜索，以及处理频道权限和成员/角色信息。
+```
+
+---
+
+### 43 — mcporter（MCP 工具箱）
+
+| 字段 | 值 |
+|------|-----|
+| **来源** | ClawHub — steipete（★ 194，安装 2.0k） |
+| **分类** | 集成与工具 |
+| **一句话** | 用 mcporter CLI 列出、配置、授权并调用任意 MCP 服务器/工具（HTTP 或 stdio） |
+
+**安装指令：**
+
+```
+安装 mcporter Skill。
+来源：https://clawhub.ai/steipete/mcporter（★ 194）
+安装后，可以用 mcporter CLI 直接列出、配置、授权并调用 MCP 服务器和工具，
+支持临时服务器、配置编辑和 CLI/类型生成。
+```
+
+---
+
+### 44 — Himalaya（终端邮件）
+
+| 字段 | 值 |
+|------|-----|
+| **来源** | ClawHub — lamelas（★ 69，安装 1.5k） |
+| **分类** | 集成与工具 |
+| **一句话** | 用 himalaya CLI 通过 IMAP/SMTP 收发、搜索和管理邮件 |
+
+**安装指令：**
+
+```
+安装 Himalaya Skill。
+来源：https://clawhub.ai/lamelas/himalaya（★ 69）
+安装后，Agent 可在终端用 himalaya 列出、读取、撰写、回复、转发、搜索和整理邮件，支持多账户。
+```
+
+---
+
+### 45 — 1Password
+
+| 字段 | 值 |
+|------|-----|
+| **来源** | ClawHub — steipete（★ 52，安装 1.3k） |
+| **分类** | 集成与工具 |
+| **一句话** | 设置并使用 1Password CLI（op），读取/注入/运行密钥 |
+
+**安装指令：**
+
+```
+安装 1Password Skill。
+来源：https://clawhub.ai/steipete/1password（★ 52）
+安装后，可以安装 op CLI、启用桌面应用集成、登录（单/多账户），
+并读取/注入/运行密钥。
+```
+
+---
+
+### 46 — Apple Notes
+
+| 字段 | 值 |
+|------|-----|
+| **来源** | ClawHub — steipete（★ 57，安装 1.4k） |
+| **分类** | 集成与工具 |
+| **一句话** | 用 `memo` CLI 在 macOS 上管理 Apple Notes（创建/查看/编辑/搜索/导出） |
+
+**安装指令：**
+
+```
+安装 Apple Notes Skill。
+来源：https://clawhub.ai/steipete/apple-notes（★ 57）
+安装后，Agent 可通过 memo CLI 在 macOS 上创建、查看、编辑、删除、搜索、移动和导出 Apple Notes。
+```
+
+---
+
+### 47 — Apple Reminders
+
+| 字段 | 值 |
+|------|-----|
+| **来源** | ClawHub — steipete（★ 54，安装 1.3k） |
+| **分类** | 集成与工具 |
+| **一句话** | 用 `remindctl` CLI 管理 Apple 提醒事项（列表/添加/编辑/完成/删除） |
+
+**安装指令：**
+
+```
+安装 Apple Reminders Skill。
+来源：https://clawhub.ai/steipete/apple-reminders（★ 54）
+安装后，Agent 可通过 remindctl CLI 管理 Apple 提醒事项：列表、日期筛选、增删改和 JSON/纯文本输出。
+```
+
+---
+
+### 48 — CalDAV Calendar
+
+| 字段 | 值 |
+|------|-----|
+| **来源** | ClawHub — asleep123（★ 242） |
+| **分类** | 集成与工具 |
+| **一句话** | 用 vdirsyncer + khal 同步查询 CalDAV 日历（iCloud/Google/Fastmail/Nextcloud） |
+
+**安装指令：**
+
+```
+安装 CalDAV Calendar Skill。
+来源：https://clawhub.ai/asleep123/caldav-calendar（★ 242）
+安装后，可以用 vdirsyncer 把 CalDAV 日历（iCloud、Google、Fastmail、Nextcloud 等）
+同步到本地 .ics 文件，再用 khal 查看、搜索、创建和编辑事件。仅支持 Linux。
+```
+
+---
+
+## 🔍 搜索与浏览 Skill
+
+让 Agent 联网搜索和操作浏览器，获取实时信息。
+
+### 49 — Multi Search Engine（多搜索引擎）
+
+| 字段 | 值 |
+|------|-----|
+| **来源** | ClawHub — gpyangyoujun（★ 727，安装 2.2k） |
+| **分类** | 搜索与浏览 |
+| **一句话** | 集成 16 个搜索引擎（7 国内 + 9 全球），支持高级运算符和时间筛选 |
+
+**安装指令：**
+
+```
+安装 Multi Search Engine Skill。
+来源：https://clawhub.ai/gpyangyoujun/multi-search-engine（★ 727）
+安装后，Agent 可调用 16 个搜索引擎（7 国内 + 9 全球），
+支持高级搜索运算符、时间筛选、站内搜索和隐私引擎。
+```
+
+---
+
+### 50 — Tavily 搜索
+
+| 字段 | 值 |
+|------|-----|
+| **来源** | ClawHub — jacky1n7（★ 263，安装 1.4k） |
+| **分类** | 搜索与浏览 |
+| **一句话** | 通过 Tavily API 联网搜索（Brave 不可用时的替代方案） |
+
+**安装指令：**
+
+```
+安装 Tavily 搜索 Skill。
+来源：https://clawhub.ai/jacky1n7/openclaw-tavily-search（★ 263）
+安装后，当需要联网搜索、查找资料或获取链接时，可通过 Tavily API 搜索，
+作为 Brave web_search 不可用时的替代方案。
+```
+
+---
+
+### 51 — Baidu 搜索
+
+| 字段 | 值 |
+|------|-----|
+| **来源** | ClawHub — ide-rea（★ 216） |
+| **分类** | 搜索与浏览 |
+| **一句话** | 用百度 AI 搜索引擎（BDSE）联网搜索，适合中文实时信息 |
+
+**安装指令：**
+
+```
+安装 Baidu 搜索 Skill。
+来源：https://clawhub.ai/ide-rea/baidu-search（★ 216）
+安装后，Agent 可用百度 AI 搜索引擎联网搜索，适合查询实时信息、文档资料或研究类中文内容。
+```
+
+---
+
+### 52 — Agent Browser（无头浏览器）
+
+| 字段 | 值 |
+|------|-----|
+| **来源** | ClawHub — matrixy（★ 424） |
+| **分类** | 搜索与浏览 |
+| **一句话** | 为 AI Agent 优化的无头浏览器自动化 CLI，带可访问性树快照和 ref 元素选择 |
+
+**安装指令：**
+
+```
+安装 Agent Browser Skill。
+来源：https://clawhub.ai/matrixy/agent-browser-clawdbot（★ 424）
+安装后，Agent 可以驱动无头浏览器自动化网页操作，
+通过可访问性树快照和 ref 元素引用精准定位和点击页面元素。
+```
+
+---
+
+### 53 — Peekaboo（macOS UI 自动化）
+
+| 字段 | 值 |
+|------|-----|
+| **来源** | ClawHub — steipete（★ 82，安装 1.3k） |
+| **分类** | 搜索与浏览 |
+| **一句话** | 用 Peekaboo CLI 捕获并自动化 macOS UI |
+
+**安装指令：**
+
+```
+安装 Peekaboo Skill。
+来源：https://clawhub.ai/steipete/peekaboo（★ 82）
+安装后，Agent 可通过 Peekaboo CLI 捕获屏幕并自动化 macOS 界面操作。
+```
+
+---
+
+### 54 — tmux
+
+| 字段 | 值 |
+|------|-----|
+| **来源** | ClawHub — steipete（★ 43，安装 1.4k） |
+| **分类** | 搜索与浏览 |
+| **一句话** | 远程控制 tmux 会话，向交互式 CLI 发送按键并抓取输出 |
+
+**安装指令：**
+
+```
+安装 tmux Skill。
+来源：https://clawhub.ai/steipete/tmux（★ 43）
+安装后，Agent 可以远程控制 tmux 会话，向交互式 CLI 发送按键并抓取输出，
+适合自动化需要 TTY 的命令行程序。
+```
+
+---
+
+## 📈 商业与数据 Skill
+
+市场情报、广告分析、自动化工作流和模型成本统计。
+
+### 55 — AdMapix（广告情报）
+
+| 字段 | 值 |
+|------|-----|
+| **来源** | ClawHub — fly0pants（★ 286） |
+| **分类** | 商业与数据 |
+| **一句话** | 广告情报与应用分析助手，搜索广告素材、分析 App、排名、下载、收入和市场洞察 |
+
+**安装指令：**
+
+```
+安装 AdMapix Skill。
+来源：https://clawhub.ai/fly0pants/admapix（★ 286）
+安装后，Agent 可搜索广告素材、分析 App 及其排名、下载量、收入和市场洞察，
+用于广告素材和竞品分析。
+```
+
+---
+
+### 56 — Polymarket（预测市场）
+
+| 字段 | 值 |
+|------|-----|
+| **来源** | ClawHub — mvanhorn（★ 22） |
+| **分类** | 商业与数据 |
+| **一句话** | 接入 Polymarket 预测市场数据 |
+
+**安装指令：**
+
+```
+安装 Polymarket Skill。
+来源：https://clawhub.ai/mvanhorn/polymarket（★ 22）
+安装后，Agent 可查询 Polymarket 预测市场的行情和事件数据。
+```
+
+---
+
+### 57 — Automation Workflows（自动化工作流）
+
+| 字段 | 值 |
+|------|-----|
+| **来源** | ClawHub — jk-0001（★ 305，安装 1.1k） |
+| **分类** | 商业与数据 |
+| **一句话** | 设计并实现自动化工作流，覆盖 Zapier/Make/n8n 工具选型、触发器和测试维护 |
+
+**安装指令：**
+
+```
+安装 Automation Workflows Skill。
+来源：https://clawhub.ai/jk-0001/automation-workflows（★ 305）
+安装后，识别可自动化的重复任务、设计工作流、选型工具（Zapier、Make、n8n），
+并完成测试和维护。触发词：自动化、workflow、省时间。
+```
+
+---
+
+### 58 — Model Usage（模型用量统计）
+
+| 字段 | 值 |
+|------|-----|
+| **来源** | ClawHub — steipete（★ 113，安装 1.6k） |
+| **分类** | 商业与数据 |
+| **一句话** | 用 CodexBar CLI 统计各模型的本地用量和成本 |
+
+**安装指令：**
+
+```
+安装 Model Usage Skill。
+来源：https://clawhub.ai/steipete/model-usage（★ 113）
+安装后，可以用 CodexBar CLI 汇总 Codex/Claude 各模型的用量和成本，
+输出当前模型或完整模型明细。
+```
+
+---
+
+### 59 — Blogwatcher（博客监控）
+
+| 字段 | 值 |
+|------|-----|
+| **来源** | ClawHub — steipete（★ 70，安装 1.5k） |
+| **分类** | 商业与数据 |
+| **一句话** | 用 blogwatcher CLI 监控博客和 RSS/Atom 订阅源的更新 |
+
+**安装指令：**
+
+```
+安装 Blogwatcher Skill。
+来源：https://clawhub.ai/steipete/blogwatcher（★ 70）
+安装后，Agent 可用 blogwatcher CLI 监控博客和 RSS/Atom 订阅源的更新。
+```
+
+---
+
+## 🎵 生活与媒体 Skill
+
+天气、音乐、视频、语音和会话日志等生活场景工具。
+
+### 60 — Weather（天气）
+
+| 字段 | 值 |
+|------|-----|
+| **来源** | ClawHub — steipete（★ 417，安装 3.9k） |
+| **分类** | 生活与媒体 |
+| **一句话** | 查询实时天气和预报，无需 API Key |
+
+**安装指令：**
+
+```
+安装 Weather Skill。
+来源：https://clawhub.ai/steipete/weather（★ 417）
+安装后，Agent 可查询实时天气和预报，无需任何 API Key。
+```
+
+---
+
+### 61 — Video Frames（视频抽帧）
+
+| 字段 | 值 |
+|------|-----|
+| **来源** | ClawHub — steipete（★ 129，安装 1.6k） |
+| **分类** | 生活与媒体 |
+| **一句话** | 用 ffmpeg 从视频中提取帧或短片段 |
+
+**安装指令：**
+
+```
+安装 Video Frames Skill。
+来源：https://clawhub.ai/steipete/video-frames（★ 129）
+安装后，Agent 可用 ffmpeg 从视频中提取帧或短片段。
+```
+
+---
+
+### 62 — OpenAI Whisper（本地语音转文字）
+
+| 字段 | 值 |
+|------|-----|
+| **来源** | ClawHub — steipete（★ 325，安装 2.1k） |
+| **分类** | 生活与媒体 |
+| **一句话** | 用 Whisper CLI 本地语音转文字，无需 API Key |
+
+**安装指令：**
+
+```
+安装 OpenAI Whisper Skill。
+来源：https://clawhub.ai/steipete/openai-whisper（★ 325）
+安装后，Agent 可用 Whisper CLI 在本地做语音转文字，无需 API Key。
+```
+
+---
+
+### 63 — OpenAI Whisper API（云端语音转文字）
+
+| 字段 | 值 |
+|------|-----|
+| **来源** | ClawHub — steipete（★ 52，安装 1.2k） |
+| **分类** | 生活与媒体 |
+| **一句话** | 通过 OpenAI Audio Transcriptions API 转录音频 |
+
+**安装指令：**
+
+```
+安装 OpenAI Whisper API Skill。
+来源：https://clawhub.ai/steipete/openai-whisper-api（★ 52）
+安装后，Agent 可通过 OpenAI Audio Transcriptions API 转录音频。
+```
+
+---
+
+### 64 — Sag（ElevenLabs 语音合成）
+
+| 字段 | 值 |
+|------|-----|
+| **来源** | ClawHub — steipete（★ 26，安装 1.3k） |
+| **分类** | 生活与媒体 |
+| **一句话** | ElevenLabs 文字转语音，提供 macOS say 风格体验 |
+
+**安装指令：**
+
+```
+安装 Sag Skill。
+来源：https://clawhub.ai/steipete/sag（★ 26）
+安装后，Agent 可用 ElevenLabs 做文字转语音，体验类似 macOS 的 say 命令。
+```
+
+---
+
+### 65 — Spotify Player
+
+| 字段 | 值 |
+|------|-----|
+| **来源** | ClawHub — steipete（★ 54，安装 1.2k） |
+| **分类** | 生活与媒体 |
+| **一句话** | 终端 Spotify 播放与搜索（spogo 或 spotify_player） |
+
+**安装指令：**
+
+```
+安装 Spotify Player Skill。
+来源：https://clawhub.ai/steipete/spotify-player（★ 54）
+安装后，Agent 可在终端控制 Spotify 播放和搜索（优先 spogo，或 spotify_player）。
+```
+
+---
+
+### 66 — Sonos 音箱控制
+
+| 字段 | 值 |
+|------|-----|
+| **来源** | ClawHub — steipete（★ 55，安装 2.8k） |
+| **分类** | 生活与媒体 |
+| **一句话** | 控制 Sonos 音箱（发现/状态/播放/音量/分组） |
+
+**安装指令：**
+
+```
+安装 Sonoscli Skill。
+来源：https://clawhub.ai/steipete/sonoscli（★ 55）
+安装后，Agent 可控制 Sonos 音箱：发现设备、查看状态、播放、调节音量和分组。
+```
+
+---
+
+### 67 — goplaces（Google 地点查询）
+
+| 字段 | 值 |
+|------|-----|
+| **来源** | ClawHub — steipete（★ 30，安装 1.3k） |
+| **分类** | 生活与媒体 |
+| **一句话** | 用 goplaces CLI 查询 Google Places API，做地点搜索/详情/评价 |
+
+**安装指令：**
+
+```
+安装 goplaces Skill。
+来源：https://clawhub.ai/steipete/goplaces（★ 30）
+安装后，Agent 可用 goplaces CLI 查询 Google Places API，
+做文本搜索、地点详情、解析和评价，支持人性化输出或 JSON。
+```
+
+---
+
+### 68 — Gemini
+
+| 字段 | 值 |
+|------|-----|
+| **来源** | ClawHub — steipete（★ 56，安装 1.5k） |
+| **分类** | 生活与媒体 |
+| **一句话** | Gemini CLI 一次性问答、摘要和生成 |
+
+**安装指令：**
+
+```
+安装 Gemini Skill。
+来源：https://clawhub.ai/steipete/gemini（★ 56）
+安装后，Agent 可用 Gemini CLI 做一次性问答、摘要和内容生成。
+```
+
+---
+
+### 69 — Session-logs（会话日志）
+
+| 字段 | 值 |
+|------|-----|
+| **来源** | ClawHub — guogang1024（★ 30，安装 1.4k） |
+| **分类** | 生活与媒体 |
+| **一句话** | 用 jq 搜索和分析自己的会话日志（历史/父级对话） |
+
+**安装指令：**
+
+```
+安装 Session-logs Skill。
+来源：https://clawhub.ai/guogang1024/session-logs（★ 30）
+安装后，Agent 可用 jq 搜索和分析自己的会话日志（更早或父级对话）。
+```
+
+---
+
+### 74 — Healthcheck（喝水/睡眠追踪）
+
+| 字段 | 值 |
+|------|-----|
+| **来源** | ClawHub — stellarhold170nt（★ 11，安装 1.2k） |
+| **分类** | 生活与媒体 |
+| **一句话** | 用 JSON 文件存储追踪每日喝水和睡眠 |
+
+**安装指令：**
+
+```
+安装 Healthcheck Skill。
+来源：https://clawhub.ai/stellarhold170nt/healthcheck（★ 11）
+安装后，Agent 可用 JSON 文件存储追踪你每日的喝水和睡眠情况。
+```
+
+---
+
 ## 🚀 AI 一键安装（全文复制）
 
 > 将下方内容直接提供给 AI Agent，它会读取每个 Skill 的来源和安装指令自动完成安装：
@@ -523,6 +1386,13 @@ total:   26
 1. Skill Creator — Anthropic 官方，用于创建 Skill 的 Skill
 2. Find Skills — ClawHub，从 ClawHub 全网搜索 Skill（https://clawhub.ai/fangkelvin/find-skills-skill）
 9. ZeroToken Skill — Token 高效约束，减少无效输出
+30. Self-Improving Agent — ClawHub（★ 3.8k），自动记录错误与经验，永久进化
+31. Skill Vetter — ClawHub（★ 1.2k），安装第三方 Skill 前的安全审查
+32. Proactive Agent — ClawHub（★ 800），把 Agent 变成主动预判需求
+33. Self-Improving + Proactive Agent — ClawHub（★ 1.2k），自我反思与自组织记忆
+34. Ontology — ClawHub（★ 638），类型化知识图谱记忆
+35. Auto-Updater — ClawHub（★ 428），每天自动更新 Agent 和 Skill
+75. Skill Creator（ClawHub 版）— ClawHub（★ 319），社区版 Skill 创建指南
 
 【产品开发 Skill】
 3. Superpowers — ⭐ 21 万+ Star，开发流程规范化
@@ -539,10 +1409,14 @@ total:   26
 8. NotebookLM Skill — ⭐ 1.5 万+，打通 Agent 与 NotebookLM
 12. Moon Lovers — 白月光风格恋爱聊天回复
 23. officecli — AI Agent 专用 Office 文档工具（⭐ 7.2k）
+70. Nano Banana Pro — ClawHub（★ 405），Gemini 3 Pro Image 生成/编辑图片
+71. OpenAI Image Gen — ClawHub（★ 37），批量生成图片
+72. Humanizer — ClawHub（★ 669），去除文本 AI 味
 
 【文档处理 Skill】
 25. docx — 完整的 DOCX 创建、编辑与分析能力（⭐ 187）
 26. pdf — 专业 PDF 工具集：57 种工具，生成/提取/合并/表单（⭐ 1）
+73. Nano PDF — ClawHub（★ 260），自然语言编辑 PDF
 
 【视频制作 Skill】
 14. HyperFrames — 用 HTML/动画一键生成动效视频
@@ -556,6 +1430,49 @@ total:   26
 10. Business Data Analyst — 商业分析与指标拆解
 11. Weiliaozi Analysis — 尉缭子五栏结构分析法
 13. Financial Analyst — 金融投资分析与决策
+
+【🔌 集成与工具 Skill】
+36. Github — ClawHub（★ 636），用 gh CLI 操作 GitHub
+37. Gog — ClawHub（★ 924），Google Workspace CLI
+38. Slack — ClawHub（★ 158），控制 Slack
+39. Trello — ClawHub（★ 161），管理 Trello 看板
+40. Notion — ClawHub（★ 259），操作 Notion
+41. Obsidian — ClawHub（★ 428），操作 Obsidian 笔记库
+42. Discord — ClawHub（★ 77），控制 Discord
+43. mcporter — ClawHub（★ 194），调用任意 MCP 服务器/工具
+44. Himalaya — ClawHub（★ 69），终端收发邮件
+45. 1Password — ClawHub（★ 52），密钥管理
+46. Apple Notes — ClawHub（★ 57），管理 Apple Notes
+47. Apple Reminders — ClawHub（★ 54），管理 Apple 提醒事项
+48. CalDAV Calendar — ClawHub（★ 242），同步查询日历
+
+【🔍 搜索与浏览 Skill】
+49. Multi Search Engine — ClawHub（★ 727），16 个搜索引擎集成
+50. Tavily 搜索 — ClawHub（★ 263），Tavily API 联网搜索
+51. Baidu 搜索 — ClawHub（★ 216），百度 AI 搜索
+52. Agent Browser — ClawHub（★ 424），无头浏览器自动化
+53. Peekaboo — ClawHub（★ 82），macOS UI 自动化
+54. tmux — ClawHub（★ 43），远程控制 tmux 会话
+
+【📈 商业与数据 Skill】
+55. AdMapix — ClawHub（★ 286），广告情报与应用分析
+56. Polymarket — ClawHub（★ 22），预测市场数据
+57. Automation Workflows — ClawHub（★ 305），自动化工作流设计
+58. Model Usage — ClawHub（★ 113），各模型用量成本统计
+59. Blogwatcher — ClawHub（★ 70），监控博客和 RSS 更新
+
+【🎵 生活与媒体 Skill】
+60. Weather — ClawHub（★ 417），天气查询
+61. Video Frames — ClawHub（★ 129），视频抽帧
+62. OpenAI Whisper — ClawHub（★ 325），本地语音转文字
+63. OpenAI Whisper API — ClawHub（★ 52），云端语音转文字
+64. Sag — ClawHub（★ 26），ElevenLabs 语音合成
+65. Spotify Player — ClawHub（★ 54），终端控制 Spotify
+66. Sonoscli — ClawHub（★ 55），控制 Sonos 音箱
+67. goplaces — ClawHub（★ 30），Google 地点查询
+68. Gemini — ClawHub（★ 56），Gemini CLI 问答生成
+69. Session-logs — ClawHub（★ 30），搜索分析会话日志
+74. Healthcheck — ClawHub（★ 11），喝水/睡眠追踪
 
 请根据上面每个 Skill 的「安装指令」完成安装。
 ```
