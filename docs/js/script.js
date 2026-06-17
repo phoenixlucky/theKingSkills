@@ -18,6 +18,7 @@
   const totalCount   = $('#totalCount');
   const selectedCount = $('#selectedCount');
   const generateBtn  = $('#generateBtn');
+  const selectAllBtn = $('#selectAllBtn');
   const clearBtn     = $('#clearBtn');
   const outputSection = $('#outputSection');
   const outputText   = $('#outputText');
@@ -84,6 +85,9 @@
         s.source.toLowerCase().includes(keyword)
       );
     }
+
+    // Update select-all button text based on visible skills state
+    updateSelectAllBtn(skills);
 
     // Sort by id
     skills.sort((a, b) => a.id - b.id);
@@ -213,6 +217,48 @@
     }
   }
 
+  // ---- Select All / Deselect All ----
+  function toggleSelectAll() {
+    const keyword = searchInput.value.trim().toLowerCase();
+    let visible = data.skills;
+    if (currentCat !== 'all') {
+      visible = visible.filter(s => s.cat === currentCat);
+    }
+    if (keyword) {
+      visible = visible.filter(s =>
+        s.name.toLowerCase().includes(keyword) ||
+        s.desc.toLowerCase().includes(keyword) ||
+        s.source.toLowerCase().includes(keyword)
+      );
+    }
+
+    const visibleIds = new Set(visible.map(s => s.id));
+    const allSelected = [...visibleIds].every(id => selected.has(id));
+
+    if (allSelected && [...visibleIds].some(id => selected.has(id))) {
+      // Deselect all visible
+      for (const id of visibleIds) selected.delete(id);
+      selectAllBtn.textContent = '✅ 全选';
+    } else {
+      // Select all visible
+      for (const id of visibleIds) selected.add(id);
+      selectAllBtn.textContent = '取消全选';
+    }
+
+    renderGrid();
+    outputSection.style.display = 'none';
+  }
+
+  // ---- Update select-all button text ----
+  function updateSelectAllBtn(visibleSkills) {
+    if (visibleSkills.length === 0) {
+      selectAllBtn.textContent = '✅ 全选';
+      return;
+    }
+    const allSelected = visibleSkills.every(s => selected.has(s.id));
+    selectAllBtn.textContent = allSelected ? '取消全选' : '✅ 全选';
+  }
+
   // ---- Clear selection ----
   function clearSelection() {
     selected.clear();
@@ -220,6 +266,7 @@
       c.classList.remove('selected');
       c.querySelector('.skill-check').textContent = '';
     });
+    selectAllBtn.textContent = '✅ 全选';
     updateStats();
     outputSection.style.display = 'none';
     showToast('已清除所有选择');
@@ -238,6 +285,7 @@
       renderGrid();
 
       generateBtn.addEventListener('click', generateInstructions);
+      selectAllBtn.addEventListener('click', toggleSelectAll);
       copyBtn.addEventListener('click', copyOutput);
       clearBtn.addEventListener('click', clearSelection);
 
