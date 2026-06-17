@@ -127,15 +127,6 @@
     }
     skillsGrid.innerHTML = html;
 
-    // Click to toggle (ignore link clicks)
-    skillsGrid.addEventListener('click', (e) => {
-      if (e.target.closest('a')) return;
-      const card = e.target.closest('.skill-card');
-      if (!card) return;
-      const id = parseInt(card.dataset.id);
-      toggleSkill(id);
-    });
-
     updateStats();
   }
 
@@ -288,6 +279,15 @@
       selectAllBtn.addEventListener('click', toggleSelectAll);
       copyBtn.addEventListener('click', copyOutput);
       clearBtn.addEventListener('click', clearSelection);
+
+      // Click skill card to toggle selection
+      skillsGrid.addEventListener('click', (e) => {
+        if (e.target.closest('a')) return;
+        const card = e.target.closest('.skill-card');
+        if (!card) return;
+        const id = parseInt(card.dataset.id);
+        toggleSkill(id);
+      });
 
       // Keyboard shortcut: Ctrl+Enter to generate
       document.addEventListener('keydown', (e) => {
