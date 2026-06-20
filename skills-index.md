@@ -2,7 +2,7 @@
 title:   "The King Skills — AI 一键安装索引"
 version: "1.3"
 updated: "2026-06-17"
-total:   72
+total:   73
 ---
 
 # 🎯 The King Skills — AI 一键安装索引
@@ -67,6 +67,25 @@ total:   72
 安装 ZeroToken Skill。
 来源：https://github.com/phoenixlucky/zerotoken-skill
 安装后，Agent 默认以最少 token 和精准提示完成任务，减少无效上下文、无效解释和无效输出。
+```
+
+---
+
+### 27 — book-to-skill（书籍转 Skill）
+
+| 字段 | 值 |
+|------|-----|
+| **来源** | virgiliojr94（⭐ 6.2k） |
+| **分类** | 基础 Skill |
+| **一句话** | 把技术类 PDF/EPUB/DOCX 书籍转化为可交互的 Agent Skill，按需加载章节 |
+
+**安装指令：**
+
+```
+安装 book-to-skill。
+来源：https://github.com/virgiliojr94/book-to-skill（⭐ 6.2k）
+安装后，输入 /book-to-skill <书籍路径>，它会自动提取书籍内容，
+生成 SKILL.md + 章节摘要 + 术语表 + 模式集，Agent 按需加载，无需全量塞入上下文。
 ```
 
 ---
@@ -1386,6 +1405,7 @@ Hal Stack 系列成员。
 1. Skill Creator — Anthropic 官方，用于创建 Skill 的 Skill
 2. Find Skills — ClawHub，从 ClawHub 全网搜索 Skill（https://clawhub.ai/fangkelvin/find-skills-skill）
 9. ZeroToken Skill — Token 高效约束，减少无效输出
+27. book-to-skill — virgiliojr94（⭐ 6.2k），把书籍转化为 Agent Skill，按需加载
 30. Self-Improving Agent — ClawHub（★ 3.8k），自动记录错误与经验，永久进化
 31. Skill Vetter — ClawHub（★ 1.2k），安装第三方 Skill 前的安全审查
 32. Proactive Agent — ClawHub（★ 800），把 Agent 变成主动预判需求
