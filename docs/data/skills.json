@@ -1,5 +1,5 @@
 {
-  "total": 73,
+  "total": 74,
   "categories": [
     { "id": "basic",       "name": "基础 Skill",     "icon": "🛠", "description": "扩展 Agent 能力边界，不负责具体任务，而是帮你更高效地使用 Agent。" },
     { "id": "product",     "name": "产品开发",       "icon": "💻", "description": "从需求梳理到代码落地全流程覆盖。" },
@@ -17,6 +17,7 @@
     { "id": 2,  "name": "Find Skills",                 "cat": "basic",       "icon": "F", "repo": "https://clawhub.ai/fangkelvin/find-skills-skill",                         "desc": "Skill 搜索引擎，从 ClawHub 全网搜索想要的 Skill",                                                             "source": "ClawHub",           "stars": null },
     { "id": 9,  "name": "ZeroToken Skill",             "cat": "basic",       "icon": "Z", "repo": "https://github.com/phoenixlucky/zerotoken-skill",                         "desc": "Token 高效约束：最少 token 和精准提示完成任务，减少无效输出",                                                "source": "phoenixlucky",      "stars": null },
     { "id": 27, "name": "book-to-skill",               "cat": "basic",       "icon": "B", "repo": "https://github.com/virgiliojr94/book-to-skill",                           "desc": "把技术类 PDF/EPUB/DOCX 书籍转化为可交互的 Agent Skill，按需加载章节",                                     "source": "virgiliojr94",      "stars": "⭐ 6.2k" },
+    { "id": 28, "name": "Ponytail",                    "cat": "basic",       "icon": "P", "repo": "https://github.com/DietrichGebert/ponytail",                              "desc": "懒人开发哲学：YAGNI，优先用标准库/原生功能，平均减少 54% 代码",                                            "source": "DietrichGebert",    "stars": "⭐ 41.5k" },
     { "id": 30, "name": "Self-Improving Agent",        "cat": "basic",       "icon": "S", "repo": "https://clawhub.ai/pskoett/self-improving-agent",                        "desc": "自动记录错误与经验，让 Agent 永久进化",                                                                      "source": "ClawHub",           "stars": "★ 3.8k" },
     { "id": 31, "name": "Skill Vetter",                "cat": "basic",       "icon": "V", "repo": "https://clawhub.ai/spclaudehome/skill-vetter",                          "desc": "安装第三方 Skill 前的安全审查，检查红旗、权限范围和可疑模式",                                               "source": "ClawHub",           "stars": "★ 1.2k" },
     { "id": 32, "name": "Proactive Agent",             "cat": "basic",       "icon": "P", "repo": "https://clawhub.ai/halthelobster/proactive-agent",                       "desc": "把 Agent 从「等指令」变成「主动预判需求」，带 WAL 协议",                                                    "source": "ClawHub",           "stars": "★ 800" },

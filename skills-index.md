@@ -2,7 +2,7 @@
 title:   "The King Skills — AI 一键安装索引"
 version: "1.3"
 updated: "2026-06-17"
-total:   73
+total:   74
 ---
 
 # 🎯 The King Skills — AI 一键安装索引
@@ -86,6 +86,26 @@ total:   73
 来源：https://github.com/virgiliojr94/book-to-skill（⭐ 6.2k）
 安装后，输入 /book-to-skill <书籍路径>，它会自动提取书籍内容，
 生成 SKILL.md + 章节摘要 + 术语表 + 模式集，Agent 按需加载，无需全量塞入上下文。
+```
+
+---
+
+### 28 — Ponytail（懒人开发哲学）
+
+| 字段 | 值 |
+|------|-----|
+| **来源** | DietrichGebert（⭐ 41.5k） |
+| **分类** | 基础 Skill / 开发优化 |
+| **一句话** | 让 AI Agent 像资深懒人开发者一样思考：能省则省，YAGNI，用最少的代码完成任务 |
+
+**安装指令：**
+
+```
+安装 Ponytail Skill。
+来源：https://github.com/DietrichGebert/ponytail（⭐ 41.5k）
+安装后，Agent 写代码前会按优先级判断：这东西真的需要吗？标准库能搞定吗？
+平台原生功能能直接用吗？一行代码够吗？—— 平均减少 54% 代码、20% 成本和 27% 耗时。
+安全性/验证/可访问性等关键保障不会被砍掉。
 ```
 
 ---
@@ -1406,6 +1426,7 @@ Hal Stack 系列成员。
 2. Find Skills — ClawHub，从 ClawHub 全网搜索 Skill（https://clawhub.ai/fangkelvin/find-skills-skill）
 9. ZeroToken Skill — Token 高效约束，减少无效输出
 27. book-to-skill — virgiliojr94（⭐ 6.2k），把书籍转化为 Agent Skill，按需加载
+28. Ponytail — DietrichGebert（⭐ 41.5k），懒人开发哲学，代码量减少 54%
 30. Self-Improving Agent — ClawHub（★ 3.8k），自动记录错误与经验，永久进化
 31. Skill Vetter — ClawHub（★ 1.2k），安装第三方 Skill 前的安全审查
 32. Proactive Agent — ClawHub（★ 800），把 Agent 变成主动预判需求
