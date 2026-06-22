@@ -7,7 +7,7 @@
 
 <p align="center">
   <a href="https://github.com/phoenixlucky/theKingSkills">
-    <img src="https://img.shields.io/badge/Skills-72-blue?style=flat-square" alt="Skills">
+    <img src="https://img.shields.io/badge/Skills-74-blue?style=flat-square" alt="Skills">
   </a>
   <a href="https://github.com/phoenixlucky/theKingSkills">
     <img src="https://img.shields.io/badge/Categories-10-green?style=flat-square" alt="Categories">
@@ -44,7 +44,7 @@
 
 | 分类 | 数量 | 涵盖内容 |
 |:-----|:----:|:---------|
-| 🛠 **基础 Skill** | 10 | Skill Creator、Find Skills、Self-Improving Agent、Proactive Agent 等 |
+| 🛠 **基础 Skill** | 12 | Skill Creator、Find Skills、book-to-skill、Ponytail、Self-Improving Agent 等 |
 | 💻 **产品开发** | 8 | Superpowers、gstack、Frontend Design、bug-hunt、code-review 等 |
 | 🎨 **内容创作** | 7 | baoyu-skills、NotebookLM Skill、officecli、Nano Banana Pro 等 |
 | 📄 **文档处理** | 3 | docx、pdf、Nano PDF |
@@ -55,7 +55,7 @@
 | 📈 **商业与数据** | 5 | AdMapix、Polymarket、Automation Workflows、Model Usage 等 |
 | 🎵 **生活与媒体** | 11 | Weather、OpenAI Whisper、Spotify Player、Gemini 等 |
 
-> 完整 72 个 Skill 详情见 [`skills-index.md`](./skills-index.md)
+> 完整 74 个 Skill 详情见 [`skills-index.md`](./skills-index.md)
 
 ## 快速开始
 
