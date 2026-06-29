@@ -1,16 +1,16 @@
 {
   "total": 82,
   "categories": [
-    { "id": "basic",       "name": "基础 Skill",     "icon": "🛠", "description": "扩展 Agent 能力边界，不负责具体任务，而是帮你更高效地使用 Agent。" },
-    { "id": "product",     "name": "产品开发",       "icon": "💻", "description": "从需求梳理到代码落地全流程覆盖。" },
-    { "id": "content",     "name": "内容创作",       "icon": "🎨", "description": "轻松处理做图、整理资料、排版发布等耗时工作。" },
-    { "id": "document",    "name": "文档处理",       "icon": "📄", "description": "创建、编辑和处理文档 —— Word 文档排版、PDF 工具链全覆盖。" },
-    { "id": "video",       "name": "视频制作",       "icon": "🎬", "description": "用代码和 AI 批量制作、剪辑和生成视频，从分镜到成品全流程覆盖。" },
-    { "id": "business",    "name": "商业与分析",     "icon": "📊", "description": "商业决策、金融投资和结构化分析。" },
-    { "id": "integration", "name": "集成与工具",     "icon": "🔌", "description": "打通第三方服务：GitHub、Google Workspace、Slack、Notion、邮件、日历等。" },
-    { "id": "search",      "name": "搜索与浏览",     "icon": "🔍", "description": "让 Agent 联网搜索和操作浏览器，获取实时信息。" },
-    { "id": "bizdata",     "name": "商业与数据",     "icon": "📈", "description": "市场情报、广告分析、自动化工作流和模型成本统计。" },
-    { "id": "life",        "name": "生活与媒体",     "icon": "🎵", "description": "天气、音乐、视频、语音和会话日志等生活场景工具。" }
+    { "id": "basic",       "name": "基础 Skill",     "icon": "🛠", "color": "#4f46e5", "description": "扩展 Agent 能力边界，不负责具体任务，而是帮你更高效地使用 Agent。" },
+    { "id": "product",     "name": "产品开发",       "icon": "💻", "color": "#0891b2", "description": "从需求梳理到代码落地全流程覆盖。" },
+    { "id": "content",     "name": "内容创作",       "icon": "🎨", "color": "#d97706", "description": "轻松处理做图、整理资料、排版发布等耗时工作。" },
+    { "id": "document",    "name": "文档处理",       "icon": "📄", "color": "#059669", "description": "创建、编辑和处理文档 —— Word 文档排版、PDF 工具链全覆盖。" },
+    { "id": "video",       "name": "视频制作",       "icon": "🎬", "color": "#dc2626", "description": "用代码和 AI 批量制作、剪辑和生成视频，从分镜到成品全流程覆盖。" },
+    { "id": "business",    "name": "商业与分析",     "icon": "📊", "color": "#7c3aed", "description": "商业决策、金融投资和结构化分析。" },
+    { "id": "integration", "name": "集成与工具",     "icon": "🔌", "color": "#2563eb", "description": "打通第三方服务：GitHub、Google Workspace、Slack、Notion、邮件、日历等。" },
+    { "id": "search",      "name": "搜索与浏览",     "icon": "🔍", "color": "#0d9488", "description": "让 Agent 联网搜索和操作浏览器，获取实时信息。" },
+    { "id": "bizdata",     "name": "商业与数据",     "icon": "📈", "color": "#ca8a04", "description": "市场情报、广告分析、自动化工作流和模型成本统计。" },
+    { "id": "life",        "name": "生活与媒体",     "icon": "🎵", "color": "#db2777", "description": "天气、音乐、视频、语音和会话日志等生活场景工具。" }
   ],
   "skills": [
     { "id": 1,  "name": "Skill Creator",               "cat": "basic",       "icon": "T", "repo": "https://github.com/anthropics/skills/tree/main/skills/skill-creator",            "desc": "创建 Skill 的 Skill，把重复工作流封装成 Skill",                                                             "source": "Anthropic 官方",    "stars": null },

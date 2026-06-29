@@ -198,6 +198,17 @@ a:hover { text-decoration: underline; }
   color: var(--accent);
   font-weight: 600;
 }
+.skill-cat {
+  font-size: .7rem;
+  color: var(--cat-color, var(--primary));
+  background: color-mix(in srgb, var(--cat-color, var(--primary)) 12%, transparent);
+  padding: 1px 8px;
+  border-radius: 10px;
+  border: 1px solid color-mix(in srgb, var(--cat-color, var(--primary)) 20%, transparent);
+  white-space: nowrap;
+  font-weight: 500;
+  line-height: 1.5;
+}
 .skill-source {
   font-size: .72rem;
   color: var(--text-secondary);

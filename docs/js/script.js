@@ -72,6 +72,12 @@
     const keyword = searchInput.value.trim().toLowerCase();
     let skills = data.skills;
 
+    // Build category lookup
+    const catMap = {};
+    for (const c of data.categories) {
+      catMap[c.id] = c;
+    }
+
     // Filter by category
     if (currentCat !== 'all') {
       skills = skills.filter(s => s.cat === currentCat);
@@ -102,6 +108,8 @@
     for (const s of skills) {
       const isSelected = selected.has(s.id);
       const starBadge = s.stars ? `<span class="skill-stars">${s.stars}</span>` : '';
+      const cat = catMap[s.cat];
+      const catTag = cat ? `<span class="skill-cat" style="--cat-color:${cat.color || 'var(--primary)'}">${cat.icon} ${cat.name}</span>` : '';
       const repoLink = s.repo && !s.repo.startsWith('搜索') 
         ? (() => {
             const host = new URL(s.repo).hostname;
@@ -117,6 +125,7 @@
               <span class="skill-icon">${s.icon}</span>
               <span class="skill-name">${s.name}</span>
               ${starBadge}
+              ${catTag}
               <span class="skill-source">${s.source}</span>
               ${repoLink}
             </div>
