@@ -2,7 +2,7 @@
 title:   "The King Skills — AI 一键安装索引"
 version: "1.3"
 updated: "2026-06-17"
-total:   77
+total:   82
 ---
 
 # 🎯 The King Skills — AI 一键安装索引
@@ -241,6 +241,63 @@ Hal Stack 系列成员。
 
 ---
 
+### 79 — cognee（长期记忆平台）
+
+| 字段 | 值 |
+|------|-----|
+| **来源** | topoteretes（⭐ 高星） |
+| **分类** | 基础 Skill |
+| **一句话** | 开源 AI Agent 长期记忆平台：自托管知识图谱引擎，跨会话持久上下文 |
+
+**安装指令：**
+
+```
+安装 cognee Skill。
+来源：https://github.com/topoteretes/cognee
+安装后，Agent 获得「终身大脑」—— 跨会话保留持久上下文，
+支持 RAG、多 Agent 协作和长期知识管理，解决会话级健忘症。
+```
+
+---
+
+### 80 — agent-skills（技能工厂）
+
+| 字段 | 值 |
+|------|-----|
+| **来源** | addyosmani |
+| **分类** | 基础 Skill |
+| **一句话** | 从 .claude 等目录提炼可复用结构化技能，系统化管理 Agent 能力 |
+
+**安装指令：**
+
+```
+安装 agent-skills Skill。
+来源：https://github.com/addyosmani/agent-skills
+安装后，可以从 .claude 等目录中提取、组织和复用结构化技能，
+让 Claude Code / Cursor 等 Agent 原生扩展能力，进入「技能工厂」系统化时代。
+```
+
+---
+
+### 81 — headroom（Token 压缩神器）
+
+| 字段 | 值 |
+|------|-----|
+| **来源** | headroomlabs-ai |
+| **分类** | 基础 Skill / 效率工具 |
+| **一句话** | LLM token 自动压缩：减少 60-95% token 消耗，支持 library / proxy / MCP 集成 |
+
+**安装指令：**
+
+```
+安装 headroom Skill。
+来源：https://github.com/headroomlabs-ai/headroom
+安装后，自动压缩日志、文件和 RAG chunks，减少 60-95% token 消耗。
+支持 library / proxy / MCP server 三种集成模式，高频 Agent 场景省钱省时。
+```
+
+---
+
 ## 💻 产品开发 Skill
 
 从需求梳理到代码落地全流程覆盖。
@@ -386,6 +443,25 @@ Hal Stack 系列成员。
 安装 release-notes Skill。
 来源：Reasonix 内置。
 安装后，根据代码变更自动生成面向用户的发布说明、更新日志和升级指南。
+```
+
+---
+
+### 83 — opencode（开源编码 Agent）
+
+| 字段 | 值 |
+|------|-----|
+| **来源** | anomalyco |
+| **分类** | 产品开发 Skill |
+| **一句话** | TypeScript 开源编码 Agent，高性能可扩展的 AI 编码助手 |
+
+**安装指令：**
+
+```
+安装 opencode Skill。
+来源：https://github.com/anomalyco/opencode
+安装后，Agent 获得高性能、可扩展的 AI 编码能力，TypeScript 实现，
+适合本地/自托管重度编码场景，一人顶一个开发团队。
 ```
 
 ---
@@ -1182,6 +1258,25 @@ Hal Stack 系列成员。
 
 ---
 
+### 82 — Agent-Reach（全网情报抓取）
+
+| 字段 | 值 |
+|------|-----|
+| **来源** | Panniantong |
+| **分类** | 搜索与浏览 |
+| **一句话** | 一 CLI 零 API 费用实时抓取 Twitter/X、Reddit、YouTube、GitHub、Bilibili 情报 |
+
+**安装指令：**
+
+```
+安装 Agent-Reach Skill。
+来源：https://github.com/Panniantong/Agent-Reach
+安装后，Agent 可一键抓取 Twitter/X、Reddit、YouTube、GitHub、Bilibili 等平台
+实时情报并自动总结。无需多工具切换，一条命令全包，效率直接起飞。
+```
+
+---
+
 ## 📈 商业与数据 Skill
 
 市场情报、广告分析、自动化工作流和模型成本统计。
@@ -1502,6 +1597,9 @@ Hal Stack 系列成员。
 34. Ontology — ClawHub（★ 638），类型化知识图谱记忆
 35. Auto-Updater — ClawHub（★ 428），每天自动更新 Agent 和 Skill
 75. Skill Creator（ClawHub 版）— ClawHub（★ 319），社区版 Skill 创建指南
+79. cognee — topoteretes，开源长期记忆平台，知识图谱引擎
+80. agent-skills — addyosmani，从 .claude 提炼结构化技能
+81. headroom — headroomlabs-ai，Token 压缩减少 60-95%
 
 【产品开发 Skill】
 3. Superpowers — ⭐ 21 万+ Star，开发流程规范化
@@ -1512,6 +1610,7 @@ Hal Stack 系列成员。
 21. code-review — 审查代码，发现缺陷和回归
 22. frontend-polish — 优化界面细节和视觉一致性
 24. release-notes — 整理发布说明和升级指南
+83. opencode — anomalyco，TypeScript 开源编码 Agent
 
 【内容创作 Skill】
 7. baoyu-skills — JimLiu（⭐ 21.7k），20 个视觉设计 Skill
@@ -1565,6 +1664,7 @@ Hal Stack 系列成员。
 52. Agent Browser — ClawHub（★ 424），无头浏览器自动化
 53. Peekaboo — ClawHub（★ 82），macOS UI 自动化
 54. tmux — ClawHub（★ 43），远程控制 tmux 会话
+82. Agent-Reach — Panniantong，全网情报一键抓取+总结
 
 【📈 商业与数据 Skill】
 55. AdMapix — ClawHub（★ 286），广告情报与应用分析
