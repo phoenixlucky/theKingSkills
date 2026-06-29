@@ -119,8 +119,8 @@
       const cat = catMap[s.cat];
       const catTag = cat ? (() => {
         const c = cat.color || '#4f46e5';
-        const bg = hexToRgba(c, 0.12);
-        const bd = hexToRgba(c, 0.25);
+        const bg = hexToRgba(c, 0.15);
+        const bd = hexToRgba(c, 0.3);
         return `<span class="skill-cat" style="--cat-color:${c};--cat-bg:${bg};--cat-border:${bd}">${cat.icon} ${cat.name}</span>`;
       })() : '';
       const repoLink = s.repo && !s.repo.startsWith('搜索') 
