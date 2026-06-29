@@ -2,7 +2,7 @@
 title:   "The King Skills — AI 一键安装索引"
 version: "1.3"
 updated: "2026-06-17"
-total:   74
+total:   77
 ---
 
 # 🎯 The King Skills — AI 一键安装索引
@@ -693,6 +693,74 @@ Hal Stack 系列成员。
 安装 seedance2-skill。
 来源：https://github.com/dexhunter/seedance2-skill
 安装后，告诉 Codex 一个视频创意，它会设计逐秒分镜、人物动作、运镜、对白、音效和素材引用方式。生成的提示词可以直接交给即梦 Seedance 2.0 制作核心镜头。
+```
+
+---
+
+### 76 — FFmpeg Skill（专业视频处理）
+
+| 字段 | 值 |
+|------|-----|
+| **来源** | fabriqaai / LobeHub |
+| **分类** | 视频制作 Skill |
+| **一句话** | 专业视频处理命令行神器：格式转换/压缩/剪辑/分析，视频工具链的底层基石 |
+
+**安装指令：**
+
+```
+安装 FFmpeg Skill。
+
+首先安装系统级 FFmpeg：
+  - macOS: brew install ffmpeg
+  - Windows: winget install Gyan.FFmpeg
+
+推荐 Agent Skill：
+  - https://github.com/fabriqaai/ffmpeg-analyse-video-skill（分析 + 时间戳总结）
+  - LobeHub 搜索 "ffmpeg" 有多个可用 Skill
+
+安装后，Agent 可做格式转换、压缩、剪辑、拼接、提取音频帧等专业视频处理。
+很多上层视频工具（Video-Use 等）内部都依赖 FFmpeg。
+```
+
+---
+
+### 77 — OpenMontage（智能剪辑拼接）
+
+| 字段 | 值 |
+|------|-----|
+| **来源** | calesthio |
+| **分类** | 视频制作 Skill |
+| **一句话** | 世界首个开源 agentic 视频生产系统：12 条 pipeline、50+ 工具、500+ agent skills |
+
+**安装指令：**
+
+```
+安装 OpenMontage Skill。
+来源：https://github.com/calesthio/OpenMontage
+安装后，Claude Code 变成完整视频制作团队：研究→脚本→资产生成→剪辑→合成。
+包含 12 条 pipeline、50+ 工具和 500+ agent skills，覆盖视频制作全流程。
+```
+
+---
+
+### 78 — Manim Skill（数学动画引擎）
+
+| 字段 | 值 |
+|------|-----|
+| **来源** | adithya-s-k（Manim Community） |
+| **分类** | 视频制作 Skill |
+| **一句话** | 3Blue1Brown 同款数学动画引擎：文字描述 → 高质量知识动画视频 |
+
+**安装指令：**
+
+```
+安装 Manim Skill。
+推荐 Skill 仓库：https://github.com/adithya-s-k/manim_skill
+安装：npx skills add adithya-s-k/manim_skill/skills/manimce-best-practices
+官方 Manim：https://manim.community
+
+安装后，Agent 可将文字描述变成高质量数学/知识动画视频，
+完美复现 3Blue1Brown 风格的知识讲解动画。
 ```
 
 ---
@@ -1466,6 +1534,9 @@ Hal Stack 系列成员。
 17. Generative Media Skills — AI 视频/图片/音频生成
 18. videocut-skills — 面向中文创作者的视频剪辑
 19. seedance2-skill — 为即梦设计逐秒分镜提示词
+76. FFmpeg Skill — 专业视频处理命令行神器（fabriqaai/LobeHub）
+77. OpenMontage — 开源 agentic 视频生产系统（calesthio）
+78. Manim Skill — 3Blue1Brown 同款数学动画引擎（adithya-s-k）
 
 【商业与分析 Skill】
 10. Business Data Analyst — 商业分析与指标拆解

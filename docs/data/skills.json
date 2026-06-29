@@ -1,5 +1,5 @@
 {
-  "total": 74,
+  "total": 77,
   "categories": [
     { "id": "basic",       "name": "基础 Skill",     "icon": "🛠", "description": "扩展 Agent 能力边界，不负责具体任务，而是帮你更高效地使用 Agent。" },
     { "id": "product",     "name": "产品开发",       "icon": "💻", "description": "从需求梳理到代码落地全流程覆盖。" },
@@ -49,6 +49,9 @@
     { "id": 17, "name": "Generative Media Skills",     "cat": "video",       "icon": "G", "repo": "https://github.com/SamurAIGPT/Generative-Media-Skills",                  "desc": "AI 视频/图片/音频生成工具箱：广告/UGC/音乐视频/社交媒体短片",                                                "source": "SamurAIGPT",        "stars": null },
     { "id": 18, "name": "videocut-skills",             "cat": "video",       "icon": "C", "repo": "https://github.com/Ceeon/videocut-skills",                              "desc": "面向中文创作者的视频剪辑 Skills：素材/字幕/短视频制作流程",                                                   "source": "Ceeon",             "stars": null },
     { "id": 19, "name": "seedance2-skill",             "cat": "video",       "icon": "S", "repo": "https://github.com/dexhunter/seedance2-skill",                          "desc": "为即梦 Seedance 2.0 设计逐秒分镜/运镜/提示词，输出专业视频提示词",                                          "source": "dexhunter",         "stars": null },
+    { "id": 76, "name": "FFmpeg Skill",                "cat": "video",       "icon": "F", "repo": "https://github.com/fabriqaai/ffmpeg-analyse-video-skill",                   "desc": "专业视频处理命令行神器：格式转换/压缩/剪辑/分析，视频工具链的底层基石",                                        "source": "fabriqaai",         "stars": null },
+    { "id": 77, "name": "OpenMontage",                  "cat": "video",       "icon": "O", "repo": "https://github.com/calesthio/OpenMontage",                                  "desc": "世界首个开源 agentic 视频生产系统：12 条 pipeline、50+ 工具、500+ agent skills",                               "source": "calesthio",         "stars": null },
+    { "id": 78, "name": "Manim Skill",                  "cat": "video",       "icon": "M", "repo": "https://github.com/adithya-s-k/manim_skill",                              "desc": "3Blue1Brown 同款数学动画引擎：文字描述→高质量知识动画视频",                                                   "source": "adithya-s-k",       "stars": null },
     { "id": 10, "name": "Business Data Analyst",       "cat": "business",    "icon": "B", "repo": "https://github.com/phoenixlucky/business-data-analyst-skill",            "desc": "商业分析与指标拆解：业务问题→分析方案→可执行建议",                                                          "source": "phoenixlucky",      "stars": null },
     { "id": 11, "name": "Weiliaozi Analysis",          "cat": "business",    "icon": "W", "repo": "https://github.com/phoenixlucky/weiliaozi-skill",                         "desc": "结构化五栏分析框架：本质→条件→得失→先后→对手",                                                            "source": "phoenixlucky",      "stars": null },
     { "id": 13, "name": "Financial Analyst",           "cat": "business",    "icon": "F", "repo": "https://github.com/phoenixlucky/financial-analyst-skill",                "desc": "金融投资分析：周期定位→六栏框架→交易策略与风险判断",                                                        "source": "phoenixlucky",      "stars": null },
