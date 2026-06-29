@@ -201,10 +201,10 @@ a:hover { text-decoration: underline; }
 .skill-cat {
   font-size: .7rem;
   color: var(--cat-color, var(--primary));
-  background: color-mix(in srgb, var(--cat-color, var(--primary)) 12%, transparent);
+  background: var(--cat-bg, var(--primary-light));
   padding: 1px 8px;
   border-radius: 10px;
-  border: 1px solid color-mix(in srgb, var(--cat-color, var(--primary)) 20%, transparent);
+  border: 1px solid var(--cat-border, var(--border));
   white-space: nowrap;
   font-weight: 500;
   line-height: 1.5;

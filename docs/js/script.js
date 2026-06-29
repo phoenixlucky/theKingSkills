@@ -67,6 +67,14 @@
     });
   }
 
+  // ---- Color helper ----
+  function hexToRgba(hex, alpha) {
+    const r = parseInt(hex.slice(1,3), 16);
+    const g = parseInt(hex.slice(3,5), 16);
+    const b = parseInt(hex.slice(5,7), 16);
+    return `rgba(${r},${g},${b},${alpha})`;
+  }
+
   // ---- Render skill cards ----
   function renderGrid() {
     const keyword = searchInput.value.trim().toLowerCase();
@@ -109,7 +117,12 @@
       const isSelected = selected.has(s.id);
       const starBadge = s.stars ? `<span class="skill-stars">${s.stars}</span>` : '';
       const cat = catMap[s.cat];
-      const catTag = cat ? `<span class="skill-cat" style="--cat-color:${cat.color || 'var(--primary)'}">${cat.icon} ${cat.name}</span>` : '';
+      const catTag = cat ? (() => {
+        const c = cat.color || '#4f46e5';
+        const bg = hexToRgba(c, 0.12);
+        const bd = hexToRgba(c, 0.25);
+        return `<span class="skill-cat" style="--cat-color:${c};--cat-bg:${bg};--cat-border:${bd}">${cat.icon} ${cat.name}</span>`;
+      })() : '';
       const repoLink = s.repo && !s.repo.startsWith('搜索') 
         ? (() => {
             const host = new URL(s.repo).hostname;
