@@ -2,7 +2,7 @@
 title:   "The King Skills — AI 一键安装索引"
 version: "1.3"
 updated: "2026-06-17"
-total:   82
+total:   84
 ---
 
 # 🎯 The King Skills — AI 一键安装索引
@@ -462,6 +462,46 @@ Hal Stack 系列成员。
 来源：https://github.com/anomalyco/opencode
 安装后，Agent 获得高性能、可扩展的 AI 编码能力，TypeScript 实现，
 适合本地/自托管重度编码场景，一人顶一个开发团队。
+```
+
+---
+
+### 84 — taste-skill（AI 设计品味）
+
+| 字段 | 值 |
+|------|-----|
+| **来源** | Leonxlnx（⭐ 53.5k） |
+| **分类** | 产品开发 Skill |
+| **一句话** | 反模板化前端设计框架：让 AI 生成有品味的 UI，告别千篇一律的「AI 味」界面 |
+
+**安装指令：**
+
+```
+安装 taste-skill Skill。
+来源：https://github.com/Leonxlnx/taste-skill（⭐ 53.5k）
+安装方式：npx skills add https://github.com/Leonxlnx/taste-skill
+安装后，Agent 增强布局/排版/动效/间距设计能力，支持多种设计风格（简约/工业/高端/暗黑等）
+和图像生成技能（网页排版、移动端、品牌套件），配合 Cursor / Claude Code / Codex 使用。
+```
+
+---
+
+### 85 — gsap-skills（GSAP 动画官方技能）
+
+| 字段 | 值 |
+|------|-----|
+| **来源** | greensock（⭐ 10.5k） |
+| **分类** | 产品开发 Skill |
+| **一句话** | GSAP 动画官方 AI Skill：教 AI 代理正确使用 GSAP 动画库（核心 API/时间线/ScrollTrigger/插件） |
+
+**安装指令：**
+
+```
+安装 gsap-skills Skill。
+来源：https://github.com/greensock/gsap-skills（⭐ 10.5k）
+安装方式：npx skills add https://github.com/greensock/gsap-skills
+安装后，Agent 获得 GSAP 动画全栈能力：gsap.core、Timeline、ScrollTrigger、插件（SplitText/MorphSVG 等）、
+React/Vue/Svelte 集成、性能优化。所有 GSAP 插件现已免费商用。
 ```
 
 ---
@@ -1611,6 +1651,8 @@ Hal Stack 系列成员。
 22. frontend-polish — 优化界面细节和视觉一致性
 24. release-notes — 整理发布说明和升级指南
 83. opencode — anomalyco，TypeScript 开源编码 Agent
+84. taste-skill — Leonxlnx（⭐ 53.5k），反模板化前端设计框架
+85. gsap-skills — greensock（⭐ 10.5k），GSAP 动画官方 AI Skill
 
 【内容创作 Skill】
 7. baoyu-skills — JimLiu（⭐ 21.7k），20 个视觉设计 Skill

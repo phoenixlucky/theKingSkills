@@ -1,2 +1,2 @@
 [permissions]
-allow = ["Bash(git pull:*)"]
+allow = ["Bash(git pull:*)", "Edit"]

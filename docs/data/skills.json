@@ -1,5 +1,5 @@
 {
-  "total": 82,
+  "total": 84,
   "categories": [
     { "id": "basic",       "name": "基础 Skill",     "icon": "🛠", "color": "#4f46e5", "description": "扩展 Agent 能力边界，不负责具体任务，而是帮你更高效地使用 Agent。" },
     { "id": "product",     "name": "产品开发",       "icon": "💻", "color": "#0891b2", "description": "从需求梳理到代码落地全流程覆盖。" },
@@ -37,6 +37,8 @@
     { "id": 22, "name": "frontend-polish",             "cat": "product",     "icon": "P", "repo": "https://github.com/anthropics/skills",                                 "desc": "优化界面细节、响应式状态和视觉一致性",                                                                        "source": "Reasonix 内置",     "stars": null },
     { "id": 24, "name": "release-notes",               "cat": "product",     "icon": "N", "repo": "https://github.com/anthropics/skills",                                 "desc": "整理面向用户的发布说明和升级注意事项",                                                                        "source": "Reasonix 内置",     "stars": null },
     { "id": 83, "name": "opencode",                      "cat": "product",     "icon": "O", "repo": "https://github.com/anomalyco/opencode",                                    "desc": "TypeScript 开源编码 Agent，高性能可扩展的 AI 编码助手",                                                     "source": "anomalyco",          "stars": null },
+    { "id": 84, "name": "taste-skill",                    "cat": "product",     "icon": "T", "repo": "https://github.com/Leonxlnx/taste-skill",                                 "desc": "反模板化前端设计框架：让 AI 生成有品味的 UI，告别千篇一律的「AI 味」界面",                                        "source": "Leonxlnx",          "stars": "⭐ 53.5k" },
+    { "id": 85, "name": "gsap-skills",                    "cat": "product",     "icon": "G", "repo": "https://github.com/greensock/gsap-skills",                                 "desc": "GSAP 动画官方 AI Skill：教 AI 代理正确使用 GSAP 动画库",                                                   "source": "greensock",         "stars": "⭐ 10.5k" },
     { "id": 7,  "name": "baoyu-skills",                "cat": "content",     "icon": "B", "repo": "https://github.com/JimLiu/baoyu-skills",                                 "desc": "约 20 个视觉设计 Skill 包：封面图/信息图/PPT/文章配图/长文排版",                                             "source": "JimLiu",            "stars": "⭐ 21.7k" },
     { "id": 8,  "name": "NotebookLM Skill",            "cat": "content",     "icon": "N", "repo": "https://github.com/teng-lin/notebooklm-py",                               "desc": "打通 Agent 与 NotebookLM，Agent 可直接查询 NotebookLM 中的文档",                                             "source": "teng-lin",          "stars": "⭐ 1.5万+" },
     { "id": 12, "name": "Moon Lovers",                 "cat": "content",     "icon": "M", "repo": "https://github.com/phoenixlucky/moon-lovers-skill",                      "desc": "温柔/克制/留白感强的恋爱聊天回复辅助 Skill",                                                                  "source": "phoenixlucky",      "stars": null },
