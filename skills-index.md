@@ -2,7 +2,7 @@
 title:   "The King Skills — AI 一键安装索引"
 version: "1.3"
 updated: "2026-06-17"
-total:   95
+total:   96
 ---
 
 # 🎯 The King Skills — AI 一键安装索引
@@ -1507,6 +1507,25 @@ React/Vue/Svelte 集成、性能优化。所有 GSAP 插件现已免费商用。
 
 ---
 
+### 97 — MediaCrawler（自媒体数据采集）
+
+| 字段 | 值 |
+|------|-----|
+| **来源** | NanmiCoder（⭐ 54.6k） |
+| **分类** | 搜索与浏览 |
+| **一句话** | 多平台自媒体数据采集：小红书/抖音/B站/微博/快手/贴吧/知乎，支持关键词搜索和评论爬取 |
+
+**安装指令：**
+
+```
+安装 MediaCrawler Skill。
+来源：https://github.com/NanmiCoder/MediaCrawler（⭐ 54.6k）
+安装后，Agent 可采集小红书、抖音、快手、B 站、微博、贴吧、知乎等平台
+的帖子/视频/评论公开数据，支持关键词搜索和指定 ID 爬取。
+```
+
+---
+
 ## 📈 商业与数据 Skill
 
 市场情报、广告分析、自动化工作流和模型成本统计。
@@ -1929,6 +1948,7 @@ React/Vue/Svelte 集成、性能优化。所有 GSAP 插件现已免费商用。
 91. Scrapy — scrapy，老牌爬虫框架百万级稳定
 92. Scrapling — D4Vinci，自适应网站改版绕封禁
 93. AutoScraper — alirezamika，给样例自动学规律
+97. MediaCrawler — NanmiCoder（⭐ 54.6k），多平台自媒体数据采集
 
 【📈 商业与数据 Skill】
 55. AdMapix — ClawHub（★ 286），广告情报与应用分析

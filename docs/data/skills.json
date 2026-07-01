@@ -1,5 +1,5 @@
 {
-  "total": 95,
+  "total": 96,
   "categories": [
     { "id": "basic",       "name": "基础 Skill",     "icon": "🛠", "color": "#4f46e5", "description": "扩展 Agent 能力边界，不负责具体任务，而是帮你更高效地使用 Agent。" },
     { "id": "product",     "name": "产品开发",       "icon": "💻", "color": "#0891b2", "description": "从需求梳理到代码落地全流程覆盖。" },
