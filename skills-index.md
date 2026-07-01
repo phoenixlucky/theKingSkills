@@ -2,7 +2,7 @@
 title:   "The King Skills — AI 一键安装索引"
 version: "1.3"
 updated: "2026-06-17"
-total:   84
+total:   85
 ---
 
 # 🎯 The King Skills — AI 一键安装索引
@@ -1617,6 +1617,28 @@ React/Vue/Svelte 集成、性能优化。所有 GSAP 插件现已免费商用。
 
 ---
 
+### 86 — family-lovers-skill（家庭关怀）
+
+| 字段 | 值 |
+|------|-----|
+| **来源** | phoenixlucky |
+| **分类** | 生活与媒体 |
+| **一句话** | ❤️ 家庭关怀陪伴 Skill：原生家庭觉察与疗愈，内置八大历史人物文化原型自动匹配 |
+
+**安装指令：**
+
+```
+安装 family-lovers-skill Skill。
+来源：https://github.com/phoenixlucky/family-lovers-skill
+安装后，Agent 拥有原生家庭关怀陪伴能力：
+- 内置长孙皇后/孟母/诸葛亮/刘伯温等八位历史人物作为陪伴原型
+- 自动匹配最佳回应身份（觉察/疗愈/陪伴/行动四模式）
+- 16 个扩展角色（女朋友/男朋友/女儿/儿子）可指名调用
+- 内置智能路由引擎，根据输入自动检测情绪状态和家庭模式
+```
+
+---
+
 ## 🚀 AI 一键安装（全文复制）
 
 > 将下方内容直接提供给 AI Agent，它会读取每个 Skill 的来源和安装指令自动完成安装：
@@ -1727,6 +1749,7 @@ React/Vue/Svelte 集成、性能优化。所有 GSAP 插件现已免费商用。
 68. Gemini — ClawHub（★ 56），Gemini CLI 问答生成
 69. Session-logs — ClawHub（★ 30），搜索分析会话日志
 74. Healthcheck — ClawHub（★ 11），喝水/睡眠追踪
+86. family-lovers-skill — phoenixlucky，原生家庭关怀陪伴
 
 请根据上面每个 Skill 的「安装指令」完成安装。
 ```

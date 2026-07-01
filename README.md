@@ -2,13 +2,13 @@
   <h1 align="center">👑 The King Skills</h1>
   <p align="center">
     <b>AI Agent Skill 一站式索引</b><br>
-    精选 84 个热门 Skill，覆盖 10 大分类，让 AI Agent 秒变全能助手
+    精选 85 个热门 Skill，覆盖 10 大分类，让 AI Agent 秒变全能助手
   </p>
 </p>
 
 <p align="center">
   <a href="https://github.com/phoenixlucky/theKingSkills">
-    <img src="https://img.shields.io/badge/Skills-84-2563eb?style=for-the-badge&logo=openai" alt="Skills">
+    <img src="https://img.shields.io/badge/Skills-85-2563eb?style=for-the-badge&logo=openai" alt="Skills">
   </a>
   <a href="https://github.com/phoenixlucky/theKingSkills">
     <img src="https://img.shields.io/badge/Categories-10-059669?style=for-the-badge&logo=libretranslate" alt="Categories">
@@ -53,7 +53,7 @@
 
 | 特性 | 说明 |
 |:-----|:------|
-| **📦 精选收录** | 84 个 Skill，从 ⭐ 21 万+ 到实用小工具，宁缺毋滥 |
+| **📦 精选收录** | 85 个 Skill，从 ⭐ 21 万+ 到实用小工具，宁缺毋滥 |
 | **🔌 零存储** | 只存索引，不存源文件，永远指向最新版 |
 | **🤖 AI 原生** | `skills-index.md` 专为 AI Agent 直接读取而设计 |
 | **🌐 可视化网站** | 在线筛选、勾选、一键生成安装指令 |
@@ -74,9 +74,9 @@
 | 🔌 **集成与工具** | 13 | GitHub、Gog (Google Workspace)、Slack、Notion、Obsidian、Discord 等 |
 | 🔍 **搜索与浏览** | 7 | Multi Search Engine (16 引擎)、Agent-Reach、Agent Browser、Peekaboo 等 |
 | 📈 **商业与数据** | 5 | AdMapix、Polymarket、Automation Workflows、Model Usage 等 |
-| 🎵 **生活与媒体** | 11 | Weather、Whisper、Spotify、Gemini、Healthcheck 等 |
+| 🎵 **生活与媒体** | 12 | family-lovers-skill、Weather、Whisper、Spotify、Gemini、Healthcheck 等 |
 
-> 👉 完整 84 个 Skill 详情见 [`skills-index.md`](./skills-index.md)
+> 👉 完整 85 个 Skill 详情见 [`skills-index.md`](./skills-index.md)
 
 ---
 
@@ -133,7 +133,7 @@ theKingSkills/
 │   ├── index.html                    # 首页
 │   ├── css/style.css                 # 样式
 │   ├── js/script.js                  # 交互逻辑（筛选 / 搜索 / 生成）
-│   └── data/skills.json              # 84 个 Skill 结构化数据
+│   └── data/skills.json              # 85 个 Skill 结构化数据
 └── archive/                          # 旧版弹窗安装向导（已归档）
     └── install-king-skills.bat
     └── install-king-skills.ps1

@@ -1,5 +1,5 @@
 {
-  "total": 84,
+  "total": 85,
   "categories": [
     { "id": "basic",       "name": "基础 Skill",     "icon": "🛠", "color": "#4f46e5", "description": "扩展 Agent 能力边界，不负责具体任务，而是帮你更高效地使用 Agent。" },
     { "id": "product",     "name": "产品开发",       "icon": "💻", "color": "#0891b2", "description": "从需求梳理到代码落地全流程覆盖。" },
@@ -96,6 +96,7 @@
     { "id": 67, "name": "goplaces",                    "cat": "life",        "icon": "G", "repo": "https://clawhub.ai/steipete/goplaces",                                "desc": "用 goplaces CLI 查询 Google Places API，做地点搜索/详情/评价",                                               "source": "ClawHub",           "stars": "★ 30" },
     { "id": 68, "name": "Gemini",                      "cat": "life",        "icon": "G", "repo": "https://clawhub.ai/steipete/gemini",                                  "desc": "Gemini CLI 一次性问答、摘要和内容生成",                                                                      "source": "ClawHub",           "stars": "★ 56" },
     { "id": 69, "name": "Session-logs",                "cat": "life",        "icon": "L", "repo": "https://clawhub.ai/guogang1024/session-logs",                          "desc": "用 jq 搜索和分析自己的会话日志（历史/父级对话）",                                                            "source": "ClawHub",           "stars": "★ 30" },
-    { "id": 74, "name": "Healthcheck",                 "cat": "life",        "icon": "H", "repo": "https://clawhub.ai/stellarhold170nt/healthcheck",                       "desc": "用 JSON 文件存储追踪每日喝水和睡眠",                                                                        "source": "ClawHub",           "stars": "★ 11" }
+    { "id": 74, "name": "Healthcheck",                 "cat": "life",        "icon": "H", "repo": "https://clawhub.ai/stellarhold170nt/healthcheck",                       "desc": "用 JSON 文件存储追踪每日喝水和睡眠",                                                                        "source": "ClawHub",           "stars": "★ 11" },
+    { "id": 86, "name": "family-lovers-skill",         "cat": "life",        "icon": "F", "repo": "https://github.com/phoenixlucky/family-lovers-skill",                    "desc": "❤️ 家庭关怀陪伴：原生家庭觉察与疗愈，内置八大历史人物文化原型自动匹配",                                           "source": "phoenixlucky",       "stars": null }
   ]
 }
