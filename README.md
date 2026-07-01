@@ -2,13 +2,13 @@
   <h1 align="center">👑 The King Skills</h1>
   <p align="center">
     <b>AI Agent Skill 一站式索引</b><br>
-    精选 85 个热门 Skill，覆盖 10 大分类，让 AI Agent 秒变全能助手
+    精选 95 个热门 Skill，覆盖 10 大分类，让 AI Agent 秒变全能助手
   </p>
 </p>
 
 <p align="center">
   <a href="https://github.com/phoenixlucky/theKingSkills">
-    <img src="https://img.shields.io/badge/Skills-85-2563eb?style=for-the-badge&logo=openai" alt="Skills">
+    <img src="https://img.shields.io/badge/Skills-95-2563eb?style=for-the-badge&logo=openai" alt="Skills">
   </a>
   <a href="https://github.com/phoenixlucky/theKingSkills">
     <img src="https://img.shields.io/badge/Categories-10-059669?style=for-the-badge&logo=libretranslate" alt="Categories">
@@ -53,7 +53,7 @@
 
 | 特性 | 说明 |
 |:-----|:------|
-| **📦 精选收录** | 85 个 Skill，从 ⭐ 21 万+ 到实用小工具，宁缺毋滥 |
+| **📦 精选收录** | 95 个 Skill，从 ⭐ 21 万+ 到实用小工具，宁缺毋滥 |
 | **🔌 零存储** | 只存索引，不存源文件，永远指向最新版 |
 | **🤖 AI 原生** | `skills-index.md` 专为 AI Agent 直接读取而设计 |
 | **🌐 可视化网站** | 在线筛选、勾选、一键生成安装指令 |
@@ -68,15 +68,15 @@
 | 🛠️ **基础 Skill** | 15 | Skill Creator、cognee、agent-skills、Ponytail (⭐ 41.5k) 等 |
 | 💻 **产品开发** | 11 | Superpowers (⭐ 21 万+)、taste-skill (⭐ 53.5k)、gsap-skills (⭐ 10.5k)、gstack、opencode 等 |
 | 🎨 **内容创作** | 7 | baoyu-skills (⭐ 21.7k)、NotebookLM、officecli (⭐ 7.2k) 等 |
-| 📄 **文档处理** | 3 | docx、pdf、Nano PDF |
+| 📄 **文档处理** | 4 | MarkItDown、docx、pdf、Nano PDF |
 | 🎬 **视频制作** | 9 | HyperFrames、Remotion、OpenMontage、Manim、FFmpeg 等 |
 | 📊 **商业与分析** | 3 | Business Data Analyst、Weiliaozi Analysis、Financial Analyst |
-| 🔌 **集成与工具** | 13 | GitHub、Gog (Google Workspace)、Slack、Notion、Obsidian、Discord 等 |
-| 🔍 **搜索与浏览** | 7 | Multi Search Engine (16 引擎)、Agent-Reach、Agent Browser、Peekaboo 等 |
+| 🔌 **集成与工具** | 15 | GitHub、scrcpy (⭐ 140k)、curl-impersonate、Gog (Google Workspace)、Slack、Notion 等 |
+| 🔍 **搜索与浏览** | 14 | Firecrawl (⭐ 140k)、Crawl4AI (⭐ 70k)、browser-use (⭐ 100k)、Multi Search Engine 等 |
 | 📈 **商业与数据** | 5 | AdMapix、Polymarket、Automation Workflows、Model Usage 等 |
 | 🎵 **生活与媒体** | 12 | family-lovers-skill、Weather、Whisper、Spotify、Gemini、Healthcheck 等 |
 
-> 👉 完整 85 个 Skill 详情见 [`skills-index.md`](./skills-index.md)
+> 👉 完整 95 个 Skill 详情见 [`skills-index.md`](./skills-index.md)
 
 ---
 
@@ -133,7 +133,7 @@ theKingSkills/
 │   ├── index.html                    # 首页
 │   ├── css/style.css                 # 样式
 │   ├── js/script.js                  # 交互逻辑（筛选 / 搜索 / 生成）
-│   └── data/skills.json              # 85 个 Skill 结构化数据
+│   └── data/skills.json              # 95 个 Skill 结构化数据
 └── archive/                          # 旧版弹窗安装向导（已归档）
     └── install-king-skills.bat
     └── install-king-skills.ps1

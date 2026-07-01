@@ -2,7 +2,7 @@
 title:   "The King Skills — AI 一键安装索引"
 version: "1.3"
 updated: "2026-06-17"
-total:   85
+total:   95
 ---
 
 # 🎯 The King Skills — AI 一键安装索引
@@ -701,6 +701,25 @@ React/Vue/Svelte 集成、性能优化。所有 GSAP 插件现已免费商用。
 
 ---
 
+### 94 — MarkItDown（微软文档转文本）
+
+| 字段 | 值 |
+|------|-----|
+| **来源** | Microsoft |
+| **分类** | 文档处理 Skill |
+| **一句话** | 微软出品：PDF/Office/HTML/图片批量转 Markdown 文本，开源免费 |
+
+**安装指令：**
+
+```
+安装 MarkItDown Skill。
+来源：https://github.com/microsoft/markitdown
+安装后，Agent 可将 PDF、Word、Excel、PPT、HTML 和图片中的文字
+批量转换为 Markdown 格式文本，方便 AI 进一步处理。
+```
+
+---
+
 ## 🎬 视频制作 Skill
 
 用代码和 AI 批量制作、剪辑和生成视频，从分镜到成品全流程覆盖。
@@ -1182,6 +1201,44 @@ React/Vue/Svelte 集成、性能优化。所有 GSAP 插件现已免费商用。
 
 ---
 
+### 95 — scrcpy（手机投屏操控）
+
+| 字段 | 值 |
+|------|-----|
+| **来源** | Genymobile（⭐ 140k） |
+| **分类** | 集成与工具 |
+| **一句话** | 用电脑远程操控安卓手机，专治那些只有 App 没网页的数据源 |
+
+**安装指令：**
+
+```
+安装 scrcpy Skill。
+来源：https://github.com/Genymobile/scrcpy（⭐ 140k）
+安装后，Agent 可通过电脑远程操控安卓手机，
+适合抓取只有移动 App 没有网页端的数据源。
+```
+
+---
+
+### 96 — curl-impersonate（请求指纹伪装）
+
+| 字段 | 值 |
+|------|-----|
+| **来源** | lwthiker |
+| **分类** | 集成与工具 |
+| **一句话** | 把请求伪装成真 Chrome 浏览器指纹，绕反爬不要太轻松 |
+
+**安装指令：**
+
+```
+安装 curl-impersonate Skill。
+来源：https://github.com/lwthiker/curl-impersonate
+安装后，Agent 发起的 HTTP 请求会伪装成真实 Chrome 浏览器指纹，
+包括 TLS 握手、HTTP/2 帧等，轻松绕过反爬检测。
+```
+
+---
+
 ## 🔍 搜索与浏览 Skill
 
 让 Agent 联网搜索和操作浏览器，获取实时信息。
@@ -1313,6 +1370,139 @@ React/Vue/Svelte 集成、性能优化。所有 GSAP 插件现已免费商用。
 来源：https://github.com/Panniantong/Agent-Reach
 安装后，Agent 可一键抓取 Twitter/X、Reddit、YouTube、GitHub、Bilibili 等平台
 实时情报并自动总结。无需多工具切换，一条命令全包，效率直接起飞。
+```
+
+---
+
+### 87 — Firecrawl（整站爬取）
+
+| 字段 | 值 |
+|------|-----|
+| **来源** | firecrawl（⭐ 140k，GitHub Top 100） |
+| **分类** | 搜索与浏览 |
+| **一句话** | 丢个 URL 进去整站爬完，吐出 AI 能直接吃的干净数据，JS 渲染页面也扛得住 |
+
+**安装指令：**
+
+```
+安装 Firecrawl Skill。
+来源：https://github.com/firecrawl/firecrawl（⭐ 140k）
+安装后，Agent 可一键爬取整站并返回结构化数据，
+支持 JS 渲染页面抓取，输出格式 AI 可直接消费。
+```
+
+---
+
+### 88 — Crawl4AI（LLM 就绪网页抓取）
+
+| 字段 | 值 |
+|------|-----|
+| **来源** | unclecode（⭐ 70k） |
+| **分类** | 搜索与浏览 |
+| **一句话** | 把网站整成 LLM 能直接读的文本，不要 API Key 不要钱 |
+
+**安装指令：**
+
+```
+安装 Crawl4AI Skill。
+来源：https://github.com/unclecode/crawl4ai（⭐ 70k）
+安装后，Agent 可直接将 URL 内容转为 LLM 友好文本格式，
+无需任何 API Key，零成本使用。
+```
+
+---
+
+### 89 — browser-use（AI 浏览器自动化）
+
+| 字段 | 值 |
+|------|-----|
+| **来源** | browser-use（⭐ 100k） |
+| **分类** | 搜索与浏览 |
+| **一句话** | 让 AI 像真人一样点鼠标、登录、填表，ETH Zurich 学生团队出品 |
+
+**安装指令：**
+
+```
+安装 browser-use Skill。
+来源：https://github.com/browser-use/browser-use（⭐ 100k）
+安装后，Agent 可驱动真实浏览器进行页面操作：点击、输入、登录、
+表单填写等，适合需要交互操作的场景。
+```
+
+---
+
+### 90 — Crawlee（爬虫框架）
+
+| 字段 | 值 |
+|------|-----|
+| **来源** | apify |
+| **分类** | 搜索与浏览 |
+| **一句话** | 自动换代理/重试/伪装指纹/管队列，整套躲限制的爬虫框架 |
+
+**安装指令：**
+
+```
+安装 Crawlee Skill。
+来源：https://github.com/apify/crawlee
+安装后，Agent 获得完整爬虫框架能力：自动代理轮换、
+请求重试、浏览器指纹伪装、URL 队列管理等功能。
+```
+
+---
+
+### 91 — Scrapy（老牌爬虫）
+
+| 字段 | 值 |
+|------|-----|
+| **来源** | scrapy（⭐ 高星） |
+| **分类** | 搜索与浏览 |
+| **一句话** | 干了十多年的老牌爬虫框架，几百万页面照样稳，永久免费 |
+
+**安装指令：**
+
+```
+安装 Scrapy Skill。
+来源：https://github.com/scrapy/scrapy
+安装后，Agent 可使用业界最成熟的 Python 爬虫框架，
+处理百万级页面稳定可靠，支持中间件扩展和数据管道。
+```
+
+---
+
+### 92 — Scrapling（自适应爬虫）
+
+| 字段 | 值 |
+|------|-----|
+| **来源** | D4Vinci |
+| **分类** | 搜索与浏览 |
+| **一句话** | 网站改版它自己适应，持续躲封禁，免费版能打付费的 |
+
+**安装指令：**
+
+```
+安装 Scrapling Skill。
+来源：https://github.com/D4Vinci/Scrapling
+安装后，Agent 获得自适应爬虫能力：自动适应网站结构变化、
+持续躲避反爬封禁，免费使用。
+```
+
+---
+
+### 93 — AutoScraper（自动学习爬虫）
+
+| 字段 | 值 |
+|------|-----|
+| **来源** | alirezamika |
+| **分类** | 搜索与浏览 |
+| **一句话** | 给它一个样例，它自己学规律批量扒，不用写选择器 |
+
+**安装指令：**
+
+```
+安装 AutoScraper Skill。
+来源：https://github.com/alirezamika/autoscraper
+安装后，Agent 可通过示例页面自动学习抓取规则，
+无需手动编写 CSS 选择器或 XPath，几行 Python 就能跑。
 ```
 
 ---
@@ -1689,6 +1879,7 @@ React/Vue/Svelte 集成、性能优化。所有 GSAP 插件现已免费商用。
 25. docx — 完整的 DOCX 创建、编辑与分析能力（⭐ 187）
 26. pdf — 专业 PDF 工具集：57 种工具，生成/提取/合并/表单（⭐ 1）
 73. Nano PDF — ClawHub（★ 260），自然语言编辑 PDF
+94. MarkItDown — Microsoft，PDF/Office/HTML/图片批量转 Markdown
 
 【视频制作 Skill】
 14. HyperFrames — 用 HTML/动画一键生成动效视频
@@ -1720,6 +1911,8 @@ React/Vue/Svelte 集成、性能优化。所有 GSAP 插件现已免费商用。
 46. Apple Notes — ClawHub（★ 57），管理 Apple Notes
 47. Apple Reminders — ClawHub（★ 54），管理 Apple 提醒事项
 48. CalDAV Calendar — ClawHub（★ 242），同步查询日历
+95. scrcpy — Genymobile（⭐ 140k），电脑远程操控安卓手机
+96. curl-impersonate — lwthiker，HTTP 请求伪装 Chrome 指纹
 
 【🔍 搜索与浏览 Skill】
 49. Multi Search Engine — ClawHub（★ 727），16 个搜索引擎集成
@@ -1729,6 +1922,13 @@ React/Vue/Svelte 集成、性能优化。所有 GSAP 插件现已免费商用。
 53. Peekaboo — ClawHub（★ 82），macOS UI 自动化
 54. tmux — ClawHub（★ 43），远程控制 tmux 会话
 82. Agent-Reach — Panniantong，全网情报一键抓取+总结
+87. Firecrawl — firecrawl（⭐ 140k），整站爬取 AI 直接读
+88. Crawl4AI — unclecode（⭐ 70k），网站转 LLM 文本
+89. browser-use — browser-use（⭐ 100k），AI 浏览器自动化
+90. Crawlee — apify，自动代理/重试/伪装指纹
+91. Scrapy — scrapy，老牌爬虫框架百万级稳定
+92. Scrapling — D4Vinci，自适应网站改版绕封禁
+93. AutoScraper — alirezamika，给样例自动学规律
 
 【📈 商业与数据 Skill】
 55. AdMapix — ClawHub（★ 286），广告情报与应用分析
