@@ -2,7 +2,7 @@
 title:   "The King Skills — AI 一键安装索引"
 version: "1.3"
 updated: "2026-06-17"
-total:   96
+total:   97
 ---
 
 # 🎯 The King Skills — AI 一键安装索引
@@ -294,6 +294,26 @@ Hal Stack 系列成员。
 来源：https://github.com/headroomlabs-ai/headroom
 安装后，自动压缩日志、文件和 RAG chunks，减少 60-95% token 消耗。
 支持 library / proxy / MCP server 三种集成模式，高频 Agent 场景省钱省时。
+```
+
+---
+
+### 98 — agency-agents（AI 专家团队）
+
+| 字段 | 值 |
+|------|-----|
+| **来源** | msitarzewski（⭐ 121k） |
+| **分类** | 基础 Skill |
+| **一句话** | 232 个领域专家 AI Agent 合集：从前端开发到安全审计，一人即团队 |
+
+**安装指令：**
+
+```
+安装 agency-agents Skill。
+来源：https://github.com/msitarzewski/agency-agents（⭐ 121k）
+安装方式：推荐下载桌面 App（agencyagents.app），或 ./scripts/install.sh
+安装后，获得 232 个专业 AI Agent，覆盖工程/设计/营销/销售/金融/安全等 16 个领域。
+每个 Agent 有独立人格、工作流和交付标准，支持 Claude Code / Cursor / Codex 等工具。
 ```
 
 ---
@@ -1871,6 +1891,7 @@ React/Vue/Svelte 集成、性能优化。所有 GSAP 插件现已免费商用。
 79. cognee — topoteretes，开源长期记忆平台，知识图谱引擎
 80. agent-skills — addyosmani，从 .claude 提炼结构化技能
 81. headroom — headroomlabs-ai，Token 压缩减少 60-95%
+98. agency-agents — msitarzewski（⭐ 121k），232 个领域专家 AI Agent 合集
 
 【产品开发 Skill】
 3. Superpowers — ⭐ 21 万+ Star，开发流程规范化

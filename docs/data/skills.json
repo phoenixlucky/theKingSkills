@@ -1,5 +1,5 @@
 {
-  "total": 96,
+  "total": 97,
   "categories": [
     { "id": "basic",       "name": "基础 Skill",     "icon": "🛠", "color": "#4f46e5", "description": "扩展 Agent 能力边界，不负责具体任务，而是帮你更高效地使用 Agent。" },
     { "id": "product",     "name": "产品开发",       "icon": "💻", "color": "#0891b2", "description": "从需求梳理到代码落地全流程覆盖。" },
@@ -28,6 +28,7 @@
     { "id": 79, "name": "cognee",                       "cat": "basic",       "icon": "G", "repo": "https://github.com/topoteretes/cognee",                                      "desc": "开源 AI Agent 长期记忆平台：自托管知识图谱引擎，跨会话持久上下文",                                            "source": "topoteretes",        "stars": null },
     { "id": 80, "name": "agent-skills",                  "cat": "basic",       "icon": "S", "repo": "https://github.com/addyosmani/agent-skills",                              "desc": "从 .claude 等目录提炼可复用结构化技能，系统化管理 Agent 能力",                                              "source": "addyosmani",         "stars": null },
     { "id": 81, "name": "headroom",                      "cat": "basic",       "icon": "H", "repo": "https://github.com/headroomlabs-ai/headroom",                              "desc": "LLM token 自动压缩：减少 60-95% 消耗，支持 library/proxy/MCP 集成",                                       "source": "headroomlabs-ai",    "stars": null },
+    { "id": 98, "name": "agency-agents",                  "cat": "basic",       "icon": "A", "repo": "https://github.com/msitarzewski/agency-agents",                             "desc": "232 个领域专家 AI Agent 合集：从前端开发到安全审计，一人即团队（⭐ 121k）",                                 "source": "msitarzewski",       "stars": "⭐ 121k" },
     { "id": 3,  "name": "Superpowers",                 "cat": "product",     "icon": "S", "repo": "https://github.com/obra/superpowers",                                    "desc": "开发流程规范化：模糊需求→执行计划→代码落地，支持 Subagent 并行开发",                                         "source": "Jesse Vincent",     "stars": "⭐ 21万+" },
     { "id": 4,  "name": "gstack",                      "cat": "product",     "icon": "G", "repo": "https://github.com/garrytan/gstack",                                      "desc": "内置 23 个工程专家角色（CEO/PM/设计师/工程师），AI 工程团队",                                                "source": "Garry Tan",         "stars": "⭐ 10.7万" },
     { "id": 5,  "name": "Frontend Design",             "cat": "product",     "icon": "F", "repo": "https://github.com/anthropics/skills/tree/main/skills/frontend-design",  "desc": "去 AI 感设计：配色/字体/间距一键优化，输出专业级前端",                                                      "source": "Anthropic 官方",    "stars": null },
