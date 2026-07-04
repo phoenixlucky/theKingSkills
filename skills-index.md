@@ -2,7 +2,7 @@
 title:   "The King Skills — AI 一键安装索引"
 version: "1.3"
 updated: "2026-06-17"
-total:   97
+total:   99
 ---
 
 # 🎯 The King Skills — AI 一键安装索引
@@ -916,6 +916,31 @@ React/Vue/Svelte 集成、性能优化。所有 GSAP 插件现已免费商用。
 
 安装后，Agent 可将文字描述变成高质量数学/知识动画视频，
 完美复现 3Blue1Brown 风格的知识讲解动画。
+```
+
+---
+
+### 99 — seedance-2.0（Seedance 2.0 导演 OS）
+
+| 字段 | 值 |
+|------|-----|
+| **来源** | Emily2040（⭐ 1.8k） |
+| **分类** | 视频制作 Skill |
+| **一句话** | Seedance 2.0 完整导演制作管线：专业分镜/运镜/续拍/安全改写，支持多语言提示词 |
+
+**安装指令：**
+
+```
+安装 seedance-2.0 Skill OS。
+来源：https://github.com/Emily2040/seedance-2.0（⭐ 1.8k）
+安装方式：npx skills add https://github.com/Emily2040/seedance-2.0
+或 python scripts/install_codex_skill.py
+安装后，Agent 获得完整的 Seedance 2.0 导演能力：
+- 场景理解 → 导演意图 → 提示词编译的专业管线
+- 支持文本/图像/视频/音频四模态输入
+- 多语言提示词（中/日/韩/英/西/俄）
+- 专业分镜、续拍预案、安全改写、质量评估、交付检查
+- 内置 33 个风格示例库和 12 条质量评估管线
 ```
 
 ---
@@ -1931,6 +1956,7 @@ React/Vue/Svelte 集成、性能优化。所有 GSAP 插件现已免费商用。
 76. FFmpeg Skill — 专业视频处理命令行神器（fabriqaai/LobeHub）
 77. OpenMontage — 开源 agentic 视频生产系统（calesthio）
 78. Manim Skill — 3Blue1Brown 同款数学动画引擎（adithya-s-k）
+99. seedance-2.0 — Emily2040（⭐ 1.8k），Seedance 2.0 完整导演制作管线
 
 【商业与分析 Skill】
 10. Business Data Analyst — 商业分析与指标拆解

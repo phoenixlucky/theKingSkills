@@ -1,2 +1,2 @@
 [permissions]
-allow = ["Bash(git pull:*)", "Edit", "Bash(Select-String -Pattern:*)"]
+allow = ["Bash(git pull:*)", "Edit", "Bash(Select-String -Pattern:*)", "Bash(Select-String \"id.*78|Manim\" docs/data/skills.json)"]
