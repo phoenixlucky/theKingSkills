@@ -2,7 +2,7 @@
 title:   "The King Skills — AI 一键安装索引"
 version: "1.3"
 updated: "2026-06-17"
-total:   99
+total:   100
 ---
 
 # 🎯 The King Skills — AI 一键安装索引
@@ -1284,6 +1284,37 @@ React/Vue/Svelte 集成、性能优化。所有 GSAP 插件现已免费商用。
 
 ---
 
+### 100 — browser-localmcp-skills（MCP Streamable HTTP 桥接）
+
+| 字段 | 值 |
+|------|-----|
+| **来源** | phoenixlucky |
+| **分类** | 集成与工具 |
+| **一句话** | MCP Streamable HTTP 桥接工具：session ID 自动持久化，零配置连接 Chrome MCP 服务 |
+
+**安装指令：**
+
+```
+安装 browser-localmcp-skills Skill。
+来源：https://github.com/phoenixlucky/browser-localmcp-skills
+安装：git clone 仓库后，Reasonix 自动发现 .reasonix/skills/mcp-streamable-connect/
+前置条件：Node.js ≥ 18，MCP 服务运行于 http://127.0.0.1:12306/mcp
+
+使用示例：
+  node mcp-bridge.js init                          # 初始化连接
+  node mcp-bridge.js call tools/list               # 列出工具
+  node mcp-bridge.js call tools/call '{...}'       # 调用工具
+  node mcp-bridge.js close                         # 关闭连接
+
+安装后，Agent 获得稳定的 MCP Streamable HTTP 连接能力：
+- Session ID 自动持久化到临时文件，跨调用无缝复用
+- 超时自动重连，30 秒请求超时兜底
+- 支持 Chrome 浏览器自动化工具（导航/截图/点击/表单/数据提取等 28+ 工具）
+- 纯 Node.js 内置 fetch API，零外部依赖
+```
+
+---
+
 ## 🔍 搜索与浏览 Skill
 
 让 Agent 联网搜索和操作浏览器，获取实时信息。
@@ -1979,6 +2010,7 @@ React/Vue/Svelte 集成、性能优化。所有 GSAP 插件现已免费商用。
 48. CalDAV Calendar — ClawHub（★ 242），同步查询日历
 95. scrcpy — Genymobile（⭐ 140k），电脑远程操控安卓手机
 96. curl-impersonate — lwthiker，HTTP 请求伪装 Chrome 指纹
+100. browser-localmcp-skills — phoenixlucky，MCP Streamable HTTP 桥接
 
 【🔍 搜索与浏览 Skill】
 49. Multi Search Engine — ClawHub（★ 727），16 个搜索引擎集成
