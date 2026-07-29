@@ -1284,7 +1284,7 @@ React/Vue/Svelte 集成、性能优化。所有 GSAP 插件现已免费商用。
 
 ---
 
-### 100 — browser-localmcp-skills（MCP Streamable HTTP 桥接）
+### 100 — chrome-mcp-bridge-2026-skill（Chrome MCP 桥接）
 
 | 字段 | 值 |
 |------|-----|
@@ -1295,8 +1295,8 @@ React/Vue/Svelte 集成、性能优化。所有 GSAP 插件现已免费商用。
 **安装指令：**
 
 ```
-安装 browser-localmcp-skills Skill。
-来源：https://github.com/phoenixlucky/browser-localmcp-skills
+安装 chrome-mcp-bridge-2026-skill Skill。
+来源：https://github.com/phoenixlucky/chrome-mcp-bridge-2026-skill
 安装：git clone 仓库后，Reasonix 自动发现 .reasonix/skills/mcp-streamable-connect/
 前置条件：Node.js ≥ 18，MCP 服务运行于 http://127.0.0.1:12306/mcp
 
@@ -2010,7 +2010,7 @@ React/Vue/Svelte 集成、性能优化。所有 GSAP 插件现已免费商用。
 48. CalDAV Calendar — ClawHub（★ 242），同步查询日历
 95. scrcpy — Genymobile（⭐ 140k），电脑远程操控安卓手机
 96. curl-impersonate — lwthiker，HTTP 请求伪装 Chrome 指纹
-100. browser-localmcp-skills — phoenixlucky，MCP Streamable HTTP 桥接
+100. chrome-mcp-bridge-2026-skill — phoenixlucky，Chrome MCP 桥接
 
 【🔍 搜索与浏览 Skill】
 49. Multi Search Engine — ClawHub（★ 727），16 个搜索引擎集成
