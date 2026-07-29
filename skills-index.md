@@ -1284,36 +1284,7 @@ React/Vue/Svelte 集成、性能优化。所有 GSAP 插件现已免费商用。
 
 ---
 
-### 100 — chrome-mcp-bridge-2026-skill（Chrome MCP 桥接）
 
-| 字段 | 值 |
-|------|-----|
-| **来源** | phoenixlucky |
-| **分类** | 集成与工具 |
-| **一句话** | MCP Streamable HTTP 桥接工具：session ID 自动持久化，零配置连接 Chrome MCP 服务 |
-
-**安装指令：**
-
-```
-安装 chrome-mcp-bridge-2026-skill Skill。
-来源：https://github.com/phoenixlucky/chrome-mcp-bridge-2026-skill
-安装：git clone 仓库后，Reasonix 自动发现 .reasonix/skills/mcp-streamable-connect/
-前置条件：Node.js ≥ 18，MCP 服务运行于 http://127.0.0.1:12306/mcp
-
-使用示例：
-  node mcp-bridge.js init                          # 初始化连接
-  node mcp-bridge.js call tools/list               # 列出工具
-  node mcp-bridge.js call tools/call '{...}'       # 调用工具
-  node mcp-bridge.js close                         # 关闭连接
-
-安装后，Agent 获得稳定的 MCP Streamable HTTP 连接能力：
-- Session ID 自动持久化到临时文件，跨调用无缝复用
-- 超时自动重连，30 秒请求超时兜底
-- 支持 Chrome 浏览器自动化工具（导航/截图/点击/表单/数据提取等 28+ 工具）
-- 纯 Node.js 内置 fetch API，零外部依赖
-```
-
----
 
 ## 🔍 搜索与浏览 Skill
 
@@ -1598,6 +1569,37 @@ React/Vue/Svelte 集成、性能优化。所有 GSAP 插件现已免费商用。
 来源：https://github.com/NanmiCoder/MediaCrawler（⭐ 54.6k）
 安装后，Agent 可采集小红书、抖音、快手、B 站、微博、贴吧、知乎等平台
 的帖子/视频/评论公开数据，支持关键词搜索和指定 ID 爬取。
+```
+
+---
+
+### 100 — chrome-mcp-bridge-2026-skill（Chrome MCP 桥接）
+
+| 字段 | 值 |
+|------|-----|
+| **来源** | phoenixlucky |
+| **分类** | 搜索与浏览 |
+| **一句话** | MCP Streamable HTTP 桥接工具：session ID 自动持久化，零配置连接 Chrome MCP 服务 |
+
+**安装指令：**
+
+```
+安装 chrome-mcp-bridge-2026-skill Skill。
+来源：https://github.com/phoenixlucky/chrome-mcp-bridge-2026-skill
+安装：git clone 仓库后，Reasonix 自动发现 .reasonix/skills/mcp-streamable-connect/
+前置条件：Node.js ≥ 18，MCP 服务运行于 http://127.0.0.1:12306/mcp
+
+使用示例：
+  node mcp-bridge.js init                          # 初始化连接
+  node mcp-bridge.js call tools/list               # 列出工具
+  node mcp-bridge.js call tools/call '{...}'       # 调用工具
+  node mcp-bridge.js close                         # 关闭连接
+
+安装后，Agent 获得稳定的 MCP Streamable HTTP 连接能力：
+- Session ID 自动持久化到临时文件，跨调用无缝复用
+- 超时自动重连，30 秒请求超时兜底
+- 支持 Chrome 浏览器自动化工具（导航/截图/点击/表单/数据提取等 28+ 工具）
+- 纯 Node.js 内置 fetch API，零外部依赖
 ```
 
 ---
@@ -2010,7 +2012,6 @@ React/Vue/Svelte 集成、性能优化。所有 GSAP 插件现已免费商用。
 48. CalDAV Calendar — ClawHub（★ 242），同步查询日历
 95. scrcpy — Genymobile（⭐ 140k），电脑远程操控安卓手机
 96. curl-impersonate — lwthiker，HTTP 请求伪装 Chrome 指纹
-100. chrome-mcp-bridge-2026-skill — phoenixlucky，Chrome MCP 桥接
 
 【🔍 搜索与浏览 Skill】
 49. Multi Search Engine — ClawHub（★ 727），16 个搜索引擎集成
@@ -2028,6 +2029,7 @@ React/Vue/Svelte 集成、性能优化。所有 GSAP 插件现已免费商用。
 92. Scrapling — D4Vinci，自适应网站改版绕封禁
 93. AutoScraper — alirezamika，给样例自动学规律
 97. MediaCrawler — NanmiCoder（⭐ 54.6k），多平台自媒体数据采集
+100. chrome-mcp-bridge-2026-skill — phoenixlucky，Chrome MCP 桥接
 
 【📈 商业与数据 Skill】
 55. AdMapix — ClawHub（★ 286），广告情报与应用分析

@@ -71,8 +71,8 @@
 | 📄 **文档处理** | 4 | MarkItDown、docx、pdf、Nano PDF |
 | 🎬 **视频制作** | 10 | HyperFrames、Remotion、OpenMontage、seedance-2.0、Manim、FFmpeg 等 |
 | 📊 **商业与分析** | 3 | Business Data Analyst、Weiliaozi Analysis、Financial Analyst |
-| 🔌 **集成与工具** | 16 | GitHub、chrome-mcp-bridge-2026-skill、scrcpy (⭐ 140k)、curl-impersonate、Gog (Google Workspace) 等 |
-| 🔍 **搜索与浏览** | 15 | Firecrawl (⭐ 140k)、MediaCrawler (⭐ 54.6k)、Crawl4AI (⭐ 70k)、browser-use (⭐ 100k) 等 |
+| 🔌 **集成与工具** | 15 | GitHub、scrcpy (⭐ 140k)、curl-impersonate、Gog (Google Workspace) 等 |
+| 🔍 **搜索与浏览** | 16 | chrome-mcp-bridge-2026-skill、Firecrawl (⭐ 140k)、MediaCrawler (⭐ 54.6k)、Crawl4AI (⭐ 70k)、browser-use (⭐ 100k) 等 |
 | 📈 **商业与数据** | 5 | AdMapix、Polymarket、Automation Workflows、Model Usage 等 |
 | 🎵 **生活与媒体** | 12 | family-lovers-skill、Weather、Whisper、Spotify、Gemini、Healthcheck 等 |
 
