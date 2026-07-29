@@ -130,8 +130,9 @@
             return `<a href="${s.repo}" class="skill-repo" target="_blank" rel="noopener" title="${s.repo}">${label} ↗</a>`;
           })()
         : '';
+      const isOwn = s.source === 'phoenixlucky';
       html += `
-        <div class="skill-card ${isSelected ? 'selected' : ''}" data-id="${s.id}">
+        <div class="skill-card ${isSelected ? 'selected' : ''}${isOwn ? ' skill-card--own' : ''}" data-id="${s.id}">
           <div class="skill-check">${isSelected ? '✓' : ''}</div>
           <div class="skill-body">
             <div class="skill-header">
