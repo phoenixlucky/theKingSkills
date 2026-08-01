@@ -38,7 +38,7 @@
   // ---- Load data ----
   async function loadData() {
     try {
-      const resp = await fetch('data/skills.json?v=2');
+      const resp = await fetch('data/skills.json?v=3');
       if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
       data = await resp.json();
       totalCount.textContent = data.total;
