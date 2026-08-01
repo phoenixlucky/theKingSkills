@@ -1,8 +1,8 @@
 ---
 title:   "The King Skills — AI 一键安装索引"
 version: "1.3"
-updated: "2026-06-17"
-total:   100
+updated: "2026-08-01"
+total:   101
 ---
 
 # 🎯 The King Skills — AI 一键安装索引
@@ -1004,6 +1004,28 @@ React/Vue/Svelte 集成、性能优化。所有 GSAP 插件现已免费商用。
 
 ---
 
+### 101 — solo-law-firm-agents（一人律所 Agents）
+
+| 字段 | 值 |
+|------|-----|
+| **来源** | saysoph（⭐ 35） |
+| **分类** | 商业与分析 |
+| **一句话** | 一人律所 Agents：28 位 AI 虚拟专员、7 大部门，覆盖接案/检索/文书/排期/催收/品宣/知识沉淀全链条 |
+
+**安装指令：**
+
+```
+安装 solo-law-firm-agents Skill。
+来源：https://github.com/saysoph/solo-law-firm-agents（⭐ 35）
+安装后，为独立执业律师组建一支 7×24 小时待命的 AI 律所团队：
+- 28 位虚拟专员分布在案件实务/案件管理/客户关系/尽职调查/市场拓展/财务行政/知识管理 7 大部门
+- 每位专员自带标准交付物（法条清单、风险批注版合同、证据目录、法官画像报告等）
+- 跨部门协同 + 知识复利：胜诉经验脱敏后沉淀回律所私有智库
+推荐从「初次咨询接待」专员开始，先生成标准化案情摘要卡再分派任务。
+```
+
+---
+
 ## 🔌 集成与工具 Skill
 
 打通第三方服务：GitHub、Google Workspace、Slack、Notion、邮件、日历等，让 Agent 直接操作外部系统。
@@ -1995,6 +2017,7 @@ React/Vue/Svelte 集成、性能优化。所有 GSAP 插件现已免费商用。
 10. Business Data Analyst — 商业分析与指标拆解
 11. Weiliaozi Analysis — 尉缭子五栏结构分析法
 13. Financial Analyst — 金融投资分析与决策
+101. solo-law-firm-agents — saysoph（⭐ 35），一人律所 28 位 AI 虚拟专员 7 大部门
 
 【🔌 集成与工具 Skill】
 36. Github — ClawHub（★ 636），用 gh CLI 操作 GitHub
