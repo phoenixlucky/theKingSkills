@@ -38,7 +38,7 @@
   // ---- Load data ----
   async function loadData() {
     try {
-      const resp = await fetch('data/skills.json?v=3');
+      const resp = await fetch('data/skills.json?v=4');
       if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
       data = await resp.json();
       totalCount.textContent = data.total;
@@ -199,7 +199,7 @@
       groups[catName].push(s);
     }
 
-    let text = `请依次阅读并安装以下 Skill。\n\n`;
+    let text = `请依次阅读并安装以下 Skill。\n具体技能\n\n`;
 
     for (const [catName, items] of Object.entries(groups)) {
       text += `【${catName}】\n`;
@@ -211,7 +211,7 @@
       text += '\n';
     }
 
-    text += `请根据上面每个 Skill 的「安装指令」完成安装。\n`;
+    text += `请根据上面每个 Skill 的「安装指令」完成安装，如果存在，则覆盖安装。\n`;
 
     outputText.value = text;
     outputSection.style.display = 'block';
