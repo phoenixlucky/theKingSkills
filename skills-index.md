@@ -1954,6 +1954,7 @@ React/Vue/Svelte 集成、性能优化。所有 GSAP 插件现已免费商用。
 
 ```
 请依次阅读并安装以下 Skill。
+具体技能
 
 【基础 Skill】
 1. Skill Creator — Anthropic 官方，用于创建 Skill 的 Skill
@@ -2075,7 +2076,7 @@ React/Vue/Svelte 集成、性能优化。所有 GSAP 插件现已免费商用。
 74. Healthcheck — ClawHub（★ 11），喝水/睡眠追踪
 86. family-lovers-skill — phoenixlucky，原生家庭关怀陪伴
 
-请根据上面每个 Skill 的「安装指令」完成安装。
+请根据上面每个 Skill 的「安装指令」完成安装，如果存在，则覆盖安装。
 ```
 
 ---

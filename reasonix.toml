@@ -1,2 +1,2 @@
 [permissions]
-allow = ["Bash(git pull:*)", "Edit", "Bash(Select-String -Pattern:*)", "Bash(Select-String \"id.*78|Manim\" docs/data/skills.json)"]
+allow = ["Bash(git pull:*)", "Edit", "Bash(Select-String -Pattern:*)", "Bash(Select-String \"id.*78|Manim\" docs/data/skills.json)", "Bash=git add -A; git commit -m \"chore: 更新一键安装提示词（加入具体技能说明和覆盖安装）\"; if ($?) { git push }"]
