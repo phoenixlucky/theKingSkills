@@ -2,7 +2,7 @@
   <h1 align="center">👑 The King Skills</h1>
   <p align="center">
     <b>AI Agent Skill 一站式索引</b><br>
-    精选 100 个热门 Skill，覆盖 10 大分类，让 AI Agent 秒变全能助手
+    精选 100 个热门 Skill，覆盖 13 大分类，让 AI Agent 秒变全能助手
   </p>
 </p>
 
@@ -11,7 +11,7 @@
     <img src="https://img.shields.io/badge/Skills-100-2563eb?style=for-the-badge&logo=openai" alt="Skills">
   </a>
   <a href="https://github.com/phoenixlucky/theKingSkills">
-    <img src="https://img.shields.io/badge/Categories-10-059669?style=for-the-badge&logo=libretranslate" alt="Categories">
+    <img src="https://img.shields.io/badge/Categories-13-059669?style=for-the-badge&logo=libretranslate" alt="Categories">
   </a>
   <a href="https://phoenixlucky.github.io/theKingSkills/">
     <img src="https://img.shields.io/badge/Website-Online-7c3aed?style=for-the-badge&logo=githubpages" alt="Website">
@@ -65,16 +65,19 @@
 
 | 分类 | 数量 | 代表 Skill |
 |:-----|:----:|:-----------|
-| 🛠️ **基础 Skill** | 16 | Skill Creator、agency-agents (⭐ 121k)、cognee、agent-skills、Ponytail (⭐ 41.5k) 等 |
-| 💻 **产品开发** | 11 | Superpowers (⭐ 21 万+)、taste-skill (⭐ 53.5k)、gsap-skills (⭐ 10.5k)、gstack、opencode 等 |
-| 🎨 **内容创作** | 7 | baoyu-skills (⭐ 21.7k)、NotebookLM、officecli (⭐ 7.2k) 等 |
-| 📄 **文档处理** | 4 | MarkItDown、docx、pdf、Nano PDF |
-| 🎬 **视频制作** | 10 | HyperFrames、Remotion、OpenMontage、seedance-2.0、Manim、FFmpeg 等 |
-| 📊 **商业与分析** | 3 | Business Data Analyst、Weiliaozi Analysis、Financial Analyst |
-| 🔌 **集成与工具** | 15 | GitHub、scrcpy (⭐ 140k)、curl-impersonate、Gog (Google Workspace) 等 |
-| 🔍 **搜索与浏览** | 16 | chrome-mcp-bridge-2026-skill、Firecrawl (⭐ 140k)、MediaCrawler (⭐ 54.6k)、Crawl4AI (⭐ 70k)、browser-use (⭐ 100k) 等 |
-| 📈 **商业与数据** | 5 | AdMapix、Polymarket、Automation Workflows、Model Usage 等 |
-| 🎵 **生活与媒体** | 12 | family-lovers-skill、Weather、Whisper、Spotify、Gemini、Healthcheck 等 |
+| 🛠️ **基础与元 Skill** | 9 | Skill Creator、Find Skills、agent-skills、headroom 等 |
+| 🧠 **Agent 智能化** | 6 | Self-Improving Agent、Proactive Agent、agency-agents (⭐ 121k)、Ontology 等 |
+| 💻 **开发与编码** | 7 | Superpowers (⭐ 21 万+)、gstack、opencode、bug-hunt 等 |
+| 🎨 **前端与设计** | 5 | Frontend Design、ui-ux-pro-max (⭐ 92.2k)、taste-skill (⭐ 53.5k) 等 |
+| ✍️ **内容创作** | 5 | baoyu-skills (⭐ 21.7k)、Moon Lovers、Nano Banana Pro 等 |
+| 📄 **文档处理** | 6 | MarkItDown、docx、pdf、Nano PDF、NotebookLM 等 |
+| 🎬 **视频制作** | 11 | HyperFrames、Remotion、OpenMontage、seedance-2.0、Manim、FFmpeg 等 |
+| 📊 **商业与金融** | 9 | Business Data Analyst、Weiliaozi Analysis、Financial Analyst、AdMapix 等 |
+| 🔌 **集成与协作** | 13 | GitHub、Gog (Google Workspace)、Slack、Notion、Obsidian 等 |
+| 🔍 **搜索与浏览** | 6 | Multi Search Engine、browser-use (⭐ 100k)、chrome-mcp-bridge-2026-skill 等 |
+| 🕷️ **数据采集与爬虫** | 9 | Firecrawl (⭐ 140k)、Crawl4AI (⭐ 70k)、MediaCrawler (⭐ 54.6k)、Scrapy 等 |
+| 🖥️ **终端与自动化** | 3 | Peekaboo、tmux、scrcpy (⭐ 140k) |
+| 🎵 **生活与媒体** | 11 | family-lovers-skill、Weather、Whisper、Spotify、Gemini 等 |
 
 > 👉 完整 100 个 Skill 详情见 [`skills-index.md`](./skills-index.md)
 
@@ -133,7 +136,7 @@ theKingSkills/
 │   ├── index.html                    # 首页
 │   ├── css/style.css                 # 样式
 │   ├── js/script.js                  # 交互逻辑（筛选 / 搜索 / 生成）
-│   └── data/skills.json              # 99 个 Skill 结构化数据
+│   └── data/skills.json              # 100 个 Skill 结构化数据
 └── archive/                          # 旧版弹窗安装向导（已归档）
     └── install-king-skills.bat
     └── install-king-skills.ps1

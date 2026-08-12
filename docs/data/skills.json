@@ -1,75 +1,96 @@
 {
- "total": 101,
+ "total": 125,
  "categories": [
   {
    "id": "basic",
-   "name": "基础 Skill",
+   "name": "基础与元 Skill",
    "icon": "🛠",
    "color": "#4f46e5",
-   "description": "扩展 Agent 能力边界，不负责具体任务，而是帮你更高效地使用 Agent。"
+   "description": "关于 Skill 本身的创建、查找、管理与效率优化。"
   },
   {
-   "id": "product",
-   "name": "产品开发",
+   "id": "agent",
+   "name": "Agent 智能化",
+   "icon": "🧠",
+   "color": "#8b5cf6",
+   "description": "让 Agent 自我进化、长期记忆、主动预判与专家协作。"
+  },
+  {
+   "id": "dev",
+   "name": "开发与编码",
    "icon": "💻",
    "color": "#0891b2",
-   "description": "从需求梳理到代码落地全流程覆盖。"
+   "description": "开发流程规范化、编码 Agent 与代码质量保障。"
+  },
+  {
+   "id": "frontend",
+   "name": "前端与设计",
+   "icon": "🎨",
+   "color": "#d97706",
+   "description": "UI 设计规范、视觉风格与动效，告别 AI 味界面。"
   },
   {
    "id": "content",
    "name": "内容创作",
-   "icon": "🎨",
-   "color": "#d97706",
-   "description": "轻松处理做图、整理资料、排版发布等耗时工作。"
+   "icon": "✍️",
+   "color": "#db2777",
+   "description": "文案、图像生成与聊天陪伴等内容产出工具。"
   },
   {
    "id": "document",
    "name": "文档处理",
    "icon": "📄",
    "color": "#059669",
-   "description": "创建、编辑和处理文档 —— Word 文档排版、PDF 工具链全覆盖。"
+   "description": "Office/PDF 文档创建、编辑与格式转换。"
   },
   {
    "id": "video",
    "name": "视频制作",
    "icon": "🎬",
    "color": "#dc2626",
-   "description": "用代码和 AI 批量制作、剪辑和生成视频，从分镜到成品全流程覆盖。"
+   "description": "视频生成、剪辑、动画与导演制作管线。"
   },
   {
    "id": "business",
-   "name": "商业与分析",
+   "name": "商业与金融",
    "icon": "📊",
    "color": "#7c3aed",
-   "description": "商业决策、金融投资和结构化分析。"
+   "description": "商业分析、金融投资、市场情报与广告数据。"
   },
   {
    "id": "integration",
-   "name": "集成与工具",
+   "name": "集成与协作",
    "icon": "🔌",
    "color": "#2563eb",
-   "description": "打通第三方服务：GitHub、Google Workspace、Slack、Notion、邮件、日历等。"
+   "description": "打通第三方服务：GitHub、邮箱、日历、密码等。"
   },
   {
    "id": "search",
    "name": "搜索与浏览",
    "icon": "🔍",
    "color": "#0d9488",
-   "description": "让 Agent 联网搜索和操作浏览器，获取实时信息。"
+   "description": "搜索引擎与浏览器自动化，获取实时信息。"
   },
   {
-   "id": "bizdata",
-   "name": "商业与数据",
-   "icon": "📈",
+   "id": "scrape",
+   "name": "数据采集与爬虫",
+   "icon": "🕷️",
    "color": "#ca8a04",
-   "description": "市场情报、广告分析、自动化工作流和模型成本统计。"
+   "description": "网页抓取、爬虫框架与反爬伪装。"
+  },
+  {
+   "id": "automation",
+   "name": "终端与自动化",
+   "icon": "🖥️",
+   "color": "#64748b",
+   "description": "终端控制、UI 自动化与设备操控。"
   },
   {
    "id": "life",
    "name": "生活与媒体",
    "icon": "🎵",
-   "color": "#db2777",
-   "description": "天气、音乐、视频、语音和会话日志等生活场景工具。"
+   "color": "#e11d48",
+   "description": "天气、音乐、语音、健康等生活场景工具。"
   }
  ],
  "skills": [
@@ -81,7 +102,8 @@
    "repo": "https://github.com/anthropics/skills/tree/main/skills/skill-creator",
    "desc": "创建 Skill 的 Skill，把重复工作流封装成 Skill",
    "source": "Anthropic 官方",
-   "stars": null
+   "stars": null,
+   "updated": "2026-06-04"
   },
   {
    "id": 2,
@@ -89,49 +111,54 @@
    "cat": "basic",
    "icon": "F",
    "repo": "https://clawhub.ai/fangkelvin/find-skills-skill",
-   "desc": "Skill 搜索引擎，从 ClawHub 全网搜索想要的 Skill",
+   "desc": "Skill 搜索引擎，帮你从 ClawHub 全网搜索想要的 Skill",
    "source": "ClawHub",
-   "stars": null
+   "stars": null,
+   "updated": "2026-06-04"
   },
   {
    "id": 3,
    "name": "Superpowers",
-   "cat": "product",
+   "cat": "dev",
    "icon": "S",
    "repo": "https://github.com/obra/superpowers",
-   "desc": "开发流程规范化：模糊需求→执行计划→代码落地，支持 Subagent 并行开发",
+   "desc": "开发流程规范化，模糊需求 → 执行计划 → 代码落地",
    "source": "Jesse Vincent",
-   "stars": "⭐ 21万+"
+   "stars": "⭐ 21万+",
+   "updated": "2026-06-04"
   },
   {
    "id": 4,
    "name": "gstack",
-   "cat": "product",
+   "cat": "dev",
    "icon": "G",
    "repo": "https://github.com/garrytan/gstack",
    "desc": "内置 23 个工程专家角色（CEO/PM/设计师/工程师），AI 工程团队",
    "source": "Garry Tan",
-   "stars": "⭐ 10.7万"
+   "stars": "⭐ 10.7万",
+   "updated": "2026-06-04"
   },
   {
    "id": 5,
    "name": "Frontend Design",
-   "cat": "product",
+   "cat": "frontend",
    "icon": "F",
    "repo": "https://github.com/anthropics/skills/tree/main/skills/frontend-design",
-   "desc": "去 AI 感设计：配色/字体/间距一键优化，输出专业级前端",
+   "desc": "去 AI 感设计，配色/字体/间距一键优化，输出专业级前端",
    "source": "Anthropic 官方",
-   "stars": null
+   "stars": null,
+   "updated": "2026-06-04"
   },
   {
    "id": 6,
    "name": "ui-ux-pro-max",
-   "cat": "product",
+   "cat": "frontend",
    "icon": "U",
    "repo": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
    "desc": "设计资源库：50 种设计风格 + 97 种配色方案 + 9 个技术栈",
    "source": "nextlevelbuilder",
-   "stars": "⭐ 92.2k"
+   "stars": "⭐ 92.2k",
+   "updated": "2026-06-04"
   },
   {
    "id": 7,
@@ -141,17 +168,19 @@
    "repo": "https://github.com/JimLiu/baoyu-skills",
    "desc": "约 20 个视觉设计 Skill 包：封面图/信息图/PPT/文章配图/长文排版",
    "source": "JimLiu",
-   "stars": "⭐ 21.7k"
+   "stars": "⭐ 21.7k",
+   "updated": "2026-06-04"
   },
   {
    "id": 8,
    "name": "NotebookLM Skill",
-   "cat": "content",
+   "cat": "document",
    "icon": "N",
    "repo": "https://github.com/teng-lin/notebooklm-py",
    "desc": "打通 Agent 与 NotebookLM，Agent 可直接查询 NotebookLM 中的文档",
    "source": "teng-lin",
-   "stars": "⭐ 1.5万+"
+   "stars": "⭐ 1.5万+",
+   "updated": "2026-06-04"
   },
   {
    "id": 9,
@@ -159,9 +188,10 @@
    "cat": "basic",
    "icon": "Z",
    "repo": "https://github.com/phoenixlucky/zerotoken-skill",
-   "desc": "Token 高效约束：最少 token 和精准提示完成任务，减少无效输出",
+   "desc": "Token 高效约束，最少 token 和精准提示完成任务，减少无效输出",
    "source": "phoenixlucky",
-   "stars": null
+   "stars": null,
+   "updated": "2026-06-04"
   },
   {
    "id": 10,
@@ -169,9 +199,10 @@
    "cat": "business",
    "icon": "B",
    "repo": "https://github.com/phoenixlucky/business-data-analyst-skill",
-   "desc": "商业分析与指标拆解：业务问题→分析方案→可执行建议",
+   "desc": "商业分析与指标拆解，业务问题→分析方案→可执行建议",
    "source": "phoenixlucky",
-   "stars": null
+   "stars": null,
+   "updated": "2026-06-04"
   },
   {
    "id": 11,
@@ -181,7 +212,8 @@
    "repo": "https://github.com/phoenixlucky/weiliaozi-skill",
    "desc": "结构化五栏分析框架：本质→条件→得失→先后→对手",
    "source": "phoenixlucky",
-   "stars": null
+   "stars": null,
+   "updated": "2026-06-04"
   },
   {
    "id": 12,
@@ -191,7 +223,8 @@
    "repo": "https://github.com/phoenixlucky/moon-lovers-skill",
    "desc": "温柔/克制/留白感强的恋爱聊天回复辅助 Skill",
    "source": "phoenixlucky",
-   "stars": null
+   "stars": null,
+   "updated": "2026-06-04"
   },
   {
    "id": 13,
@@ -201,7 +234,8 @@
    "repo": "https://github.com/phoenixlucky/financial-analyst-skill",
    "desc": "金融投资分析：周期定位→六栏框架→交易策略与风险判断",
    "source": "phoenixlucky",
-   "stars": null
+   "stars": null,
+   "updated": "2026-06-04"
   },
   {
    "id": 14,
@@ -211,7 +245,8 @@
    "repo": "https://github.com/heygen-com/hyperframes",
    "desc": "一句话生成动效视频：HTML/CSS/动画制作产品介绍/动态海报/知识视频，输出 MP4",
    "source": "heygen-com",
-   "stars": null
+   "stars": null,
+   "updated": "2026-06-05"
   },
   {
    "id": 15,
@@ -221,7 +256,8 @@
    "repo": "https://github.com/browser-use/video-use",
    "desc": "Agent 帮你剪视频：删除停顿/错误片段/口头禅，处理字幕/音频/调色/画面动效",
    "source": "browser-use",
-   "stars": null
+   "stars": null,
+   "updated": "2026-06-05"
   },
   {
    "id": 16,
@@ -231,7 +267,8 @@
    "repo": "https://github.com/remotion-dev/skills",
    "desc": "用 React 代码批量制作视频：排行榜/数据周报/产品更新/固定栏目视频",
    "source": "Remotion 官方",
-   "stars": null
+   "stars": null,
+   "updated": "2026-06-05"
   },
   {
    "id": 17,
@@ -241,7 +278,8 @@
    "repo": "https://github.com/SamurAIGPT/Generative-Media-Skills",
    "desc": "AI 视频/图片/音频生成工具箱：广告/UGC/音乐视频/社交媒体短片",
    "source": "SamurAIGPT",
-   "stars": null
+   "stars": null,
+   "updated": "2026-06-05"
   },
   {
    "id": 18,
@@ -251,7 +289,8 @@
    "repo": "https://github.com/Ceeon/videocut-skills",
    "desc": "面向中文创作者的视频剪辑 Skills：素材/字幕/短视频制作流程",
    "source": "Ceeon",
-   "stars": null
+   "stars": null,
+   "updated": "2026-06-05"
   },
   {
    "id": 19,
@@ -261,57 +300,63 @@
    "repo": "https://github.com/dexhunter/seedance2-skill",
    "desc": "为即梦 Seedance 2.0 设计逐秒分镜/运镜/提示词，输出专业视频提示词",
    "source": "dexhunter",
-   "stars": null
+   "stars": null,
+   "updated": "2026-06-05"
   },
   {
    "id": 20,
    "name": "bug-hunt",
-   "cat": "product",
+   "cat": "dev",
    "icon": "B",
    "repo": "https://github.com/anthropics/skills",
    "desc": "复现并定位问题，给出最小修复和验证路径",
    "source": "Reasonix 内置",
-   "stars": null
+   "stars": null,
+   "updated": "2026-06-16"
   },
   {
    "id": 21,
    "name": "code-review",
-   "cat": "product",
+   "cat": "dev",
    "icon": "R",
    "repo": "https://github.com/anthropics/skills",
    "desc": "审查代码变更，优先发现缺陷、回归和缺失测试",
    "source": "Reasonix 内置",
-   "stars": null
+   "stars": null,
+   "updated": "2026-06-16"
   },
   {
    "id": 22,
    "name": "frontend-polish",
-   "cat": "product",
+   "cat": "frontend",
    "icon": "P",
    "repo": "https://github.com/anthropics/skills",
    "desc": "优化界面细节、响应式状态和视觉一致性",
    "source": "Reasonix 内置",
-   "stars": null
+   "stars": null,
+   "updated": "2026-06-16"
   },
   {
    "id": 23,
    "name": "officecli",
-   "cat": "content",
+   "cat": "document",
    "icon": "O",
    "repo": "https://github.com/iOfficeAI/OfficeCLI",
-   "desc": "AI Agent 专用 Office 文档工具：创建、编辑和自动化 Word/Excel/PPT",
+   "desc": "AI Agent 专用 Office 文档工具：创建、编辑和自动化 Word/Excel/PPT，单二进制免装 Office",
    "source": "iOfficeAI",
-   "stars": "⭐ 7.2k"
+   "stars": "⭐ 27.8k",
+   "updated": "2026-08-12"
   },
   {
    "id": 24,
    "name": "release-notes",
-   "cat": "product",
+   "cat": "dev",
    "icon": "N",
    "repo": "https://github.com/anthropics/skills",
    "desc": "整理面向用户的发布说明和升级注意事项",
    "source": "Reasonix 内置",
-   "stars": null
+   "stars": null,
+   "updated": "2026-06-16"
   },
   {
    "id": 25,
@@ -319,9 +364,10 @@
    "cat": "document",
    "icon": "D",
    "repo": "https://github.com/thvroyal/kimi-skills",
-   "desc": "完整的 DOCX 创建、编辑与分析能力，支持修订、批注、格式保持和文本提取",
+   "desc": "完整的 DOCX 文档创建、编辑与分析能力，支持修订、批注、格式保持和文本提取",
    "source": "kimi-skills",
-   "stars": "⭐ 187"
+   "stars": "⭐ 187",
+   "updated": "2026-06-16"
   },
   {
    "id": 26,
@@ -329,9 +375,10 @@
    "cat": "document",
    "icon": "P",
    "repo": "https://github.com/zavora-ai/skill-pdf-document-management",
-   "desc": "专业 PDF 工具集：57 种工具，生成/提取/合并/拆分/表单填写/安全处理",
+   "desc": "专业 PDF 工具集：报告生成/提取/合并/拆分/表单填写/安全处理（57 种工具）",
    "source": "zavora-ai",
-   "stars": "⭐ 1"
+   "stars": "⭐ 1",
+   "updated": "2026-06-16"
   },
   {
    "id": 27,
@@ -341,27 +388,30 @@
    "repo": "https://github.com/virgiliojr94/book-to-skill",
    "desc": "把技术类 PDF/EPUB/DOCX 书籍转化为可交互的 Agent Skill，按需加载章节",
    "source": "virgiliojr94",
-   "stars": "⭐ 6.2k"
+   "stars": "⭐ 6.2k",
+   "updated": "2026-06-20"
   },
   {
    "id": 28,
    "name": "Ponytail",
-   "cat": "basic",
+   "cat": "dev",
    "icon": "P",
    "repo": "https://github.com/DietrichGebert/ponytail",
-   "desc": "懒人开发哲学：YAGNI，优先用标准库/原生功能，平均减少 54% 代码",
+   "desc": "让 AI Agent 像资深懒人开发者一样思考：能省则省，YAGNI，用最少的代码完成任务",
    "source": "DietrichGebert",
-   "stars": "⭐ 41.5k"
+   "stars": "⭐ 41.5k",
+   "updated": "2026-06-20"
   },
   {
    "id": 30,
    "name": "Self-Improving Agent",
-   "cat": "basic",
+   "cat": "agent",
    "icon": "S",
    "repo": "https://clawhub.ai/pskoett/self-improving-agent",
-   "desc": "自动记录错误与经验，让 Agent 永久进化",
+   "desc": "持续学习与纠错：自动记录错误、纠正和经验，让 Agent 永久进化",
    "source": "ClawHub",
-   "stars": "★ 3.8k"
+   "stars": "★ 3.8k",
+   "updated": "2026-06-20"
   },
   {
    "id": 31,
@@ -369,39 +419,43 @@
    "cat": "basic",
    "icon": "V",
    "repo": "https://clawhub.ai/spclaudehome/skill-vetter",
-   "desc": "安装第三方 Skill 前的安全审查，检查红旗、权限范围和可疑模式",
+   "desc": "安装任何第三方 Skill 前的安全审查，检查红旗、权限范围和可疑模式",
    "source": "ClawHub",
-   "stars": "★ 1.2k"
+   "stars": "★ 1.2k",
+   "updated": "2026-06-17"
   },
   {
    "id": 32,
    "name": "Proactive Agent",
-   "cat": "basic",
+   "cat": "agent",
    "icon": "P",
    "repo": "https://clawhub.ai/halthelobster/proactive-agent",
-   "desc": "把 Agent 从「等指令」变成「主动预判需求」，带 WAL 协议",
+   "desc": "把 Agent 从「等指令」变成「主动预判需求」，带 WAL 协议与自动定时任务",
    "source": "ClawHub",
-   "stars": "★ 800"
+   "stars": "★ 800",
+   "updated": "2026-06-17"
   },
   {
    "id": 33,
    "name": "Self-Improving + Proactive",
-   "cat": "basic",
+   "cat": "agent",
    "icon": "R",
    "repo": "https://clawhub.ai/ivangdavila/self-improving",
-   "desc": "自我反思 + 自我批评 + 自我学习 + 自组织记忆，Agent 越用越聪明",
+   "desc": "自我反思 + 自我批评 + 自我学习 + 自组织记忆，Agent 能评估自己的工作并永久改进",
    "source": "ClawHub",
-   "stars": "★ 1.2k"
+   "stars": "★ 1.2k",
+   "updated": "2026-06-17"
   },
   {
    "id": 34,
    "name": "Ontology",
-   "cat": "basic",
+   "cat": "agent",
    "icon": "O",
    "repo": "https://clawhub.ai/oswalpalash/ontology",
    "desc": "类型化知识图谱，给 Agent 结构化记忆与可组合的技能能力",
    "source": "ClawHub",
-   "stars": "★ 638"
+   "stars": "★ 638",
+   "updated": "2026-06-17"
   },
   {
    "id": 35,
@@ -411,7 +465,8 @@
    "repo": "https://clawhub.ai/maximeprades/auto-updater",
    "desc": "每天自动检查并更新 Agent 本体和所有已安装 Skill，附变更摘要",
    "source": "ClawHub",
-   "stars": "★ 428"
+   "stars": "★ 428",
+   "updated": "2026-06-17"
   },
   {
    "id": 36,
@@ -419,9 +474,10 @@
    "cat": "integration",
    "icon": "G",
    "repo": "https://clawhub.ai/steipete/github",
-   "desc": "用 gh CLI 操作 GitHub：issue、PR、CI 运行和高级查询",
+   "desc": "用 `gh` CLI 操作 GitHub：issue、PR、CI 运行和高级查询",
    "source": "ClawHub",
-   "stars": "★ 636"
+   "stars": "★ 636",
+   "updated": "2026-06-17"
   },
   {
    "id": 37,
@@ -431,7 +487,8 @@
    "repo": "https://clawhub.ai/steipete/gog",
    "desc": "Google Workspace CLI：Gmail、日历、Drive、通讯录、Sheets、Docs 一站式操控",
    "source": "ClawHub",
-   "stars": "★ 924"
+   "stars": "★ 924",
+   "updated": "2026-06-17"
   },
   {
    "id": 38,
@@ -441,7 +498,8 @@
    "repo": "https://clawhub.ai/steipete/slack",
    "desc": "从 Agent 控制 Slack：发消息、表情回复、置顶/取消置顶等",
    "source": "ClawHub",
-   "stars": "★ 158"
+   "stars": "★ 158",
+   "updated": "2026-06-17"
   },
   {
    "id": 39,
@@ -451,7 +509,8 @@
    "repo": "https://clawhub.ai/steipete/trello",
    "desc": "通过 Trello REST API 管理看板、列表和卡片",
    "source": "ClawHub",
-   "stars": "★ 161"
+   "stars": "★ 161",
+   "updated": "2026-06-17"
   },
   {
    "id": 40,
@@ -461,7 +520,8 @@
    "repo": "https://clawhub.ai/steipete/notion",
    "desc": "Notion API 创建和管理页面、数据库与 block",
    "source": "ClawHub",
-   "stars": "★ 259"
+   "stars": "★ 259",
+   "updated": "2026-06-17"
   },
   {
    "id": 41,
@@ -471,7 +531,8 @@
    "repo": "https://clawhub.ai/steipete/obsidian",
    "desc": "操作 Obsidian 笔记库（纯 Markdown）并通过 obsidian-cli 自动化",
    "source": "ClawHub",
-   "stars": "★ 428"
+   "stars": "★ 428",
+   "updated": "2026-06-17"
   },
   {
    "id": 42,
@@ -481,7 +542,8 @@
    "repo": "https://clawhub.ai/steipete/discord",
    "desc": "从 Agent 控制 Discord：发消息、表情、投票、管理频道/成员/权限",
    "source": "ClawHub",
-   "stars": "★ 77"
+   "stars": "★ 77",
+   "updated": "2026-06-17"
   },
   {
    "id": 43,
@@ -489,9 +551,10 @@
    "cat": "integration",
    "icon": "M",
    "repo": "https://clawhub.ai/steipete/mcporter",
-   "desc": "用 mcporter CLI 列出、配置、授权并调用任意 MCP 服务器/工具",
+   "desc": "用 mcporter CLI 列出、配置、授权并调用任意 MCP 服务器/工具（HTTP 或 stdio）",
    "source": "ClawHub",
-   "stars": "★ 194"
+   "stars": "★ 194",
+   "updated": "2026-06-17"
   },
   {
    "id": 44,
@@ -501,7 +564,8 @@
    "repo": "https://clawhub.ai/lamelas/himalaya",
    "desc": "用 himalaya CLI 通过 IMAP/SMTP 收发、搜索和管理邮件",
    "source": "ClawHub",
-   "stars": "★ 69"
+   "stars": "★ 69",
+   "updated": "2026-06-17"
   },
   {
    "id": 45,
@@ -511,7 +575,8 @@
    "repo": "https://clawhub.ai/steipete/1password",
    "desc": "设置并使用 1Password CLI（op），读取/注入/运行密钥",
    "source": "ClawHub",
-   "stars": "★ 52"
+   "stars": "★ 52",
+   "updated": "2026-06-17"
   },
   {
    "id": 46,
@@ -519,9 +584,10 @@
    "cat": "integration",
    "icon": "A",
    "repo": "https://clawhub.ai/steipete/apple-notes",
-   "desc": "用 memo CLI 在 macOS 上管理 Apple Notes（创建/查看/编辑/搜索/导出）",
+   "desc": "用 `memo` CLI 在 macOS 上管理 Apple Notes（创建/查看/编辑/搜索/导出）",
    "source": "ClawHub",
-   "stars": "★ 57"
+   "stars": "★ 57",
+   "updated": "2026-06-17"
   },
   {
    "id": 47,
@@ -529,9 +595,10 @@
    "cat": "integration",
    "icon": "R",
    "repo": "https://clawhub.ai/steipete/apple-reminders",
-   "desc": "用 remindctl CLI 管理 Apple 提醒事项（列表/添加/编辑/完成/删除）",
+   "desc": "用 `remindctl` CLI 管理 Apple 提醒事项（列表/添加/编辑/完成/删除）",
    "source": "ClawHub",
-   "stars": "★ 54"
+   "stars": "★ 54",
+   "updated": "2026-06-17"
   },
   {
    "id": 48,
@@ -541,7 +608,8 @@
    "repo": "https://clawhub.ai/asleep123/caldav-calendar",
    "desc": "用 vdirsyncer + khal 同步查询 CalDAV 日历（iCloud/Google/Fastmail/Nextcloud）",
    "source": "ClawHub",
-   "stars": "★ 242"
+   "stars": "★ 242",
+   "updated": "2026-06-17"
   },
   {
    "id": 49,
@@ -551,7 +619,8 @@
    "repo": "https://clawhub.ai/gpyangyoujun/multi-search-engine",
    "desc": "集成 16 个搜索引擎（7 国内 + 9 全球），支持高级运算符和时间筛选",
    "source": "ClawHub",
-   "stars": "★ 727"
+   "stars": "★ 727",
+   "updated": "2026-06-17"
   },
   {
    "id": 50,
@@ -561,7 +630,8 @@
    "repo": "https://clawhub.ai/jacky1n7/openclaw-tavily-search",
    "desc": "通过 Tavily API 联网搜索（Brave 不可用时的替代方案）",
    "source": "ClawHub",
-   "stars": "★ 263"
+   "stars": "★ 263",
+   "updated": "2026-06-17"
   },
   {
    "id": 51,
@@ -571,7 +641,8 @@
    "repo": "https://clawhub.ai/ide-rea/baidu-search",
    "desc": "用百度 AI 搜索引擎（BDSE）联网搜索，适合中文实时信息",
    "source": "ClawHub",
-   "stars": "★ 216"
+   "stars": "★ 216",
+   "updated": "2026-06-17"
   },
   {
    "id": 52,
@@ -581,77 +652,85 @@
    "repo": "https://clawhub.ai/matrixy/agent-browser-clawdbot",
    "desc": "为 AI Agent 优化的无头浏览器自动化 CLI，带可访问性树快照和 ref 元素选择",
    "source": "ClawHub",
-   "stars": "★ 424"
+   "stars": "★ 424",
+   "updated": "2026-06-17"
   },
   {
    "id": 53,
    "name": "Peekaboo",
-   "cat": "search",
+   "cat": "automation",
    "icon": "P",
    "repo": "https://clawhub.ai/steipete/peekaboo",
    "desc": "用 Peekaboo CLI 捕获并自动化 macOS UI",
    "source": "ClawHub",
-   "stars": "★ 82"
+   "stars": "★ 82",
+   "updated": "2026-06-17"
   },
   {
    "id": 54,
    "name": "tmux",
-   "cat": "search",
+   "cat": "automation",
    "icon": "T",
    "repo": "https://clawhub.ai/steipete/tmux",
    "desc": "远程控制 tmux 会话，向交互式 CLI 发送按键并抓取输出",
    "source": "ClawHub",
-   "stars": "★ 43"
+   "stars": "★ 43",
+   "updated": "2026-06-17"
   },
   {
    "id": 55,
    "name": "AdMapix",
-   "cat": "bizdata",
+   "cat": "business",
    "icon": "A",
    "repo": "https://clawhub.ai/fly0pants/admapix",
    "desc": "广告情报与应用分析助手，搜索广告素材、分析 App、排名、下载、收入和市场洞察",
    "source": "ClawHub",
-   "stars": "★ 286"
+   "stars": "★ 286",
+   "updated": "2026-06-17"
   },
   {
    "id": 56,
    "name": "Polymarket",
-   "cat": "bizdata",
+   "cat": "business",
    "icon": "P",
    "repo": "https://clawhub.ai/mvanhorn/polymarket",
-   "desc": "接入 Polymarket 预测市场数据，查询行情和事件数据",
+   "desc": "接入 Polymarket 预测市场数据",
    "source": "ClawHub",
-   "stars": "★ 22"
+   "stars": "★ 22",
+   "updated": "2026-06-17"
   },
   {
    "id": 57,
    "name": "Automation Workflows",
-   "cat": "bizdata",
+   "cat": "business",
    "icon": "W",
    "repo": "https://clawhub.ai/jk-0001/automation-workflows",
    "desc": "设计并实现自动化工作流，覆盖 Zapier/Make/n8n 工具选型、触发器和测试维护",
    "source": "ClawHub",
-   "stars": "★ 305"
+   "stars": "★ 305",
+   "updated": "2026-06-17"
   },
   {
    "id": 58,
    "name": "Model Usage",
-   "cat": "bizdata",
+   "cat": "business",
    "icon": "M",
    "repo": "https://clawhub.ai/steipete/model-usage",
    "desc": "用 CodexBar CLI 统计各模型的本地用量和成本",
    "source": "ClawHub",
-   "stars": "★ 113"
+   "stars": "★ 113",
+   "updated": "2026-06-17"
   },
   {
    "id": 59,
    "name": "Blogwatcher",
-   "cat": "bizdata",
+   "cat": "business",
    "icon": "B",
    "repo": "https://clawhub.ai/steipete/blogwatcher",
    "desc": "用 blogwatcher CLI 监控博客和 RSS/Atom 订阅源的更新",
    "source": "ClawHub",
-   "stars": "★ 70"
+   "stars": "★ 70",
+   "updated": "2026-06-17"
   },
   {
    "id": 60,
@@ -661,17 +740,19 @@
    "repo": "https://clawhub.ai/steipete/weather",
    "desc": "查询实时天气和预报，无需 API Key",
    "source": "ClawHub",
-   "stars": "★ 417"
+   "stars": "★ 417",
+   "updated": "2026-06-17"
   },
   {
    "id": 61,
    "name": "Video Frames",
-   "cat": "life",
+   "cat": "video",
    "icon": "V",
    "repo": "https://clawhub.ai/steipete/video-frames",
    "desc": "用 ffmpeg 从视频中提取帧或短片段",
    "source": "ClawHub",
-   "stars": "★ 129"
+   "stars": "★ 129",
+   "updated": "2026-06-17"
   },
   {
    "id": 62,
@@ -681,7 +762,8 @@
    "repo": "https://clawhub.ai/steipete/openai-whisper",
    "desc": "用 Whisper CLI 本地语音转文字，无需 API Key",
    "source": "ClawHub",
-   "stars": "★ 325"
+   "stars": "★ 325",
+   "updated": "2026-06-17"
   },
   {
    "id": 63,
@@ -691,7 +773,8 @@
    "repo": "https://clawhub.ai/steipete/openai-whisper-api",
    "desc": "通过 OpenAI Audio Transcriptions API 转录音频",
    "source": "ClawHub",
-   "stars": "★ 52"
+   "stars": "★ 52",
+   "updated": "2026-06-17"
   },
   {
    "id": 64,
@@ -701,7 +784,8 @@
    "repo": "https://clawhub.ai/steipete/sag",
    "desc": "ElevenLabs 文字转语音，提供 macOS say 风格体验",
    "source": "ClawHub",
-   "stars": "★ 26"
+   "stars": "★ 26",
+   "updated": "2026-06-17"
   },
   {
    "id": 65,
@@ -711,7 +795,8 @@
    "repo": "https://clawhub.ai/steipete/spotify-player",
    "desc": "终端 Spotify 播放与搜索（spogo 或 spotify_player）",
    "source": "ClawHub",
-   "stars": "★ 54"
+   "stars": "★ 54",
+   "updated": "2026-06-17"
   },
   {
    "id": 66,
@@ -719,9 +804,10 @@
    "cat": "life",
    "icon": "S",
    "repo": "https://clawhub.ai/steipete/sonoscli",
-   "desc": "控制 Sonos 音箱：发现/状态/播放/音量/分组",
+   "desc": "控制 Sonos 音箱（发现/状态/播放/音量/分组）",
    "source": "ClawHub",
-   "stars": "★ 55"
+   "stars": "★ 55",
+   "updated": "2026-06-17"
   },
   {
    "id": 67,
@@ -731,7 +817,8 @@
    "repo": "https://clawhub.ai/steipete/goplaces",
    "desc": "用 goplaces CLI 查询 Google Places API，做地点搜索/详情/评价",
    "source": "ClawHub",
-   "stars": "★ 30"
+   "stars": "★ 30",
+   "updated": "2026-06-17"
   },
   {
    "id": 68,
@@ -739,9 +826,10 @@
    "cat": "life",
    "icon": "G",
    "repo": "https://clawhub.ai/steipete/gemini",
-   "desc": "Gemini CLI 一次性问答、摘要和内容生成",
+   "desc": "Gemini CLI 一次性问答、摘要和生成",
    "source": "ClawHub",
-   "stars": "★ 56"
+   "stars": "★ 56",
+   "updated": "2026-06-17"
   },
   {
    "id": 69,
@@ -751,7 +839,8 @@
    "repo": "https://clawhub.ai/guogang1024/session-logs",
    "desc": "用 jq 搜索和分析自己的会话日志（历史/父级对话）",
    "source": "ClawHub",
-   "stars": "★ 30"
+   "stars": "★ 30",
+   "updated": "2026-06-17"
   },
   {
    "id": 70,
@@ -759,9 +848,10 @@
    "cat": "content",
    "icon": "I",
    "repo": "https://clawhub.ai/steipete/nano-banana-pro",
-   "desc": "用 Gemini 3 Pro Image 生成/编辑图片，支持文生图 + 图生图，输出 1K/2K/4K",
+   "desc": "用 Nano Banana Pro（Gemini 3 Pro Image）生成/编辑图片，支持文生图 + 图生图",
    "source": "ClawHub",
-   "stars": "★ 405"
+   "stars": "★ 405",
+   "updated": "2026-06-17"
   },
   {
    "id": 71,
@@ -771,7 +861,8 @@
    "repo": "https://clawhub.ai/steipete/openai-image-gen",
    "desc": "通过 OpenAI Images API 批量生成图片，附随机 prompt 采样和画廊",
    "source": "ClawHub",
-   "stars": "★ 37"
+   "stars": "★ 37",
+   "updated": "2026-06-17"
   },
   {
    "id": 72,
@@ -779,9 +870,10 @@
    "cat": "content",
    "icon": "H",
    "repo": "https://clawhub.ai/biostartechnology/humanizer",
-   "desc": "去除文本 AI 写作痕迹，基于维基百科「AI 写作迹象」清单改写得更自然",
+   "desc": "去除文本中的 AI 写作痕迹，基于维基百科「AI 写作迹象」清单改写得更自然",
    "source": "ClawHub",
-   "stars": "★ 669"
+   "stars": "★ 669",
+   "updated": "2026-06-17"
   },
   {
    "id": 73,
@@ -789,9 +881,10 @@
    "cat": "document",
    "icon": "N",
    "repo": "https://clawhub.ai/steipete/nano-pdf",
-   "desc": "用自然语言指令通过 nano-pdf CLI 编辑 PDF 文档",
+   "desc": "用自然语言指令通过 nano-pdf CLI 编辑 PDF",
    "source": "ClawHub",
-   "stars": "★ 260"
+   "stars": "★ 260",
+   "updated": "2026-06-17"
   },
   {
    "id": 74,
@@ -801,7 +894,8 @@
    "repo": "https://clawhub.ai/stellarhold170nt/healthcheck",
    "desc": "用 JSON 文件存储追踪每日喝水和睡眠",
    "source": "ClawHub",
-   "stars": "★ 11"
+   "stars": "★ 11",
+   "updated": "2026-06-17"
   },
   {
    "id": 75,
@@ -811,7 +905,8 @@
    "repo": "https://clawhub.ai/chindden/skill-creator",
    "desc": "ClawHub 社区版 Skill 创建指南，扩展 Agent 的知识、工作流和工具集成",
    "source": "ClawHub",
-   "stars": "★ 319"
+   "stars": "★ 319",
+   "updated": "2026-06-17"
   },
   {
    "id": 76,
@@ -821,7 +916,8 @@
    "repo": "https://github.com/fabriqaai/ffmpeg-analyse-video-skill",
    "desc": "专业视频处理命令行神器：格式转换/压缩/剪辑/分析，视频工具链的底层基石",
    "source": "fabriqaai",
-   "stars": null
+   "stars": null,
+   "updated": "2026-06-29"
   },
   {
    "id": 77,
@@ -831,7 +927,8 @@
    "repo": "https://github.com/calesthio/OpenMontage",
    "desc": "世界首个开源 agentic 视频生产系统：12 条 pipeline、50+ 工具、500+ agent skills",
    "source": "calesthio",
-   "stars": null
+   "stars": null,
+   "updated": "2026-06-29"
   },
   {
    "id": 78,
@@ -839,19 +936,21 @@
    "cat": "video",
    "icon": "M",
    "repo": "https://github.com/adithya-s-k/manim_skill",
-   "desc": "3Blue1Brown 同款数学动画引擎：文字描述→高质量知识动画视频",
+   "desc": "3Blue1Brown 同款数学动画引擎：文字描述 → 高质量知识动画视频",
    "source": "adithya-s-k",
-   "stars": null
+   "stars": null,
+   "updated": "2026-06-29"
   },
   {
    "id": 79,
    "name": "cognee",
-   "cat": "basic",
+   "cat": "agent",
    "icon": "G",
    "repo": "https://github.com/topoteretes/cognee",
    "desc": "开源 AI Agent 长期记忆平台：自托管知识图谱引擎，跨会话持久上下文",
    "source": "topoteretes",
-   "stars": null
+   "stars": null,
+   "updated": "2026-06-29"
   },
   {
    "id": 80,
@@ -861,7 +960,8 @@
    "repo": "https://github.com/addyosmani/agent-skills",
    "desc": "从 .claude 等目录提炼可复用结构化技能，系统化管理 Agent 能力",
    "source": "addyosmani",
-   "stars": null
+   "stars": null,
+   "updated": "2026-06-29"
   },
   {
    "id": 81,
@@ -869,49 +969,54 @@
    "cat": "basic",
    "icon": "H",
    "repo": "https://github.com/headroomlabs-ai/headroom",
-   "desc": "LLM token 自动压缩：减少 60-95% 消耗，支持 library/proxy/MCP 集成",
+   "desc": "LLM token 自动压缩：减少 60-95% token 消耗，支持 library / proxy / MCP 集成",
    "source": "headroomlabs-ai",
-   "stars": null
+   "stars": null,
+   "updated": "2026-06-29"
   },
   {
    "id": 82,
    "name": "Agent-Reach",
-   "cat": "search",
+   "cat": "scrape",
    "icon": "R",
    "repo": "https://github.com/Panniantong/Agent-Reach",
-   "desc": "一 CLI 零 API 费用实时抓取 Twitter/X、Reddit、YouTube、GitHub、Bilibili 情报并自动总结",
+   "desc": "一 CLI 零 API 费用实时抓取 Twitter/X、Reddit、YouTube、GitHub、Bilibili 情报",
    "source": "Panniantong",
-   "stars": null
+   "stars": null,
+   "updated": "2026-06-29"
   },
   {
    "id": 83,
    "name": "opencode",
-   "cat": "product",
+   "cat": "dev",
    "icon": "O",
    "repo": "https://github.com/anomalyco/opencode",
    "desc": "TypeScript 开源编码 Agent，高性能可扩展的 AI 编码助手",
    "source": "anomalyco",
-   "stars": null
+   "stars": null,
+   "updated": "2026-06-29"
   },
   {
    "id": 84,
    "name": "taste-skill",
-   "cat": "product",
+   "cat": "frontend",
    "icon": "T",
    "repo": "https://github.com/Leonxlnx/taste-skill",
    "desc": "反模板化前端设计框架：让 AI 生成有品味的 UI，告别千篇一律的「AI 味」界面",
    "source": "Leonxlnx",
-   "stars": "⭐ 53.5k"
+   "stars": "⭐ 53.5k",
+   "updated": "2026-06-30"
   },
   {
    "id": 85,
    "name": "gsap-skills",
-   "cat": "product",
+   "cat": "frontend",
    "icon": "G",
    "repo": "https://github.com/greensock/gsap-skills",
-   "desc": "GSAP 动画官方 AI Skill：教 AI 代理正确使用 GSAP 动画库",
+   "desc": "GSAP 动画官方 AI Skill：教 AI 代理正确使用 GSAP 动画库（核心 API/时间线/ScrollTrigger/插件）",
    "source": "greensock",
-   "stars": "⭐ 10.5k"
+   "stars": "⭐ 10.5k",
+   "updated": "2026-06-30"
   },
   {
    "id": 86,
@@ -919,29 +1024,32 @@
    "cat": "life",
    "icon": "F",
    "repo": "https://github.com/phoenixlucky/family-lovers-skill",
-   "desc": "❤️ 家庭关怀陪伴：原生家庭觉察与疗愈，内置八大历史人物文化原型自动匹配",
+   "desc": "❤️ 家庭关怀陪伴 Skill：原生家庭觉察与疗愈，内置八大历史人物文化原型自动匹配",
    "source": "phoenixlucky",
-   "stars": null
+   "stars": null,
+   "updated": "2026-07-01"
   },
   {
    "id": 87,
    "name": "Firecrawl",
-   "cat": "search",
+   "cat": "scrape",
    "icon": "F",
    "repo": "https://github.com/firecrawl/firecrawl",
-   "desc": "丢个 URL 进去整站爬完，吐出 AI 能直接吃的干净数据，JS 渲染也扛得住",
+   "desc": "丢个 URL 进去整站爬完，吐出 AI 能直接吃的干净数据，JS 渲染页面也扛得住",
    "source": "firecrawl",
-   "stars": "⭐ 140k"
+   "stars": "⭐ 140k",
+   "updated": "2026-07-01"
   },
   {
    "id": 88,
    "name": "Crawl4AI",
-   "cat": "search",
+   "cat": "scrape",
    "icon": "C",
    "repo": "https://github.com/unclecode/crawl4ai",
    "desc": "把网站整成 LLM 能直接读的文本，不要 API Key 不要钱",
    "source": "unclecode",
-   "stars": "⭐ 70k"
+   "stars": "⭐ 70k",
+   "updated": "2026-07-01"
   },
   {
    "id": 89,
@@ -951,47 +1059,52 @@
    "repo": "https://github.com/browser-use/browser-use",
    "desc": "让 AI 像真人一样点鼠标、登录、填表，ETH Zurich 学生团队出品",
    "source": "browser-use",
-   "stars": "⭐ 100k"
+   "stars": "⭐ 100k",
+   "updated": "2026-07-01"
   },
   {
    "id": 90,
    "name": "Crawlee",
-   "cat": "search",
+   "cat": "scrape",
    "icon": "C",
    "repo": "https://github.com/apify/crawlee",
    "desc": "自动换代理/重试/伪装指纹/管队列，整套躲限制的爬虫框架",
    "source": "apify",
-   "stars": null
+   "stars": null,
+   "updated": "2026-07-01"
   },
   {
    "id": 91,
    "name": "Scrapy",
-   "cat": "search",
+   "cat": "scrape",
    "icon": "S",
    "repo": "https://github.com/scrapy/scrapy",
    "desc": "干了十多年的老牌爬虫框架，几百万页面照样稳，永久免费",
    "source": "scrapy",
-   "stars": null
+   "stars": null,
+   "updated": "2026-07-01"
   },
   {
    "id": 92,
    "name": "Scrapling",
-   "cat": "search",
+   "cat": "scrape",
    "icon": "S",
    "repo": "https://github.com/D4Vinci/Scrapling",
    "desc": "网站改版它自己适应，持续躲封禁，免费版能打付费的",
    "source": "D4Vinci",
-   "stars": null
+   "stars": null,
+   "updated": "2026-07-01"
   },
   {
    "id": 93,
    "name": "AutoScraper",
-   "cat": "search",
+   "cat": "scrape",
    "icon": "A",
    "repo": "https://github.com/alirezamika/autoscraper",
-   "desc": "给一个样例它自己学规律批量扒，不用写选择器，几行 Python 就跑",
+   "desc": "给它一个样例，它自己学规律批量扒，不用写选择器",
    "source": "alirezamika",
-   "stars": null
+   "stars": null,
+   "updated": "2026-07-01"
   },
   {
    "id": 94,
@@ -1001,47 +1114,52 @@
    "repo": "https://github.com/microsoft/markitdown",
    "desc": "微软出品：PDF/Office/HTML/图片批量转 Markdown 文本，开源免费",
    "source": "Microsoft",
-   "stars": null
+   "stars": null,
+   "updated": "2026-07-01"
   },
   {
    "id": 95,
    "name": "scrcpy",
-   "cat": "integration",
+   "cat": "automation",
    "icon": "S",
    "repo": "https://github.com/Genymobile/scrcpy",
    "desc": "用电脑远程操控安卓手机，专治那些只有 App 没网页的数据源",
    "source": "Genymobile",
-   "stars": "⭐ 140k"
+   "stars": "⭐ 140k",
+   "updated": "2026-07-01"
   },
   {
    "id": 96,
    "name": "curl-impersonate",
-   "cat": "integration",
+   "cat": "scrape",
    "icon": "C",
    "repo": "https://github.com/lwthiker/curl-impersonate",
-   "desc": "把 HTTP 请求伪装成真实 Chrome 浏览器指纹，包括 TLS 握手/HTTP2 帧等，绕过反爬检测",
+   "desc": "把请求伪装成真 Chrome 浏览器指纹，绕反爬不要太轻松",
    "source": "lwthiker",
-   "stars": null
+   "stars": null,
+   "updated": "2026-07-01"
   },
   {
    "id": 97,
    "name": "MediaCrawler",
-   "cat": "search",
+   "cat": "scrape",
    "icon": "M",
    "repo": "https://github.com/NanmiCoder/MediaCrawler",
    "desc": "多平台自媒体数据采集：小红书/抖音/B站/微博/快手/贴吧/知乎，支持关键词搜索和评论爬取",
    "source": "NanmiCoder",
-   "stars": "⭐ 54.6k"
+   "stars": "⭐ 54.6k",
+   "updated": "2026-07-01"
   },
   {
    "id": 98,
    "name": "agency-agents",
-   "cat": "basic",
+   "cat": "agent",
    "icon": "A",
    "repo": "https://github.com/msitarzewski/agency-agents",
-   "desc": "232 个领域专家 AI Agent 合集：从前端开发到安全审计，一人即团队（⭐ 121k）",
+   "desc": "232 个领域专家 AI Agent 合集：从前端开发到安全审计，一人即团队",
    "source": "msitarzewski",
-   "stars": "⭐ 121k"
+   "stars": "⭐ 121k",
+   "updated": "2026-07-01"
   },
   {
    "id": 99,
@@ -1051,7 +1169,8 @@
    "repo": "https://github.com/Emily2040/seedance-2.0",
    "desc": "Seedance 2.0 完整导演制作管线：专业分镜/运镜/续拍/安全改写，支持多语言提示词",
    "source": "Emily2040",
-   "stars": "⭐ 1.8k"
+   "stars": "⭐ 1.8k",
+   "updated": "2026-07-04"
   },
   {
    "id": 100,
@@ -1059,9 +1178,10 @@
    "cat": "search",
    "icon": "B",
    "repo": "https://github.com/phoenixlucky/chrome-mcp-bridge-2026-skill",
-   "desc": "MCP Streamable HTTP 桥接工具：session ID 自动持久化，零配置连接 Chrome MCP 服务（28+ 浏览器自动化工具）",
+   "desc": "MCP Streamable HTTP 桥接工具：session ID 自动持久化，零配置连接 Chrome MCP 服务",
    "source": "phoenixlucky",
-   "stars": null
+   "stars": null,
+   "updated": "2026-07-29"
   },
   {
    "id": 101,
@@ -1071,7 +1191,283 @@
    "repo": "https://github.com/saysoph/solo-law-firm-agents",
    "desc": "一人律所 Agents：28 位 AI 虚拟专员、7 大部门，覆盖接案/检索/文书/排期/催收/品宣/知识沉淀全链条",
    "source": "saysoph",
-   "stars": "⭐ 35"
+   "stars": "⭐ 35",
+   "updated": "2026-08-01"
+  },
+  {
+   "id": 102,
+   "name": "ui-test",
+   "cat": "dev",
+   "icon": "U",
+   "repo": "https://github.com/browserbase/skills",
+   "desc": "AI 对抗性 UI 测试：分析 git diff 测变更，或全 app 主动探索找 bug",
+   "source": "browserbase（⭐ 3.7k）",
+   "stars": "⭐ 3.7k",
+   "updated": "2026-08-12"
+  },
+  {
+   "id": 103,
+   "name": "browser-to-api",
+   "cat": "scrape",
+   "icon": "B",
+   "repo": "https://github.com/browserbase/skills",
+   "desc": "观察网站 HTTP 流量，逆向生成 OpenAPI 3.1 规范，把网页变可调用的 API",
+   "source": "browserbase（⭐ 3.7k）",
+   "stars": "⭐ 3.7k",
+   "updated": "2026-08-12"
+  },
+  {
+   "id": 104,
+   "name": "browser",
+   "cat": "search",
+   "icon": "B",
+   "repo": "https://github.com/browserbase/skills",
+   "desc": "最强浏览器自动化：CAPTCHA 自动解决、住宅代理、远程会话，支持登录态复用",
+   "source": "browserbase（⭐ 3.7k）",
+   "stars": "⭐ 3.7k",
+   "updated": "2026-08-12"
+  },
+  {
+   "id": 105,
+   "name": "competitor-analysis",
+   "cat": "business",
+   "icon": "C",
+   "repo": "https://github.com/browserbase/skills",
+   "desc": "自动发现公司竞品，营销/信号/基准/战略四维深研，输出可浏览 HTML 报告",
+   "source": "browserbase（⭐ 3.7k）",
+   "stars": "⭐ 3.7k",
+   "updated": "2026-08-12"
+  },
+  {
+   "id": 106,
+   "name": "company-research",
+   "cat": "business",
+   "icon": "C",
+   "repo": "https://github.com/browserbase/skills",
+   "desc": "按 ICP 画像发现目标公司，逐家深研并打分，输出研究报告和 CSV",
+   "source": "browserbase（⭐ 3.7k）",
+   "stars": "⭐ 3.7k",
+   "updated": "2026-08-12"
+  },
+  {
+   "id": 107,
+   "name": "arxiv",
+   "cat": "search",
+   "icon": "A",
+   "repo": "https://github.com/NousResearch/hermes-agent/tree/main/skills/research/arxiv",
+   "desc": "按关键词/作者/分类/ID 搜索 arXiv 论文，做学术调研",
+   "source": "Hermes Agent / Nous Research（官方内置）",
+   "stars": null,
+   "updated": "2026-08-12"
+  },
+  {
+   "id": 108,
+   "name": "ocr-and-documents",
+   "cat": "document",
+   "icon": "O",
+   "repo": "https://github.com/NousResearch/hermes-agent/tree/main/skills/productivity/ocr-and-documents",
+   "desc": "PDF/扫描件 OCR 提取文本（pymupdf / marker-pdf），把扫描文档变可编辑文本",
+   "source": "Hermes Agent / Nous Research（官方内置）",
+   "stars": null,
+   "updated": "2026-08-12"
+  },
+  {
+   "id": 109,
+   "name": "document-to-action-items",
+   "cat": "document",
+   "icon": "D",
+   "repo": "https://github.com/NousResearch/hermes-agent/tree/main/skills/productivity/document-to-action-items",
+   "desc": "从文档中提取带引用的义务、截止日期和任务清单",
+   "source": "Hermes Agent / Nous Research（官方内置）",
+   "stars": null,
+   "updated": "2026-08-12"
+  },
+  {
+   "id": 110,
+   "name": "product-price-monitor",
+   "cat": "scrape",
+   "icon": "P",
+   "repo": "https://github.com/NousResearch/hermes-agent/tree/main/skills/productivity/product-price-monitor",
+   "desc": "监控商品/航班/挂牌价格，达到目标价自动提醒",
+   "source": "Hermes Agent / Nous Research（官方内置）",
+   "stars": null,
+   "updated": "2026-08-12"
+  },
+  {
+   "id": 111,
+   "name": "competitor-news-monitor",
+   "cat": "business",
+   "icon": "C",
+   "repo": "https://github.com/NousResearch/hermes-agent/tree/main/skills/research/competitor-news-monitor",
+   "desc": "盯住指定公司的重大新闻，输出带引用的情报简报",
+   "source": "Hermes Agent / Nous Research（官方内置）",
+   "stars": null,
+   "updated": "2026-08-12"
+  },
+  {
+   "id": 112,
+   "name": "architecture-diagram",
+   "cat": "frontend",
+   "icon": "A",
+   "repo": "https://github.com/NousResearch/hermes-agent/tree/main/skills/creative/architecture-diagram",
+   "desc": "暗色主题 SVG 架构/云/基础设施图，直接输出 HTML",
+   "source": "Hermes Agent / Nous Research（官方内置）",
+   "stars": null,
+   "updated": "2026-08-12"
+  },
+  {
+   "id": 113,
+   "name": "excalidraw",
+   "cat": "frontend",
+   "icon": "E",
+   "repo": "https://github.com/NousResearch/hermes-agent/tree/main/skills/creative/excalidraw",
+   "desc": "手绘风格 Excalidraw JSON 图表：架构/流程/时序图",
+   "source": "Hermes Agent / Nous Research（官方内置）",
+   "stars": null,
+   "updated": "2026-08-12"
+  },
+  {
+   "id": 114,
+   "name": "popular-web-designs",
+   "cat": "frontend",
+   "icon": "P",
+   "repo": "https://github.com/NousResearch/hermes-agent/tree/main/skills/creative/popular-web-designs",
+   "desc": "54 个大厂真实设计系统（Stripe/Linear/Vercel）HTML/CSS 参考实现",
+   "source": "Hermes Agent / Nous Research（官方内置）",
+   "stars": null,
+   "updated": "2026-08-12"
+  },
+  {
+   "id": 115,
+   "name": "maps",
+   "cat": "life",
+   "icon": "M",
+   "repo": "https://github.com/NousResearch/hermes-agent/tree/main/skills/productivity/maps",
+   "desc": "OpenStreetMap/OSRM 地理编码、POI、路线规划、时区查询，免 API Key",
+   "source": "Hermes Agent / Nous Research（官方内置）",
+   "stars": null,
+   "updated": "2026-08-12"
+  },
+  {
+   "id": 116,
+   "name": "weekly-review-planning",
+   "cat": "life",
+   "icon": "W",
+   "repo": "https://github.com/NousResearch/hermes-agent/tree/main/skills/productivity/weekly-review-planning",
+   "desc": "每周重置复盘：承诺事项/搁置工作/下周计划",
+   "source": "Hermes Agent / Nous Research（官方内置）",
+   "stars": null,
+   "updated": "2026-08-12"
+  },
+  {
+   "id": 117,
+   "name": "youtube-content",
+   "cat": "content",
+   "icon": "Y",
+   "repo": "https://github.com/NousResearch/hermes-agent/tree/main/skills/media/youtube-content",
+   "desc": "YouTube 字幕 → 摘要/长文/博客/社交媒体文案",
+   "source": "Hermes Agent / Nous Research（官方内置）",
+   "stars": null,
+   "updated": "2026-08-12"
+  },
+  {
+   "id": 118,
+   "name": "meeting-action-items",
+   "cat": "integration",
+   "icon": "M",
+   "repo": "https://github.com/NousResearch/hermes-agent/tree/main/skills/productivity/meeting-action-items",
+   "desc": "会议记录 → 带引用的决策、负责人和待办工单",
+   "source": "Hermes Agent / Nous Research（官方内置）",
+   "stars": null,
+   "updated": "2026-08-12"
+  },
+  {
+   "id": 119,
+   "name": "computer-use",
+   "cat": "automation",
+   "icon": "C",
+   "repo": "https://github.com/NousResearch/hermes-agent/tree/main/skills/autonomous-ai-agents/computer-use",
+   "desc": "后台驱动桌面完成自动化操作，不抢占焦点",
+   "source": "Hermes Agent / Nous Research（官方内置）",
+   "stars": null,
+   "updated": "2026-08-12"
+  },
+  {
+   "id": 120,
+   "name": "codebase-inspection",
+   "cat": "dev",
+   "icon": "C",
+   "repo": "https://github.com/NousResearch/hermes-agent/tree/main/skills/github/codebase-inspection",
+   "desc": "用 pygount 统计代码量、语言占比、目录分布",
+   "source": "Hermes Agent / Nous Research（官方内置）",
+   "stars": null,
+   "updated": "2026-08-12"
+  },
+  {
+   "id": 121,
+   "name": "comfyui",
+   "cat": "content",
+   "icon": "C",
+   "repo": "https://github.com/NousResearch/hermes-agent/tree/main/skills/creative/comfyui",
+   "desc": "ComfyUI 扩散工作流生成图片/视频/音频",
+   "source": "Hermes Agent / Nous Research（官方内置）",
+   "stars": null,
+   "updated": "2026-08-12"
+  },
+  {
+   "id": 122,
+   "name": "songwriting-and-ai-music",
+   "cat": "content",
+   "icon": "S",
+   "repo": "https://github.com/NousResearch/hermes-agent/tree/main/skills/creative/songwriting-and-ai-music",
+   "desc": "写歌技巧 + Suno AI 音乐提示词创作",
+   "source": "Hermes Agent / Nous Research（官方内置）",
+   "stars": null,
+   "updated": "2026-08-12"
+  },
+  {
+   "id": 123,
+   "name": "findmy",
+   "cat": "life",
+   "icon": "F",
+   "repo": "https://github.com/NousResearch/hermes-agent/tree/main/skills/apple/findmy",
+   "desc": "macOS 上通过 FindMy 定位 Apple 设备和 AirTag",
+   "source": "Hermes Agent / Nous Research（官方内置）",
+   "stars": null,
+   "updated": "2026-08-12"
+  },
+  {
+   "id": 124,
+   "name": "imessage",
+   "cat": "life",
+   "icon": "I",
+   "repo": "https://github.com/NousResearch/hermes-agent/tree/main/skills/apple/imessage",
+   "desc": "macOS 上用 imsg CLI 收发 iMessage/SMS",
+   "source": "Hermes Agent / Nous Research（官方内置）",
+   "stars": null,
+   "updated": "2026-08-12"
+  },
+  {
+   "id": 125,
+   "name": "gif-search",
+   "cat": "life",
+   "icon": "G",
+   "repo": "https://github.com/NousResearch/hermes-agent/tree/main/skills/media/gif-search",
+   "desc": "从 Tenor 搜索/下载 GIF，curl + jq 一行搞定",
+   "source": "Hermes Agent / Nous Research（官方内置）",
+   "stars": null,
+   "updated": "2026-08-12"
+  },
+  {
+   "id": 126,
+   "name": "design-md",
+   "cat": "frontend",
+   "icon": "D",
+   "repo": "https://github.com/NousResearch/hermes-agent/tree/main/skills/creative/design-md",
+   "desc": "编写/校验/导出 Google DESIGN.md 设计 token 规范文件",
+   "source": "Hermes Agent / Nous Research（官方内置）",
+   "stars": null,
+   "updated": "2026-08-12"
   }
  ]
 }

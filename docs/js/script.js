@@ -38,7 +38,7 @@
   // ---- Load data ----
   async function loadData() {
     try {
-      const resp = await fetch('data/skills.json?v=4');
+      const resp = await fetch('data/skills.json?v=7');
       if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
       data = await resp.json();
       totalCount.textContent = data.total;
@@ -103,8 +103,9 @@
     // Update select-all button text based on visible skills state
     updateSelectAllBtn(skills);
 
-    // Sort by id
-    skills.sort((a, b) => a.id - b.id);
+    // Sort: golden (own) skills first, then by id
+    const isOwnSkill = (s) => s.source === 'phoenixlucky';
+    skills.sort((a, b) => (isOwnSkill(b) - isOwnSkill(a)) || (a.id - b.id));
 
     if (skills.length === 0) {
       skillsGrid.innerHTML = `<div class="empty-state"><div class="empty-icon">🔍</div><p>没有匹配的 Skill</p></div>`;
@@ -126,11 +127,12 @@
       const repoLink = s.repo && !s.repo.startsWith('搜索') 
         ? (() => {
             const host = new URL(s.repo).hostname;
-            const label = host === 'clawhub.ai' ? 'ClawHub' : 'GitHub';
+            const label = host === 'clawhub.ai' ? 'ClawHub' : (s.source && s.source.includes('Hermes') ? 'Hermes' : 'GitHub');
             return `<a href="${s.repo}" class="skill-repo" target="_blank" rel="noopener" title="${s.repo}">${label} ↗</a>`;
           })()
         : '';
       const isOwn = s.source === 'phoenixlucky';
+      const ownBadge = isOwn ? '<span class="skill-badge">👑 精选</span>' : '';
       html += `
         <div class="skill-card ${isSelected ? 'selected' : ''}${isOwn ? ' skill-card--own' : ''}" data-id="${s.id}">
           <div class="skill-check">${isSelected ? '✓' : ''}</div>
@@ -138,12 +140,14 @@
             <div class="skill-header">
               <span class="skill-icon">${s.icon}</span>
               <span class="skill-name">${s.name}</span>
+              ${ownBadge}
               ${starBadge}
               ${catTag}
               <span class="skill-source">${s.source}</span>
               ${repoLink}
             </div>
             <div class="skill-desc">${s.desc}</div>
+            ${s.updated ? `<div class="skill-updated">🕒 更新于 ${s.updated}</div>` : ''}
           </div>
         </div>
       `;
