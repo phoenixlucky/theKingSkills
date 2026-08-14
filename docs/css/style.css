@@ -105,6 +105,33 @@ a:hover { text-decoration: underline; }
   opacity: 1;
 }
 
+/* ===== Site Nav ===== */
+.site-nav {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 22px;
+}
+.nav-link {
+  padding: 6px 16px;
+  border-radius: 999px;
+  font-size: .84rem;
+  font-weight: 600;
+  color: rgba(255,255,255,.85);
+  background: rgba(255,255,255,.08);
+  border: 1px solid rgba(255,255,255,.16);
+  text-decoration: none;
+  transition: all .16s ease;
+}
+.nav-link:hover { background: rgba(255,255,255,.16); color: #fff; text-decoration: none; }
+.nav-link.active {
+  background: linear-gradient(135deg, #f59e0b, #eab308);
+  color: #141528;
+  border-color: transparent;
+  box-shadow: 0 2px 8px rgba(245,158,11,.35);
+}
+
 /* ===== Controls ===== */
 .controls {
   display: flex;

@@ -112,6 +112,10 @@
 
 > ✅ 所见即所得，适合只挑选部分 Skill 的场景。
 
+**Reasonix 用户专属页面**：[⚡ Reasonix 推荐 Skill](https://phoenixlucky.github.io/theKingSkills/reasonix.html)
+
+> 同一份精选 Skill 清单，生成带 Reasonix 语境的一键安装指令，直接投喂给 Reasonix Agent。
+
 ### 方式二：🤖 AI 直接读取
 
 将 [`skills-index.md`](./skills-index.md) 全文提供给 AI Agent：
@@ -133,9 +137,10 @@ theKingSkills/
 ├── CLAUDE.md                         # Claude Code 项目约定
 ├── AGENTS.md                         # Reasonix / 通用 Agent 配置
 ├── docs/                             # GitHub Pages 可视化网站
-│   ├── index.html                    # 首页
+│   ├── index.html                    # 首页（全部 Skill 总览）
+│   ├── reasonix.html                 # ⚡ Reasonix 推荐 Skill 页
 │   ├── css/style.css                 # 样式
-│   ├── js/script.js                  # 交互逻辑（筛选 / 搜索 / 生成）
+│   ├── js/script.js                  # 交互逻辑（筛选 / 搜索 / 生成，双页面共用）
 │   └── data/skills.json              # 100 个 Skill 结构化数据
 └── archive/                          # 旧版弹窗安装向导（已归档）
     └── install-king-skills.bat
@@ -150,7 +155,7 @@ theKingSkills/
 |:------|:---------|:-----|
 | **Claude Code** | 网站生成指令 / `skills-index.md` 直接读取 | ✅ 原生支持 |
 | **CodeX** | 网站生成指令 / `skills-index.md` 直接读取 | ✅ 原生支持 |
-| **Reasonix** | 网站生成指令 / `skills-index.md` 直接读取 | ✅ 原生支持 |
+| **Reasonix** | 网站生成指令 / [`reasonix.html`](https://phoenixlucky.github.io/theKingSkills/reasonix.html) 推荐页 / `skills-index.md` 直接读取 | ✅ 原生支持 |
 | **Cursor** | 网站生成指令后按平台要求配置 | ⚠️ 需手动配置 |
 | **Windsurf** | 网站生成指令后按平台要求配置 | ⚠️ 需手动配置 |
 

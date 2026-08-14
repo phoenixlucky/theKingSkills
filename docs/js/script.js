@@ -3,6 +3,11 @@
 (async function () {
   'use strict';
 
+  // ---- Page mode ----
+  // <body data-page="reasonix"> 时切换为 Reasonix 推荐页文案
+  const PAGE = document.body.dataset.page || 'index';
+  const isReasonix = PAGE === 'reasonix';
+
   // ---- State ----
   let data = null;          // { total, categories, skills }
   let selected = new Set(); // skill ids
@@ -203,7 +208,9 @@
       groups[catName].push(s);
     }
 
-    let text = `请依次阅读并安装以下 Skill。\n具体技能\n\n`;
+    let text = isReasonix
+      ? '请用 Reasonix 依次阅读并安装以下 Skill。\n具体技能\n\n'
+      : '请依次阅读并安装以下 Skill。\n具体技能\n\n';
 
     for (const [catName, items] of Object.entries(groups)) {
       text += `【${catName}】\n`;
@@ -215,7 +222,9 @@
       text += '\n';
     }
 
-    text += `请根据上面每个 Skill 的「安装指令」完成安装，如果存在，则覆盖安装。\n`;
+    text += isReasonix
+      ? '请根据上面每个 Skill 的「安装指令」在 Reasonix 中完成安装，如果存在，则覆盖安装。\n'
+      : '请根据上面每个 Skill 的「安装指令」完成安装，如果存在，则覆盖安装。\n';
 
     outputText.value = text;
     outputSection.style.display = 'block';
