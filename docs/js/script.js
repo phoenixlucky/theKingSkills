@@ -3,11 +3,6 @@
 (async function () {
   'use strict';
 
-  // ---- Page mode ----
-  // <body data-page="reasonix"> 时切换为 Reasonix 推荐页文案
-  const PAGE = document.body.dataset.page || 'index';
-  const isReasonix = PAGE === 'reasonix';
-
   // 当前 Reasonix 编译器已安装的 Skill（对应 skills.json 的 id）
   const REASONIX_INSTALLED_IDS = new Set([5, 9, 11, 20, 21, 22, 23, 24, 36, 84, 100]);
   const INSTALLED_CAT = 'installed';
@@ -15,7 +10,7 @@
   // ---- State ----
   let data = null;          // { total, categories, skills }
   let selected = new Set(); // skill ids
-  let currentCat = isReasonix ? INSTALLED_CAT : 'all';
+  let currentCat = 'all';
 
   // ---- DOM refs ----
   const $ = (s) => document.querySelector(s);
@@ -61,10 +56,8 @@
   function renderFilters() {
     const cats = data.categories;
     let html = `<button class="filter-btn${currentCat === 'all' ? ' active' : ''}" data-cat="all">🏠 全部</button>`;
-    // Reasonix 页：「全部」后紧跟「reasonix 推荐」筛选（当前编译器已装的 Skill）
-    if (isReasonix) {
-      html += `<button class="filter-btn${currentCat === INSTALLED_CAT ? ' active' : ''}" data-cat="${INSTALLED_CAT}">⚡ reasonix 推荐</button>`;
-    }
+    // 「⚡ reasonix 推荐」筛选：当前编译器已装的 Skill，与其他分类筛选功能一致
+    html += `<button class="filter-btn${currentCat === INSTALLED_CAT ? ' active' : ''}" data-cat="${INSTALLED_CAT}">⚡ Reasonix 推荐</button>`;
     for (const c of cats) {
       html += `<button class="filter-btn" data-cat="${c.id}">${c.icon} ${c.name}</button>`;
     }
@@ -218,9 +211,7 @@
       groups[catName].push(s);
     }
 
-    let text = isReasonix
-      ? '请用 Reasonix 依次阅读并安装以下 Skill。\n具体技能\n\n'
-      : '请依次阅读并安装以下 Skill。\n具体技能\n\n';
+    let text = '请依次阅读并安装以下 Skill。\n具体技能\n\n';
 
     for (const [catName, items] of Object.entries(groups)) {
       text += `【${catName}】\n`;
@@ -232,9 +223,7 @@
       text += '\n';
     }
 
-    text += isReasonix
-      ? '请根据上面每个 Skill 的「安装指令」在 Reasonix 中完成安装，如果存在，则覆盖安装。\n'
-      : '请根据上面每个 Skill 的「安装指令」完成安装，如果存在，则覆盖安装。\n';
+    text += '请根据上面每个 Skill 的「安装指令」完成安装，如果存在，则覆盖安装。\n';
 
     outputText.value = text;
     outputSection.style.display = 'block';
