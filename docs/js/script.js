@@ -8,10 +8,14 @@
   const PAGE = document.body.dataset.page || 'index';
   const isReasonix = PAGE === 'reasonix';
 
+  // 当前 Reasonix 编译器已安装的 Skill（对应 skills.json 的 id）
+  const REASONIX_INSTALLED_IDS = new Set([5, 9, 11, 20, 21, 22, 23, 24, 36, 84, 100]);
+  const INSTALLED_CAT = 'installed';
+
   // ---- State ----
   let data = null;          // { total, categories, skills }
   let selected = new Set(); // skill ids
-  let currentCat = 'all';
+  let currentCat = isReasonix ? INSTALLED_CAT : 'all';
 
   // ---- DOM refs ----
   const $ = (s) => document.querySelector(s);
@@ -56,7 +60,11 @@
   // ---- Render filters ----
   function renderFilters() {
     const cats = data.categories;
-    let html = `<button class="filter-btn active" data-cat="all">🏠 全部</button>`;
+    let html = `<button class="filter-btn${currentCat === 'all' ? ' active' : ''}" data-cat="all">🏠 全部</button>`;
+    // Reasonix 页：「全部」后紧跟「reasonix 推荐」筛选（当前编译器已装的 Skill）
+    if (isReasonix) {
+      html += `<button class="filter-btn${currentCat === INSTALLED_CAT ? ' active' : ''}" data-cat="${INSTALLED_CAT}">⚡ reasonix 推荐</button>`;
+    }
     for (const c of cats) {
       html += `<button class="filter-btn" data-cat="${c.id}">${c.icon} ${c.name}</button>`;
     }
@@ -91,8 +99,10 @@
       catMap[c.id] = c;
     }
 
-    // Filter by category
-    if (currentCat !== 'all') {
+    // Filter by category（installed = 当前 Reasonix 编译器已装的 Skill）
+    if (currentCat === INSTALLED_CAT) {
+      skills = skills.filter(s => REASONIX_INSTALLED_IDS.has(s.id));
+    } else if (currentCat !== 'all') {
       skills = skills.filter(s => s.cat === currentCat);
     }
 
@@ -248,7 +258,9 @@
   function toggleSelectAll() {
     const keyword = searchInput.value.trim().toLowerCase();
     let visible = data.skills;
-    if (currentCat !== 'all') {
+    if (currentCat === INSTALLED_CAT) {
+      visible = visible.filter(s => REASONIX_INSTALLED_IDS.has(s.id));
+    } else if (currentCat !== 'all') {
       visible = visible.filter(s => s.cat === currentCat);
     }
     if (keyword) {
