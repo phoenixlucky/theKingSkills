@@ -1,7 +1,7 @@
 ---
 title:   "The King Skills — AI 一键安装索引"
 version: "1.3"
-updated: "2026-08-12"
+updated: "2026-08-25"
 total:   125
 ---
 
@@ -401,7 +401,7 @@ Hal Stack 系列成员。
 
 | 字段 | 值 |
 |------|-----|
-| **来源** | DietrichGebert（⭐ 41.5k） |
+| **来源** | DietrichGebert（⭐ 110k） |
 | **分类** | 开发与编码 |
 | **一句话** | 让 AI Agent 像资深懒人开发者一样思考：能省则省，YAGNI，用最少的代码完成任务 |
 
@@ -409,7 +409,7 @@ Hal Stack 系列成员。
 
 ```
 安装 Ponytail Skill。
-来源：https://github.com/DietrichGebert/ponytail（⭐ 41.5k）
+来源：https://github.com/DietrichGebert/ponytail（⭐ 110k）
 安装后，Agent 写代码前会按优先级判断：这东西真的需要吗？标准库能搞定吗？
 平台原生功能能直接用吗？一行代码够吗？—— 平均减少 54% 代码、20% 成本和 27% 耗时。
 安全性/验证/可访问性等关键保障不会被砍掉。
@@ -2510,7 +2510,7 @@ Office/PDF 文档创建、编辑与格式转换。
 20. bug-hunt — 复现定位 Bug，最小修复验证
 21. code-review — 审查代码，发现缺陷和回归
 24. release-notes — 整理发布说明和升级指南
-28. Ponytail — DietrichGebert（⭐ 41.5k），懒人开发哲学，代码量减少 54%
+28. Ponytail — DietrichGebert（⭐ 110k），懒人开发哲学，代码量减少 54%
 83. opencode — anomalyco，TypeScript 开源编码 Agent
 102. ui-test — browserbase（⭐ 3.7k），AI 对抗性 UI 测试
 120. codebase-inspection — Hermes Agent 官方内置，代码库体检
