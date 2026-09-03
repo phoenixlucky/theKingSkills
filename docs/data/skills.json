@@ -110,7 +110,7 @@
    "name": "Find Skills",
    "cat": "basic",
    "icon": "F",
-   "repo": "https://clawhub.ai/fangkelvin/find-skills-skill",
+   "repo": "https://clawhub.ai/fangkelvin/skills/find-skills-skill",
    "desc": "Skill 搜索引擎，帮你从 ClawHub 全网搜索想要的 Skill",
    "source": "ClawHub",
    "stars": null,
@@ -123,8 +123,8 @@
    "icon": "S",
    "repo": "https://github.com/obra/superpowers",
    "desc": "开发流程规范化，模糊需求 → 执行计划 → 代码落地",
-   "source": "Jesse Vincent",
-   "stars": "⭐ 21万+",
+   "source": "GitHub 社区",
+   "stars": "⭐ 21 万+",
    "updated": "2026-06-04"
   },
   {
@@ -134,8 +134,8 @@
    "icon": "G",
    "repo": "https://github.com/garrytan/gstack",
    "desc": "内置 23 个工程专家角色（CEO/PM/设计师/工程师），AI 工程团队",
-   "source": "Garry Tan",
-   "stars": "⭐ 10.7万",
+   "source": "Gary Tan（YC 总裁）",
+   "stars": null,
    "updated": "2026-06-04"
   },
   {
@@ -157,7 +157,7 @@
    "repo": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
    "desc": "设计资源库：50 种设计风格 + 97 种配色方案 + 9 个技术栈",
    "source": "nextlevelbuilder",
-   "stars": "⭐ 92.2k",
+   "stars": "⭐ 124k",
    "updated": "2026-06-04"
   },
   {
@@ -168,7 +168,7 @@
    "repo": "https://github.com/JimLiu/baoyu-skills",
    "desc": "约 20 个视觉设计 Skill 包：封面图/信息图/PPT/文章配图/长文排版",
    "source": "JimLiu",
-   "stars": "⭐ 21.7k",
+   "stars": "⭐ 25.6k",
    "updated": "2026-06-04"
   },
   {
@@ -179,7 +179,7 @@
    "repo": "https://github.com/teng-lin/notebooklm-py",
    "desc": "打通 Agent 与 NotebookLM，Agent 可直接查询 NotebookLM 中的文档",
    "source": "teng-lin",
-   "stars": "⭐ 1.5万+",
+   "stars": "⭐ 19.1k",
    "updated": "2026-06-04"
   },
   {
@@ -221,7 +221,7 @@
    "cat": "content",
    "icon": "M",
    "repo": "https://github.com/phoenixlucky/moon-lovers-skill",
-   "desc": "温柔/克制/留白感强的恋爱聊天回复辅助 Skill",
+   "desc": "温柔/克制/留白感强的恋爱聊天回复 Skill，内置西施/王昭君/貂蝉/杨玉环四大美人角色卡",
    "source": "phoenixlucky",
    "stars": null,
    "updated": "2026-06-04"
@@ -286,9 +286,9 @@
    "name": "videocut-skills",
    "cat": "video",
    "icon": "C",
-   "repo": "https://github.com/Ceeon/videocut-skills",
-   "desc": "面向中文创作者的视频剪辑 Skills：素材/字幕/短视频制作流程",
-   "source": "Ceeon",
+   "repo": "https://github.com/Agentchengfeng/chengfeng-videocut-skills",
+   "desc": "面向中文创作者的视频剪辑 Agent（原 videocut-skills，已迁移改名）：素材/字幕/短视频制作流程",
+   "source": "Agentchengfeng（原 Ceeon）",
    "stars": null,
    "updated": "2026-06-05"
   },
@@ -344,7 +344,7 @@
    "repo": "https://github.com/iOfficeAI/OfficeCLI",
    "desc": "AI Agent 专用 Office 文档工具：创建、编辑和自动化 Word/Excel/PPT，单二进制免装 Office",
    "source": "iOfficeAI",
-   "stars": "⭐ 27.8k",
+   "stars": "⭐ 29.8k",
    "updated": "2026-08-12"
   },
   {
@@ -366,7 +366,7 @@
    "repo": "https://github.com/thvroyal/kimi-skills",
    "desc": "完整的 DOCX 文档创建、编辑与分析能力，支持修订、批注、格式保持和文本提取",
    "source": "kimi-skills",
-   "stars": "⭐ 187",
+   "stars": "⭐ 232",
    "updated": "2026-06-16"
   },
   {
@@ -388,7 +388,7 @@
    "repo": "https://github.com/virgiliojr94/book-to-skill",
    "desc": "把技术类 PDF/EPUB/DOCX 书籍转化为可交互的 Agent Skill，按需加载章节",
    "source": "virgiliojr94",
-   "stars": "⭐ 6.2k",
+   "stars": "⭐ 28k",
    "updated": "2026-06-20"
   },
   {
@@ -399,7 +399,7 @@
    "repo": "https://github.com/DietrichGebert/ponytail",
    "desc": "让 AI Agent 像资深懒人开发者一样思考：能省则省，YAGNI，用最少的代码完成任务",
    "source": "DietrichGebert",
-   "stars": "⭐ 41.5k",
+   "stars": "⭐ 122k",
    "updated": "2026-06-20"
   },
   {
@@ -409,7 +409,7 @@
    "icon": "S",
    "repo": "https://clawhub.ai/pskoett/self-improving-agent",
    "desc": "持续学习与纠错：自动记录错误、纠正和经验，让 Agent 永久进化",
-   "source": "ClawHub",
+   "source": "ClawHub — pskoett",
    "stars": "★ 3.8k",
    "updated": "2026-06-20"
   },
@@ -420,7 +420,7 @@
    "icon": "V",
    "repo": "https://clawhub.ai/spclaudehome/skill-vetter",
    "desc": "安装任何第三方 Skill 前的安全审查，检查红旗、权限范围和可疑模式",
-   "source": "ClawHub",
+   "source": "ClawHub — spclaudehome",
    "stars": "★ 1.2k",
    "updated": "2026-06-17"
   },
@@ -431,7 +431,7 @@
    "icon": "P",
    "repo": "https://clawhub.ai/halthelobster/proactive-agent",
    "desc": "把 Agent 从「等指令」变成「主动预判需求」，带 WAL 协议与自动定时任务",
-   "source": "ClawHub",
+   "source": "ClawHub — halthelobster",
    "stars": "★ 800",
    "updated": "2026-06-17"
   },
@@ -442,7 +442,7 @@
    "icon": "R",
    "repo": "https://clawhub.ai/ivangdavila/self-improving",
    "desc": "自我反思 + 自我批评 + 自我学习 + 自组织记忆，Agent 能评估自己的工作并永久改进",
-   "source": "ClawHub",
+   "source": "ClawHub — ivangdavila",
    "stars": "★ 1.2k",
    "updated": "2026-06-17"
   },
@@ -453,7 +453,7 @@
    "icon": "O",
    "repo": "https://clawhub.ai/oswalpalash/ontology",
    "desc": "类型化知识图谱，给 Agent 结构化记忆与可组合的技能能力",
-   "source": "ClawHub",
+   "source": "ClawHub — oswalpalash",
    "stars": "★ 638",
    "updated": "2026-06-17"
   },
@@ -464,7 +464,7 @@
    "icon": "A",
    "repo": "https://clawhub.ai/maximeprades/auto-updater",
    "desc": "每天自动检查并更新 Agent 本体和所有已安装 Skill，附变更摘要",
-   "source": "ClawHub",
+   "source": "ClawHub — maximeprades",
    "stars": "★ 428",
    "updated": "2026-06-17"
   },
@@ -475,7 +475,7 @@
    "icon": "G",
    "repo": "https://clawhub.ai/steipete/github",
    "desc": "用 `gh` CLI 操作 GitHub：issue、PR、CI 运行和高级查询",
-   "source": "ClawHub",
+   "source": "ClawHub — steipete",
    "stars": "★ 636",
    "updated": "2026-06-17"
   },
@@ -486,7 +486,7 @@
    "icon": "W",
    "repo": "https://clawhub.ai/steipete/gog",
    "desc": "Google Workspace CLI：Gmail、日历、Drive、通讯录、Sheets、Docs 一站式操控",
-   "source": "ClawHub",
+   "source": "ClawHub — steipete",
    "stars": "★ 924",
    "updated": "2026-06-17"
   },
@@ -497,7 +497,7 @@
    "icon": "S",
    "repo": "https://clawhub.ai/steipete/slack",
    "desc": "从 Agent 控制 Slack：发消息、表情回复、置顶/取消置顶等",
-   "source": "ClawHub",
+   "source": "ClawHub — steipete",
    "stars": "★ 158",
    "updated": "2026-06-17"
   },
@@ -508,7 +508,7 @@
    "icon": "T",
    "repo": "https://clawhub.ai/steipete/trello",
    "desc": "通过 Trello REST API 管理看板、列表和卡片",
-   "source": "ClawHub",
+   "source": "ClawHub — steipete",
    "stars": "★ 161",
    "updated": "2026-06-17"
   },
@@ -519,7 +519,7 @@
    "icon": "N",
    "repo": "https://clawhub.ai/steipete/notion",
    "desc": "Notion API 创建和管理页面、数据库与 block",
-   "source": "ClawHub",
+   "source": "ClawHub — steipete",
    "stars": "★ 259",
    "updated": "2026-06-17"
   },
@@ -530,7 +530,7 @@
    "icon": "O",
    "repo": "https://clawhub.ai/steipete/obsidian",
    "desc": "操作 Obsidian 笔记库（纯 Markdown）并通过 obsidian-cli 自动化",
-   "source": "ClawHub",
+   "source": "ClawHub — steipete",
    "stars": "★ 428",
    "updated": "2026-06-17"
   },
@@ -541,7 +541,7 @@
    "icon": "D",
    "repo": "https://clawhub.ai/steipete/discord",
    "desc": "从 Agent 控制 Discord：发消息、表情、投票、管理频道/成员/权限",
-   "source": "ClawHub",
+   "source": "ClawHub — steipete",
    "stars": "★ 77",
    "updated": "2026-06-17"
   },
@@ -552,7 +552,7 @@
    "icon": "M",
    "repo": "https://clawhub.ai/steipete/mcporter",
    "desc": "用 mcporter CLI 列出、配置、授权并调用任意 MCP 服务器/工具（HTTP 或 stdio）",
-   "source": "ClawHub",
+   "source": "ClawHub — steipete",
    "stars": "★ 194",
    "updated": "2026-06-17"
   },
@@ -563,7 +563,7 @@
    "icon": "H",
    "repo": "https://clawhub.ai/lamelas/himalaya",
    "desc": "用 himalaya CLI 通过 IMAP/SMTP 收发、搜索和管理邮件",
-   "source": "ClawHub",
+   "source": "ClawHub — lamelas",
    "stars": "★ 69",
    "updated": "2026-06-17"
   },
@@ -574,7 +574,7 @@
    "icon": "P",
    "repo": "https://clawhub.ai/steipete/1password",
    "desc": "设置并使用 1Password CLI（op），读取/注入/运行密钥",
-   "source": "ClawHub",
+   "source": "ClawHub — steipete",
    "stars": "★ 52",
    "updated": "2026-06-17"
   },
@@ -585,7 +585,7 @@
    "icon": "A",
    "repo": "https://clawhub.ai/steipete/apple-notes",
    "desc": "用 `memo` CLI 在 macOS 上管理 Apple Notes（创建/查看/编辑/搜索/导出）",
-   "source": "ClawHub",
+   "source": "ClawHub — steipete",
    "stars": "★ 57",
    "updated": "2026-06-17"
   },
@@ -596,7 +596,7 @@
    "icon": "R",
    "repo": "https://clawhub.ai/steipete/apple-reminders",
    "desc": "用 `remindctl` CLI 管理 Apple 提醒事项（列表/添加/编辑/完成/删除）",
-   "source": "ClawHub",
+   "source": "ClawHub — steipete",
    "stars": "★ 54",
    "updated": "2026-06-17"
   },
@@ -607,7 +607,7 @@
    "icon": "C",
    "repo": "https://clawhub.ai/asleep123/caldav-calendar",
    "desc": "用 vdirsyncer + khal 同步查询 CalDAV 日历（iCloud/Google/Fastmail/Nextcloud）",
-   "source": "ClawHub",
+   "source": "ClawHub — asleep123",
    "stars": "★ 242",
    "updated": "2026-06-17"
   },
@@ -618,7 +618,7 @@
    "icon": "M",
    "repo": "https://clawhub.ai/gpyangyoujun/multi-search-engine",
    "desc": "集成 16 个搜索引擎（7 国内 + 9 全球），支持高级运算符和时间筛选",
-   "source": "ClawHub",
+   "source": "ClawHub — gpyangyoujun",
    "stars": "★ 727",
    "updated": "2026-06-17"
   },
@@ -629,7 +629,7 @@
    "icon": "T",
    "repo": "https://clawhub.ai/jacky1n7/openclaw-tavily-search",
    "desc": "通过 Tavily API 联网搜索（Brave 不可用时的替代方案）",
-   "source": "ClawHub",
+   "source": "ClawHub — jacky1n7",
    "stars": "★ 263",
    "updated": "2026-06-17"
   },
@@ -640,7 +640,7 @@
    "icon": "B",
    "repo": "https://clawhub.ai/ide-rea/baidu-search",
    "desc": "用百度 AI 搜索引擎（BDSE）联网搜索，适合中文实时信息",
-   "source": "ClawHub",
+   "source": "ClawHub — ide-rea",
    "stars": "★ 216",
    "updated": "2026-06-17"
   },
@@ -651,7 +651,7 @@
    "icon": "A",
    "repo": "https://clawhub.ai/matrixy/agent-browser-clawdbot",
    "desc": "为 AI Agent 优化的无头浏览器自动化 CLI，带可访问性树快照和 ref 元素选择",
-   "source": "ClawHub",
+   "source": "ClawHub — matrixy",
    "stars": "★ 424",
    "updated": "2026-06-17"
   },
@@ -662,7 +662,7 @@
    "icon": "P",
    "repo": "https://clawhub.ai/steipete/peekaboo",
    "desc": "用 Peekaboo CLI 捕获并自动化 macOS UI",
-   "source": "ClawHub",
+   "source": "ClawHub — steipete",
    "stars": "★ 82",
    "updated": "2026-06-17"
   },
@@ -673,7 +673,7 @@
    "icon": "T",
    "repo": "https://clawhub.ai/steipete/tmux",
    "desc": "远程控制 tmux 会话，向交互式 CLI 发送按键并抓取输出",
-   "source": "ClawHub",
+   "source": "ClawHub — steipete",
    "stars": "★ 43",
    "updated": "2026-06-17"
   },
@@ -684,7 +684,7 @@
    "icon": "A",
    "repo": "https://clawhub.ai/fly0pants/admapix",
    "desc": "广告情报与应用分析助手，搜索广告素材、分析 App、排名、下载、收入和市场洞察",
-   "source": "ClawHub",
+   "source": "ClawHub — fly0pants",
    "stars": "★ 286",
    "updated": "2026-06-17"
   },
@@ -695,7 +695,7 @@
    "icon": "P",
    "repo": "https://clawhub.ai/mvanhorn/polymarket",
    "desc": "接入 Polymarket 预测市场数据",
-   "source": "ClawHub",
+   "source": "ClawHub — mvanhorn",
    "stars": "★ 22",
    "updated": "2026-06-17"
   },
@@ -706,7 +706,7 @@
    "icon": "W",
    "repo": "https://clawhub.ai/jk-0001/automation-workflows",
    "desc": "设计并实现自动化工作流，覆盖 Zapier/Make/n8n 工具选型、触发器和测试维护",
-   "source": "ClawHub",
+   "source": "ClawHub — jk-0001",
    "stars": "★ 305",
    "updated": "2026-06-17"
   },
@@ -717,7 +717,7 @@
    "icon": "M",
    "repo": "https://clawhub.ai/steipete/model-usage",
    "desc": "用 CodexBar CLI 统计各模型的本地用量和成本",
-   "source": "ClawHub",
+   "source": "ClawHub — steipete",
    "stars": "★ 113",
    "updated": "2026-06-17"
   },
@@ -728,7 +728,7 @@
    "icon": "B",
    "repo": "https://clawhub.ai/steipete/blogwatcher",
    "desc": "用 blogwatcher CLI 监控博客和 RSS/Atom 订阅源的更新",
-   "source": "ClawHub",
+   "source": "ClawHub — steipete",
    "stars": "★ 70",
    "updated": "2026-06-17"
   },
@@ -739,7 +739,7 @@
    "icon": "W",
    "repo": "https://clawhub.ai/steipete/weather",
    "desc": "查询实时天气和预报，无需 API Key",
-   "source": "ClawHub",
+   "source": "ClawHub — steipete",
    "stars": "★ 417",
    "updated": "2026-06-17"
   },
@@ -750,7 +750,7 @@
    "icon": "V",
    "repo": "https://clawhub.ai/steipete/video-frames",
    "desc": "用 ffmpeg 从视频中提取帧或短片段",
-   "source": "ClawHub",
+   "source": "ClawHub — steipete",
    "stars": "★ 129",
    "updated": "2026-06-17"
   },
@@ -761,7 +761,7 @@
    "icon": "W",
    "repo": "https://clawhub.ai/steipete/openai-whisper",
    "desc": "用 Whisper CLI 本地语音转文字，无需 API Key",
-   "source": "ClawHub",
+   "source": "ClawHub — steipete",
    "stars": "★ 325",
    "updated": "2026-06-17"
   },
@@ -772,7 +772,7 @@
    "icon": "A",
    "repo": "https://clawhub.ai/steipete/openai-whisper-api",
    "desc": "通过 OpenAI Audio Transcriptions API 转录音频",
-   "source": "ClawHub",
+   "source": "ClawHub — steipete",
    "stars": "★ 52",
    "updated": "2026-06-17"
   },
@@ -783,7 +783,7 @@
    "icon": "S",
    "repo": "https://clawhub.ai/steipete/sag",
    "desc": "ElevenLabs 文字转语音，提供 macOS say 风格体验",
-   "source": "ClawHub",
+   "source": "ClawHub — steipete",
    "stars": "★ 26",
    "updated": "2026-06-17"
   },
@@ -794,7 +794,7 @@
    "icon": "P",
    "repo": "https://clawhub.ai/steipete/spotify-player",
    "desc": "终端 Spotify 播放与搜索（spogo 或 spotify_player）",
-   "source": "ClawHub",
+   "source": "ClawHub — steipete",
    "stars": "★ 54",
    "updated": "2026-06-17"
   },
@@ -805,7 +805,7 @@
    "icon": "S",
    "repo": "https://clawhub.ai/steipete/sonoscli",
    "desc": "控制 Sonos 音箱（发现/状态/播放/音量/分组）",
-   "source": "ClawHub",
+   "source": "ClawHub — steipete",
    "stars": "★ 55",
    "updated": "2026-06-17"
   },
@@ -816,7 +816,7 @@
    "icon": "G",
    "repo": "https://clawhub.ai/steipete/goplaces",
    "desc": "用 goplaces CLI 查询 Google Places API，做地点搜索/详情/评价",
-   "source": "ClawHub",
+   "source": "ClawHub — steipete",
    "stars": "★ 30",
    "updated": "2026-06-17"
   },
@@ -827,7 +827,7 @@
    "icon": "G",
    "repo": "https://clawhub.ai/steipete/gemini",
    "desc": "Gemini CLI 一次性问答、摘要和生成",
-   "source": "ClawHub",
+   "source": "ClawHub — steipete",
    "stars": "★ 56",
    "updated": "2026-06-17"
   },
@@ -838,7 +838,7 @@
    "icon": "L",
    "repo": "https://clawhub.ai/guogang1024/session-logs",
    "desc": "用 jq 搜索和分析自己的会话日志（历史/父级对话）",
-   "source": "ClawHub",
+   "source": "ClawHub — guogang1024",
    "stars": "★ 30",
    "updated": "2026-06-17"
   },
@@ -849,7 +849,7 @@
    "icon": "I",
    "repo": "https://clawhub.ai/steipete/nano-banana-pro",
    "desc": "用 Nano Banana Pro（Gemini 3 Pro Image）生成/编辑图片，支持文生图 + 图生图",
-   "source": "ClawHub",
+   "source": "ClawHub — steipete",
    "stars": "★ 405",
    "updated": "2026-06-17"
   },
@@ -860,7 +860,7 @@
    "icon": "A",
    "repo": "https://clawhub.ai/steipete/openai-image-gen",
    "desc": "通过 OpenAI Images API 批量生成图片，附随机 prompt 采样和画廊",
-   "source": "ClawHub",
+   "source": "ClawHub — steipete",
    "stars": "★ 37",
    "updated": "2026-06-17"
   },
@@ -871,7 +871,7 @@
    "icon": "H",
    "repo": "https://clawhub.ai/biostartechnology/humanizer",
    "desc": "去除文本中的 AI 写作痕迹，基于维基百科「AI 写作迹象」清单改写得更自然",
-   "source": "ClawHub",
+   "source": "ClawHub — biostartechnology",
    "stars": "★ 669",
    "updated": "2026-06-17"
   },
@@ -882,7 +882,7 @@
    "icon": "N",
    "repo": "https://clawhub.ai/steipete/nano-pdf",
    "desc": "用自然语言指令通过 nano-pdf CLI 编辑 PDF",
-   "source": "ClawHub",
+   "source": "ClawHub — steipete",
    "stars": "★ 260",
    "updated": "2026-06-17"
   },
@@ -893,7 +893,7 @@
    "icon": "H",
    "repo": "https://clawhub.ai/stellarhold170nt/healthcheck",
    "desc": "用 JSON 文件存储追踪每日喝水和睡眠",
-   "source": "ClawHub",
+   "source": "ClawHub — stellarhold170nt",
    "stars": "★ 11",
    "updated": "2026-06-17"
   },
@@ -904,7 +904,7 @@
    "icon": "C",
    "repo": "https://clawhub.ai/chindden/skill-creator",
    "desc": "ClawHub 社区版 Skill 创建指南，扩展 Agent 的知识、工作流和工具集成",
-   "source": "ClawHub",
+   "source": "ClawHub — chindden",
    "stars": "★ 319",
    "updated": "2026-06-17"
   },
@@ -915,7 +915,7 @@
    "icon": "F",
    "repo": "https://github.com/fabriqaai/ffmpeg-analyse-video-skill",
    "desc": "专业视频处理命令行神器：格式转换/压缩/剪辑/分析，视频工具链的底层基石",
-   "source": "fabriqaai",
+   "source": "fabriqaai / LobeHub",
    "stars": null,
    "updated": "2026-06-29"
   },
@@ -925,7 +925,7 @@
    "cat": "video",
    "icon": "O",
    "repo": "https://github.com/calesthio/OpenMontage",
-   "desc": "世界首个开源 agentic 视频生产系统：12 条 pipeline、50+ 工具、500+ agent skills",
+   "desc": "世界首个开源 agentic 视频生产系统：12 条 pipeline、100+ 工具、700+ agent skills",
    "source": "calesthio",
    "stars": null,
    "updated": "2026-06-29"
@@ -937,7 +937,7 @@
    "icon": "M",
    "repo": "https://github.com/adithya-s-k/manim_skill",
    "desc": "3Blue1Brown 同款数学动画引擎：文字描述 → 高质量知识动画视频",
-   "source": "adithya-s-k",
+   "source": "adithya-s-k（Manim Community）",
    "stars": null,
    "updated": "2026-06-29"
   },
@@ -949,7 +949,7 @@
    "repo": "https://github.com/topoteretes/cognee",
    "desc": "开源 AI Agent 长期记忆平台：自托管知识图谱引擎，跨会话持久上下文",
    "source": "topoteretes",
-   "stars": null,
+   "stars": "⭐ 30.4k",
    "updated": "2026-06-29"
   },
   {
@@ -980,7 +980,7 @@
    "cat": "scrape",
    "icon": "R",
    "repo": "https://github.com/Panniantong/Agent-Reach",
-   "desc": "一 CLI 零 API 费用实时抓取 Twitter/X、Reddit、YouTube、GitHub、Bilibili 情报",
+   "desc": "一 CLI 零 API 费用实时抓取 Twitter/X、Reddit、YouTube、GitHub、Bilibili、小红书情报",
    "source": "Panniantong",
    "stars": null,
    "updated": "2026-06-29"
@@ -1004,7 +1004,7 @@
    "repo": "https://github.com/Leonxlnx/taste-skill",
    "desc": "反模板化前端设计框架：让 AI 生成有品味的 UI，告别千篇一律的「AI 味」界面",
    "source": "Leonxlnx",
-   "stars": "⭐ 53.5k",
+   "stars": "⭐ 84k",
    "updated": "2026-06-30"
   },
   {
@@ -1015,7 +1015,7 @@
    "repo": "https://github.com/greensock/gsap-skills",
    "desc": "GSAP 动画官方 AI Skill：教 AI 代理正确使用 GSAP 动画库（核心 API/时间线/ScrollTrigger/插件）",
    "source": "greensock",
-   "stars": "⭐ 10.5k",
+   "stars": "⭐ 14.8k",
    "updated": "2026-06-30"
   },
   {
@@ -1037,7 +1037,7 @@
    "repo": "https://github.com/firecrawl/firecrawl",
    "desc": "丢个 URL 进去整站爬完，吐出 AI 能直接吃的干净数据，JS 渲染页面也扛得住",
    "source": "firecrawl",
-   "stars": "⭐ 140k",
+   "stars": "⭐ 176k，GitHub Top 100",
    "updated": "2026-07-01"
   },
   {
@@ -1048,7 +1048,7 @@
    "repo": "https://github.com/unclecode/crawl4ai",
    "desc": "把网站整成 LLM 能直接读的文本，不要 API Key 不要钱",
    "source": "unclecode",
-   "stars": "⭐ 70k",
+   "stars": "⭐ 81k",
    "updated": "2026-07-01"
   },
   {
@@ -1059,7 +1059,7 @@
    "repo": "https://github.com/browser-use/browser-use",
    "desc": "让 AI 像真人一样点鼠标、登录、填表，ETH Zurich 学生团队出品",
    "source": "browser-use",
-   "stars": "⭐ 100k",
+   "stars": "⭐ 112k",
    "updated": "2026-07-01"
   },
   {
@@ -1081,7 +1081,7 @@
    "repo": "https://github.com/scrapy/scrapy",
    "desc": "干了十多年的老牌爬虫框架，几百万页面照样稳，永久免费",
    "source": "scrapy",
-   "stars": null,
+   "stars": "⭐ 64k",
    "updated": "2026-07-01"
   },
   {
@@ -1125,7 +1125,7 @@
    "repo": "https://github.com/Genymobile/scrcpy",
    "desc": "用电脑远程操控安卓手机，专治那些只有 App 没网页的数据源",
    "source": "Genymobile",
-   "stars": "⭐ 140k",
+   "stars": "⭐ 149k",
    "updated": "2026-07-01"
   },
   {
@@ -1147,7 +1147,7 @@
    "repo": "https://github.com/NanmiCoder/MediaCrawler",
    "desc": "多平台自媒体数据采集：小红书/抖音/B站/微博/快手/贴吧/知乎，支持关键词搜索和评论爬取",
    "source": "NanmiCoder",
-   "stars": "⭐ 54.6k",
+   "stars": "⭐ 64k",
    "updated": "2026-07-01"
   },
   {
@@ -1158,7 +1158,7 @@
    "repo": "https://github.com/msitarzewski/agency-agents",
    "desc": "232 个领域专家 AI Agent 合集：从前端开发到安全审计，一人即团队",
    "source": "msitarzewski",
-   "stars": "⭐ 121k",
+   "stars": "⭐ 150k",
    "updated": "2026-07-01"
   },
   {
@@ -1169,7 +1169,7 @@
    "repo": "https://github.com/Emily2040/seedance-2.0",
    "desc": "Seedance 2.0 完整导演制作管线：专业分镜/运镜/续拍/安全改写，支持多语言提示词",
    "source": "Emily2040",
-   "stars": "⭐ 1.8k",
+   "stars": "⭐ 7.1k",
    "updated": "2026-07-04"
   },
   {
@@ -1191,7 +1191,7 @@
    "repo": "https://github.com/saysoph/solo-law-firm-agents",
    "desc": "一人律所 Agents：28 位 AI 虚拟专员、7 大部门，覆盖接案/检索/文书/排期/催收/品宣/知识沉淀全链条",
    "source": "saysoph",
-   "stars": "⭐ 35",
+   "stars": "⭐ 41",
    "updated": "2026-08-01"
   },
   {
@@ -1201,7 +1201,7 @@
    "icon": "U",
    "repo": "https://github.com/browserbase/skills",
    "desc": "AI 对抗性 UI 测试：分析 git diff 测变更，或全 app 主动探索找 bug",
-   "source": "browserbase（⭐ 3.7k）",
+   "source": "browserbase",
    "stars": "⭐ 3.7k",
    "updated": "2026-08-12"
   },
@@ -1212,7 +1212,7 @@
    "icon": "B",
    "repo": "https://github.com/browserbase/skills",
    "desc": "观察网站 HTTP 流量，逆向生成 OpenAPI 3.1 规范，把网页变可调用的 API",
-   "source": "browserbase（⭐ 3.7k）",
+   "source": "browserbase",
    "stars": "⭐ 3.7k",
    "updated": "2026-08-12"
   },
@@ -1223,7 +1223,7 @@
    "icon": "B",
    "repo": "https://github.com/browserbase/skills",
    "desc": "最强浏览器自动化：CAPTCHA 自动解决、住宅代理、远程会话，支持登录态复用",
-   "source": "browserbase（⭐ 3.7k）",
+   "source": "browserbase",
    "stars": "⭐ 3.7k",
    "updated": "2026-08-12"
   },
@@ -1234,7 +1234,7 @@
    "icon": "C",
    "repo": "https://github.com/browserbase/skills",
    "desc": "自动发现公司竞品，营销/信号/基准/战略四维深研，输出可浏览 HTML 报告",
-   "source": "browserbase（⭐ 3.7k）",
+   "source": "browserbase",
    "stars": "⭐ 3.7k",
    "updated": "2026-08-12"
   },
@@ -1245,7 +1245,7 @@
    "icon": "C",
    "repo": "https://github.com/browserbase/skills",
    "desc": "按 ICP 画像发现目标公司，逐家深研并打分，输出研究报告和 CSV",
-   "source": "browserbase（⭐ 3.7k）",
+   "source": "browserbase",
    "stars": "⭐ 3.7k",
    "updated": "2026-08-12"
   },
@@ -1266,8 +1266,8 @@
    "cat": "document",
    "icon": "O",
    "repo": "https://github.com/NousResearch/hermes-agent/tree/main/skills/productivity/ocr-and-documents",
-   "desc": "PDF/扫描件 OCR 提取文本（pymupdf / marker-pdf），把扫描文档变可编辑文本",
-   "source": "Hermes Agent / Nous Research（官方内置）",
+   "desc": "⚠️ 已失效：Hermes 官方已移除该 Skill，OCR 能力并入内置 pdf Skill",
+   "source": "Hermes Agent / Nous Research（官方内置 · ⚠️ 已移除）",
    "stars": null,
    "updated": "2026-08-12"
   },
@@ -1322,7 +1322,7 @@
    "icon": "E",
    "repo": "https://github.com/NousResearch/hermes-agent/tree/main/skills/creative/excalidraw",
    "desc": "手绘风格 Excalidraw JSON 图表：架构/流程/时序图",
-   "source": "Hermes Agent / Nous Research（官方内置）",
+   "source": "Hermes Agent / Nous Research（官方可选）",
    "stars": null,
    "updated": "2026-08-12"
   },
@@ -1410,7 +1410,7 @@
    "icon": "C",
    "repo": "https://github.com/NousResearch/hermes-agent/tree/main/skills/creative/comfyui",
    "desc": "ComfyUI 扩散工作流生成图片/视频/音频",
-   "source": "Hermes Agent / Nous Research（官方内置）",
+   "source": "Hermes Agent / Nous Research（官方可选）",
    "stars": null,
    "updated": "2026-08-12"
   },
