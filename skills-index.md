@@ -1,7 +1,7 @@
 ---
 title:   "The King Skills — AI 一键安装索引"
-version: "1.3"
-updated: "2026-08-25"
+version: "1.4"
+updated: "2026-09-03"
 total:   125
 ---
 
@@ -47,7 +47,7 @@ total:   125
 
 ```
 安装 Find Skills。
-来源：https://clawhub.ai/fangkelvin/find-skills-skill
+来源：https://clawhub.ai/fangkelvin/skills/find-skills-skill
 安装后，你可以说「帮我找一个配图 Skill」，它会从 ClawHub 搜出备选项，选好后直接帮你装上。
 ```
 
@@ -75,7 +75,7 @@ total:   125
 
 | 字段 | 值 |
 |------|-----|
-| **来源** | virgiliojr94（⭐ 6.2k） |
+| **来源** | virgiliojr94（⭐ 28k） |
 | **分类** | 基础与元 Skill |
 | **一句话** | 把技术类 PDF/EPUB/DOCX 书籍转化为可交互的 Agent Skill，按需加载章节 |
 
@@ -83,7 +83,7 @@ total:   125
 
 ```
 安装 book-to-skill。
-来源：https://github.com/virgiliojr94/book-to-skill（⭐ 6.2k）
+来源：https://github.com/virgiliojr94/book-to-skill（⭐ 28k）
 安装后，输入 /book-to-skill <书籍路径>，它会自动提取书籍内容，
 生成 SKILL.md + 章节摘要 + 术语表 + 模式集，Agent 按需加载，无需全量塞入上下文。
 ```
@@ -102,7 +102,7 @@ total:   125
 
 ```
 安装 Skill Vetter Skill。
-来源：https://clawhub.ai/spclaudehome/skill-vetter（★ 1.2k）
+来源：https://clawhub.ai/spclaudehome/skills/skill-vetter（★ 1.2k）
 安装后，从 ClawHub、GitHub 等任何来源安装新 Skill 前，先让它审查一遍：
 检查红旗、权限范围和可疑代码模式，确认安全再装。
 ```
@@ -121,7 +121,7 @@ total:   125
 
 ```
 安装 Auto-Updater Skill。
-来源：https://clawhub.ai/maximeprades/auto-updater（★ 428）
+来源：https://clawhub.ai/maximeprades/skills/auto-updater（★ 428）
 安装后，它会通过定时任务每天自动检查更新、应用更新，并把改动摘要发给你。
 ```
 
@@ -139,7 +139,7 @@ total:   125
 
 ```
 安装 ClawHub 版 Skill Creator。
-来源：https://clawhub.ai/chindden/skill-creator（★ 319）
+来源：https://clawhub.ai/chindden/skills/skill-creator（★ 319）
 安装后，当你想新建或更新 Skill 来扩展 Agent 能力时，它会按规范引导你完成创建。
 与上方 01 号 Anthropic 官方版互为补充，可按需选用。
 ```
@@ -200,7 +200,7 @@ total:   125
 
 ```
 安装 Self-Improving Agent Skill。
-来源：https://clawhub.ai/pskoett/self-improving-agent（★ 3.8k）
+来源：https://clawhub.ai/pskoett/skills/self-improving-agent（★ 3.8k）
 安装后，命令报错、被用户纠正或自我发现问题时，它会自动把经验写进 .learnings/ 目录，
 下次遇到同类场景会主动避开，相当于给 Agent 装上长期进化记忆。
 ```
@@ -219,7 +219,7 @@ total:   125
 
 ```
 安装 Proactive Agent Skill。
-来源：https://clawhub.ai/halthelobster/proactive-agent（★ 800）
+来源：https://clawhub.ai/halthelobster/skills/proactive-agent（★ 800）
 安装后，Agent 会主动预判你的需求、持续自我改进，并支持 WAL 协议、工作缓冲区和自动定时任务。
 Hal Stack 系列成员。
 ```
@@ -238,7 +238,7 @@ Hal Stack 系列成员。
 
 ```
 安装 Self-Improving + Proactive Agent Skill。
-来源：https://clawhub.ai/ivangdavila/self-improving（★ 1.2k）
+来源：https://clawhub.ai/ivangdavila/skills/self-improving（★ 1.2k）
 安装后，Agent 会反思自己的工作、主动发现错误并永久改进，适合希望 Agent 越用越聪明的场景。
 ```
 
@@ -256,7 +256,7 @@ Hal Stack 系列成员。
 
 ```
 安装 Ontology Skill。
-来源：https://clawhub.ai/oswalpalash/ontology（★ 638）
+来源：https://clawhub.ai/oswalpalash/skills/ontology（★ 638）
 安装后，可以用知识图谱创建/查询实体（人物、项目、任务、事件、文档）并建立关联，
 让 Agent 拥有结构化长期记忆。
 ```
@@ -267,7 +267,7 @@ Hal Stack 系列成员。
 
 | 字段 | 值 |
 |------|-----|
-| **来源** | topoteretes（⭐ 高星） |
+| **来源** | topoteretes（⭐ 30.4k） |
 | **分类** | Agent 智能化 |
 | **一句话** | 开源 AI Agent 长期记忆平台：自托管知识图谱引擎，跨会话持久上下文 |
 
@@ -286,7 +286,7 @@ Hal Stack 系列成员。
 
 | 字段 | 值 |
 |------|-----|
-| **来源** | msitarzewski（⭐ 121k） |
+| **来源** | msitarzewski（⭐ 150k） |
 | **分类** | Agent 智能化 |
 | **一句话** | 232 个领域专家 AI Agent 合集：从前端开发到安全审计，一人即团队 |
 
@@ -294,7 +294,7 @@ Hal Stack 系列成员。
 
 ```
 安装 agency-agents Skill。
-来源：https://github.com/msitarzewski/agency-agents（⭐ 121k）
+来源：https://github.com/msitarzewski/agency-agents（⭐ 150k）
 安装方式：推荐下载桌面 App（agencyagents.app），或 ./scripts/install.sh
 安装后，获得 232 个专业 AI Agent，覆盖工程/设计/营销/销售/金融/安全等 16 个领域。
 每个 Agent 有独立人格、工作流和交付标准，支持 Claude Code / Cursor / Codex 等工具。
@@ -401,7 +401,7 @@ Hal Stack 系列成员。
 
 | 字段 | 值 |
 |------|-----|
-| **来源** | DietrichGebert（⭐ 110k） |
+| **来源** | DietrichGebert（⭐ 122k） |
 | **分类** | 开发与编码 |
 | **一句话** | 让 AI Agent 像资深懒人开发者一样思考：能省则省，YAGNI，用最少的代码完成任务 |
 
@@ -409,7 +409,7 @@ Hal Stack 系列成员。
 
 ```
 安装 Ponytail Skill。
-来源：https://github.com/DietrichGebert/ponytail（⭐ 110k）
+来源：https://github.com/DietrichGebert/ponytail（⭐ 122k）
 安装后，Agent 写代码前会按优先级判断：这东西真的需要吗？标准库能搞定吗？
 平台原生功能能直接用吗？一行代码够吗？—— 平均减少 54% 代码、20% 成本和 27% 耗时。
 安全性/验证/可访问性等关键保障不会被砍掉。
@@ -505,7 +505,7 @@ UI 设计规范、视觉风格与动效，告别 AI 味界面。
 
 | 字段 | 值 |
 |------|-----|
-| **来源** | nextlevelbuilder（⭐ 92.2k） |
+| **来源** | nextlevelbuilder（⭐ 124k） |
 | **分类** | 前端与设计 |
 | **一句话** | 设计资源库：50 种设计风格 + 97 种配色方案 + 9 个技术栈 |
 
@@ -513,7 +513,7 @@ UI 设计规范、视觉风格与动效，告别 AI 味界面。
 
 ```
 安装 ui-ux-pro-max Skill。
-来源：https://github.com/nextlevelbuilder/ui-ux-pro-max-skill（⭐ 92.2k）
+来源：https://github.com/nextlevelbuilder/ui-ux-pro-max-skill（⭐ 124k）
 安装后，生成页面时自动匹配适合的设计风格和配色方案。
 ```
 
@@ -541,7 +541,7 @@ UI 设计规范、视觉风格与动效，告别 AI 味界面。
 
 | 字段 | 值 |
 |------|-----|
-| **来源** | Leonxlnx（⭐ 53.5k） |
+| **来源** | Leonxlnx（⭐ 84k） |
 | **分类** | 前端与设计 |
 | **一句话** | 反模板化前端设计框架：让 AI 生成有品味的 UI，告别千篇一律的「AI 味」界面 |
 
@@ -549,7 +549,7 @@ UI 设计规范、视觉风格与动效，告别 AI 味界面。
 
 ```
 安装 taste-skill Skill。
-来源：https://github.com/Leonxlnx/taste-skill（⭐ 53.5k）
+来源：https://github.com/Leonxlnx/taste-skill（⭐ 84k）
 安装方式：npx skills add https://github.com/Leonxlnx/taste-skill
 安装后，Agent 增强布局/排版/动效/间距设计能力，支持多种设计风格（简约/工业/高端/暗黑等）
 和图像生成技能（网页排版、移动端、品牌套件），配合 Cursor / Claude Code / Codex 使用。
@@ -561,7 +561,7 @@ UI 设计规范、视觉风格与动效，告别 AI 味界面。
 
 | 字段 | 值 |
 |------|-----|
-| **来源** | greensock（⭐ 10.5k） |
+| **来源** | greensock（⭐ 14.8k） |
 | **分类** | 前端与设计 |
 | **一句话** | GSAP 动画官方 AI Skill：教 AI 代理正确使用 GSAP 动画库（核心 API/时间线/ScrollTrigger/插件） |
 
@@ -569,7 +569,7 @@ UI 设计规范、视觉风格与动效，告别 AI 味界面。
 
 ```
 安装 gsap-skills Skill。
-来源：https://github.com/greensock/gsap-skills（⭐ 10.5k）
+来源：https://github.com/greensock/gsap-skills（⭐ 14.8k）
 安装方式：npx skills add https://github.com/greensock/gsap-skills
 安装后，Agent 获得 GSAP 动画全栈能力：gsap.core、Timeline、ScrollTrigger、插件（SplitText/MorphSVG 等）、
 React/Vue/Svelte 集成、性能优化。所有 GSAP 插件现已免费商用。
@@ -601,16 +601,16 @@ React/Vue/Svelte 集成、性能优化。所有 GSAP 插件现已免费商用。
 
 | 字段 | 值 |
 |------|-----|
-| **来源** | Hermes Agent / Nous Research（官方内置） |
+| **来源** | Hermes Agent / Nous Research（官方可选） |
 | **分类** | 前端与设计 |
 | **一句话** | 手绘风格 Excalidraw JSON 图表：架构/流程/时序图 |
 
 **安装指令：**
 
 ```
-安装 excalidraw Skill（Hermes Agent 官方内置）。
+安装 excalidraw Skill（Hermes Agent 官方可选）。
 来源：https://hermes-agent.nousresearch.com/docs/zh-Hans/skills
-安装方式：安装 Hermes Agent 后内置，直接 /excalidraw 调用。
+安装方式：Hermes 官方仓库 skills 目录已移除，现位于 optional-skills/creative，安装后 /excalidraw 调用。
 安装后，Agent 生成手绘风格的 Excalidraw JSON 图表（架构图/流程图/时序图），
 在 excalidraw.com 打开即可编辑。
 ```
@@ -665,7 +665,7 @@ HTML/CSS 设计系统，做出高质感前端。
 
 | 字段 | 值 |
 |------|-----|
-| **来源** | JimLiu（⭐ 21.7k） |
+| **来源** | JimLiu（⭐ 25.6k） |
 | **分类** | 内容创作 |
 | **一句话** | 约 20 个视觉设计 Skill 包：封面图/信息图/PPT/文章配图/长文排版 |
 
@@ -673,7 +673,7 @@ HTML/CSS 设计系统，做出高质感前端。
 
 ```
 安装 baoyu-skills 技能包。
-来源：https://github.com/JimLiu/baoyu-skills（⭐ 21.7k）
+来源：https://github.com/JimLiu/baoyu-skills（⭐ 25.6k）
 安装后，把文章发给它，它会自动找出适合配图的段落并生成插图放到对应位置。
 ```
 
@@ -685,7 +685,7 @@ HTML/CSS 设计系统，做出高质感前端。
 |------|-----|
 | **来源** | phoenixlucky |
 | **分类** | 内容创作 |
-| **一句话** | 温柔/克制/留白感强的恋爱聊天回复辅助 Skill |
+| **一句话** | 温柔/克制/留白感强的恋爱聊天回复 Skill，内置西施/王昭君/貂蝉/杨玉环四大美人角色卡 |
 
 **安装指令：**
 
@@ -709,7 +709,7 @@ HTML/CSS 设计系统，做出高质感前端。
 
 ```
 安装 Nano Banana Pro Skill。
-来源：https://clawhub.ai/steipete/nano-banana-pro（★ 405）
+来源：https://clawhub.ai/steipete/skills/nano-banana-pro（★ 405）
 安装后，Agent 可用 Nano Banana Pro（Gemini 3 Pro Image）生成或编辑图片，
 支持文生图和图生图（--input-image），可输出 1K/2K/4K 分辨率。
 ```
@@ -728,7 +728,7 @@ HTML/CSS 设计系统，做出高质感前端。
 
 ```
 安装 OpenAI Image Gen Skill。
-来源：https://clawhub.ai/steipete/openai-image-gen（★ 37）
+来源：https://clawhub.ai/steipete/skills/openai-image-gen（★ 37）
 安装后，Agent 可通过 OpenAI Images API 批量生成图片，内置随机 prompt 采样器和 index.html 画廊。
 ```
 
@@ -746,7 +746,7 @@ HTML/CSS 设计系统，做出高质感前端。
 
 ```
 安装 Humanizer Skill。
-来源：https://clawhub.ai/biostartechnology/humanizer（★ 669）
+来源：https://clawhub.ai/biostartechnology/skills/humanizer（★ 669）
 安装后，编辑或审阅文本时可自动去除 AI 写作痕迹：
 夸张象征、推销用语、空泛归因、破折号滥用、三段式、AI 词汇、负面并列和过度连接词等。
 ```
@@ -777,16 +777,16 @@ HTML/CSS 设计系统，做出高质感前端。
 
 | 字段 | 值 |
 |------|-----|
-| **来源** | Hermes Agent / Nous Research（官方内置） |
+| **来源** | Hermes Agent / Nous Research（官方可选） |
 | **分类** | 内容创作 |
 | **一句话** | ComfyUI 扩散工作流生成图片/视频/音频 |
 
 **安装指令：**
 
 ```
-安装 comfyui Skill（Hermes Agent 官方内置）。
+安装 comfyui Skill（Hermes Agent 官方可选）。
 来源：https://hermes-agent.nousresearch.com/docs/zh-Hans/skills
-安装方式：安装 Hermes Agent 后内置，直接 /comfyui 调用。
+安装方式：Hermes 官方仓库 skills 目录已移除，现位于 optional-skills/creative，安装后 /comfyui 调用。
 安装后，Agent 通过 ComfyUI 扩散工作流生成图片、视频和音频，
 适合本地可控的 AI 创作。
 ```
@@ -821,7 +821,7 @@ Office/PDF 文档创建、编辑与格式转换。
 
 | 字段 | 值 |
 |------|-----|
-| **来源** | teng-lin（⭐ 1.5 万+） |
+| **来源** | teng-lin（⭐ 19.1k） |
 | **分类** | 文档处理 |
 | **一句话** | 打通 Agent 与 NotebookLM，Agent 可直接查询 NotebookLM 中的文档 |
 
@@ -829,7 +829,7 @@ Office/PDF 文档创建、编辑与格式转换。
 
 ```
 安装 NotebookLM Skill。
-来源：https://github.com/teng-lin/notebooklm-py（⭐ 1.5 万+）
+来源：https://github.com/teng-lin/notebooklm-py（⭐ 19.1k）
 安装后，Agent 可以查询和分析你在 NotebookLM 中存储的所有文档，
 显著减少 AI 幻觉，相当于给 Agent 接上超强长期记忆外挂。
 ```
@@ -840,7 +840,7 @@ Office/PDF 文档创建、编辑与格式转换。
 
 | 字段 | 值 |
 |------|-----|
-| **来源** | iOfficeAI（⭐ 27.8k） |
+| **来源** | iOfficeAI（⭐ 29.8k） |
 | **分类** | 文档处理 |
 | **一句话** | AI Agent 专用 Office 文档工具：创建、编辑和自动化 Word/Excel/PPT，单二进制免装 Office |
 
@@ -848,7 +848,7 @@ Office/PDF 文档创建、编辑与格式转换。
 
 ```
 安装 officecli Skill。
-来源：https://github.com/iOfficeAI/OfficeCLI（⭐ 27.8k）
+来源：https://github.com/iOfficeAI/OfficeCLI（⭐ 29.8k）
 安装方式（任选）：
 - 官方推荐：运行 officecli install，自动装 binary 并注册到 Claude Code / Cursor / Windsurf / Copilot
 - 或把 https://officecli.ai/SKILL.md 喂给 Agent 自动安装
@@ -865,7 +865,7 @@ Office/PDF 文档创建、编辑与格式转换。
 
 | 字段 | 值 |
 |------|-----|
-| **来源** | kimi-skills（⭐ 187） |
+| **来源** | kimi-skills（⭐ 232） |
 | **分类** | 文档处理 |
 | **一句话** | 完整的 DOCX 文档创建、编辑与分析能力，支持修订、批注、格式保持和文本提取 |
 
@@ -873,7 +873,7 @@ Office/PDF 文档创建、编辑与格式转换。
 
 ```
 安装 docx Skill。
-来源：https://github.com/thvroyal/kimi-skills（⭐ 187）
+来源：https://github.com/thvroyal/kimi-skills（⭐ 232）
 安装后，可以创建 Word 文档：设置封面/目录/页眉页脚/图表，支持修订跟踪和批注，
 也支持编辑现有文档，提取文本和结构。
 依赖：.NET SDK、Python 3、pandoc（可选）。
@@ -912,7 +912,7 @@ Office/PDF 文档创建、编辑与格式转换。
 
 ```
 安装 Nano PDF Skill。
-来源：https://clawhub.ai/steipete/nano-pdf（★ 260）
+来源：https://clawhub.ai/steipete/skills/nano-pdf（★ 260）
 安装后，Agent 可用自然语言指令通过 nano-pdf CLI 编辑 PDF 文档。
 ```
 
@@ -937,22 +937,20 @@ Office/PDF 文档创建、编辑与格式转换。
 
 ---
 
-### 108 — ocr-and-documents（OCR 文档提取）
+### 108 — ocr-and-documents（OCR 文档提取 · ⚠️ 已失效）
 
 | 字段 | 值 |
 |------|-----|
-| **来源** | Hermes Agent / Nous Research（官方内置） |
+| **来源** | Hermes Agent / Nous Research（官方内置 · ⚠️ 已移除） |
 | **分类** | 文档处理 |
-| **一句话** | PDF/扫描件 OCR 提取文本（pymupdf / marker-pdf），把扫描文档变可编辑文本 |
+| **一句话** | ⚠️ 已失效：Hermes 官方已移除该 Skill，OCR 能力并入内置 pdf Skill |
 
 **安装指令：**
 
 ```
-安装 ocr-and-documents Skill（Hermes Agent 官方内置）。
-来源：https://hermes-agent.nousresearch.com/docs/zh-Hans/skills
-安装方式：安装 Hermes Agent 后内置，直接 /ocr-and-documents 或 hermes -s ocr-and-documents 调用。
-安装后，Agent 可从 PDF、扫描件、图片中提取文字，
-支持版面解析（pymupdf、marker-pdf），适合扫描文档数字化。
+⚠️ 已失效：Hermes Agent 官方仓库已移除该 Skill，
+OCR 提取能力已并入内置 pdf Skill（skills/productivity/pdf，含 pymupdf/marker 脚本）。
+如需 OCR 请使用「26 — pdf」Skill。
 ```
 
 ---
@@ -1057,15 +1055,15 @@ Office/PDF 文档创建、编辑与格式转换。
 
 | 字段 | 值 |
 |------|-----|
-| **来源** | Ceeon |
+| **来源** | Agentchengfeng（原 Ceeon） |
 | **分类** | 视频制作 |
-| **一句话** | 面向中文创作者的视频剪辑 Skills：素材/字幕/短视频制作流程 |
+| **一句话** | 面向中文创作者的视频剪辑 Agent（原 videocut-skills，已迁移改名）：素材/字幕/短视频制作流程 |
 
 **安装指令：**
 
 ```
 安装 videocut-skills。
-来源：https://github.com/Ceeon/videocut-skills
+来源：https://github.com/Agentchengfeng/chengfeng-videocut-skills
 安装后，Agent 可以理解剪辑需求，并协助处理素材、字幕和短视频制作流程。中文用户想用 Claude Code 或其他 Agent 剪视频，可以重点研究。
 ```
 
@@ -1101,7 +1099,7 @@ Office/PDF 文档创建、编辑与格式转换。
 
 ```
 安装 Video Frames Skill。
-来源：https://clawhub.ai/steipete/video-frames（★ 129）
+来源：https://clawhub.ai/steipete/skills/video-frames（★ 129）
 安装后，Agent 可用 ffmpeg 从视频中提取帧或短片段。
 ```
 
@@ -1140,7 +1138,7 @@ Office/PDF 文档创建、编辑与格式转换。
 |------|-----|
 | **来源** | calesthio |
 | **分类** | 视频制作 |
-| **一句话** | 世界首个开源 agentic 视频生产系统：12 条 pipeline、50+ 工具、500+ agent skills |
+| **一句话** | 世界首个开源 agentic 视频生产系统：12 条 pipeline、100+ 工具、700+ agent skills |
 
 **安装指令：**
 
@@ -1148,7 +1146,7 @@ Office/PDF 文档创建、编辑与格式转换。
 安装 OpenMontage Skill。
 来源：https://github.com/calesthio/OpenMontage
 安装后，Claude Code 变成完整视频制作团队：研究→脚本→资产生成→剪辑→合成。
-包含 12 条 pipeline、50+ 工具和 500+ agent skills，覆盖视频制作全流程。
+包含 12 条 pipeline、100+ 工具和 700+ agent skills，覆盖视频制作全流程。
 ```
 
 ---
@@ -1179,7 +1177,7 @@ Office/PDF 文档创建、编辑与格式转换。
 
 | 字段 | 值 |
 |------|-----|
-| **来源** | Emily2040（⭐ 1.8k） |
+| **来源** | Emily2040（⭐ 7.1k） |
 | **分类** | 视频制作 |
 | **一句话** | Seedance 2.0 完整导演制作管线：专业分镜/运镜/续拍/安全改写，支持多语言提示词 |
 
@@ -1187,7 +1185,7 @@ Office/PDF 文档创建、编辑与格式转换。
 
 ```
 安装 seedance-2.0 Skill OS。
-来源：https://github.com/Emily2040/seedance-2.0（⭐ 1.8k）
+来源：https://github.com/Emily2040/seedance-2.0（⭐ 7.1k）
 安装方式：npx skills add https://github.com/Emily2040/seedance-2.0
 或 python scripts/install_codex_skill.py
 安装后，Agent 获得完整的 Seedance 2.0 导演能力：
@@ -1271,7 +1269,7 @@ Office/PDF 文档创建、编辑与格式转换。
 
 ```
 安装 AdMapix Skill。
-来源：https://clawhub.ai/fly0pants/admapix（★ 286）
+来源：https://clawhub.ai/fly0pants/skills/admapix（★ 286）
 安装后，Agent 可搜索广告素材、分析 App 及其排名、下载量、收入和市场洞察，
 用于广告素材和竞品分析。
 ```
@@ -1290,7 +1288,7 @@ Office/PDF 文档创建、编辑与格式转换。
 
 ```
 安装 Polymarket Skill。
-来源：https://clawhub.ai/mvanhorn/polymarket（★ 22）
+来源：https://clawhub.ai/mvanhorn/skills/polymarket（★ 22）
 安装后，Agent 可查询 Polymarket 预测市场的行情和事件数据。
 ```
 
@@ -1308,7 +1306,7 @@ Office/PDF 文档创建、编辑与格式转换。
 
 ```
 安装 Automation Workflows Skill。
-来源：https://clawhub.ai/jk-0001/automation-workflows（★ 305）
+来源：https://clawhub.ai/jk-0001/skills/automation-workflows（★ 305）
 安装后，识别可自动化的重复任务、设计工作流、选型工具（Zapier、Make、n8n），
 并完成测试和维护。触发词：自动化、workflow、省时间。
 ```
@@ -1327,7 +1325,7 @@ Office/PDF 文档创建、编辑与格式转换。
 
 ```
 安装 Model Usage Skill。
-来源：https://clawhub.ai/steipete/model-usage（★ 113）
+来源：https://clawhub.ai/steipete/skills/model-usage（★ 113）
 安装后，可以用 CodexBar CLI 汇总 Codex/Claude 各模型的用量和成本，
 输出当前模型或完整模型明细。
 ```
@@ -1346,7 +1344,7 @@ Office/PDF 文档创建、编辑与格式转换。
 
 ```
 安装 Blogwatcher Skill。
-来源：https://clawhub.ai/steipete/blogwatcher（★ 70）
+来源：https://clawhub.ai/steipete/skills/blogwatcher（★ 70）
 安装后，Agent 可用 blogwatcher CLI 监控博客和 RSS/Atom 订阅源的更新。
 ```
 
@@ -1356,7 +1354,7 @@ Office/PDF 文档创建、编辑与格式转换。
 
 | 字段 | 值 |
 |------|-----|
-| **来源** | saysoph（⭐ 35） |
+| **来源** | saysoph（⭐ 41） |
 | **分类** | 商业与金融 |
 | **一句话** | 一人律所 Agents：28 位 AI 虚拟专员、7 大部门，覆盖接案/检索/文书/排期/催收/品宣/知识沉淀全链条 |
 
@@ -1364,7 +1362,7 @@ Office/PDF 文档创建、编辑与格式转换。
 
 ```
 安装 solo-law-firm-agents Skill。
-来源：https://github.com/saysoph/solo-law-firm-agents（⭐ 35）
+来源：https://github.com/saysoph/solo-law-firm-agents（⭐ 41）
 安装后，为独立执业律师组建一支 7×24 小时待命的 AI 律所团队：
 - 28 位虚拟专员分布在案件实务/案件管理/客户关系/尽职调查/市场拓展/财务行政/知识管理 7 大部门
 - 每位专员自带标准交付物（法条清单、风险批注版合同、证据目录、法官画像报告等）
@@ -1456,7 +1454,7 @@ Office/PDF 文档创建、编辑与格式转换。
 
 ```
 安装 Github Skill。
-来源：https://clawhub.ai/steipete/github（★ 636）
+来源：https://clawhub.ai/steipete/skills/github（★ 636）
 安装后，可以用 gh issue、gh pr、gh run、gh api 操作 GitHub 的 issue、PR、CI 和高级查询。
 ```
 
@@ -1474,7 +1472,7 @@ Office/PDF 文档创建、编辑与格式转换。
 
 ```
 安装 Gog Skill。
-来源：https://clawhub.ai/steipete/gog（★ 924）
+来源：https://clawhub.ai/steipete/skills/gog（★ 924）
 安装后，Agent 可直接操作 Gmail、Google 日历、Drive、通讯录、Sheets 和 Docs。
 ```
 
@@ -1492,7 +1490,7 @@ Office/PDF 文档创建、编辑与格式转换。
 
 ```
 安装 Slack Skill。
-来源：https://clawhub.ai/steipete/slack（★ 158）
+来源：https://clawhub.ai/steipete/skills/slack（★ 158）
 安装后，可以通过 slack 工具控制 Slack：发/改/删消息、表情回复、管理置顶和成员信息。
 ```
 
@@ -1510,7 +1508,7 @@ Office/PDF 文档创建、编辑与格式转换。
 
 ```
 安装 Trello Skill。
-来源：https://clawhub.ai/steipete/trello（★ 161）
+来源：https://clawhub.ai/steipete/skills/trello（★ 161）
 安装后，Agent 可以管理 Trello 看板、列表和卡片。
 ```
 
@@ -1528,7 +1526,7 @@ Office/PDF 文档创建、编辑与格式转换。
 
 ```
 安装 Notion Skill。
-来源：https://clawhub.ai/steipete/notion（★ 259）
+来源：https://clawhub.ai/steipete/skills/notion（★ 259）
 安装后，Agent 可通过 Notion API 创建和管理页面、数据库与 block。
 ```
 
@@ -1546,7 +1544,7 @@ Office/PDF 文档创建、编辑与格式转换。
 
 ```
 安装 Obsidian Skill。
-来源：https://clawhub.ai/steipete/obsidian（★ 428）
+来源：https://clawhub.ai/steipete/skills/obsidian（★ 428）
 安装后，Agent 可以读写 Obsidian 笔记库（纯 Markdown），并通过 obsidian-cli 自动化笔记流程。
 ```
 
@@ -1564,7 +1562,7 @@ Office/PDF 文档创建、编辑与格式转换。
 
 ```
 安装 Discord Skill。
-来源：https://clawhub.ai/steipete/discord（★ 77）
+来源：https://clawhub.ai/steipete/skills/discord（★ 77）
 安装后，可以通过 discord 工具控制 Discord：发消息、表情、贴纸、投票，
 管理话题/置顶/搜索，以及处理频道权限和成员/角色信息。
 ```
@@ -1583,7 +1581,7 @@ Office/PDF 文档创建、编辑与格式转换。
 
 ```
 安装 mcporter Skill。
-来源：https://clawhub.ai/steipete/mcporter（★ 194）
+来源：https://clawhub.ai/steipete/skills/mcporter（★ 194）
 安装后，可以用 mcporter CLI 直接列出、配置、授权并调用 MCP 服务器和工具，
 支持临时服务器、配置编辑和 CLI/类型生成。
 ```
@@ -1602,7 +1600,7 @@ Office/PDF 文档创建、编辑与格式转换。
 
 ```
 安装 Himalaya Skill。
-来源：https://clawhub.ai/lamelas/himalaya（★ 69）
+来源：https://clawhub.ai/lamelas/skills/himalaya（★ 69）
 安装后，Agent 可在终端用 himalaya 列出、读取、撰写、回复、转发、搜索和整理邮件，支持多账户。
 ```
 
@@ -1620,7 +1618,7 @@ Office/PDF 文档创建、编辑与格式转换。
 
 ```
 安装 1Password Skill。
-来源：https://clawhub.ai/steipete/1password（★ 52）
+来源：https://clawhub.ai/steipete/skills/1password（★ 52）
 安装后，可以安装 op CLI、启用桌面应用集成、登录（单/多账户），
 并读取/注入/运行密钥。
 ```
@@ -1639,7 +1637,7 @@ Office/PDF 文档创建、编辑与格式转换。
 
 ```
 安装 Apple Notes Skill。
-来源：https://clawhub.ai/steipete/apple-notes（★ 57）
+来源：https://clawhub.ai/steipete/skills/apple-notes（★ 57）
 安装后，Agent 可通过 memo CLI 在 macOS 上创建、查看、编辑、删除、搜索、移动和导出 Apple Notes。
 ```
 
@@ -1657,7 +1655,7 @@ Office/PDF 文档创建、编辑与格式转换。
 
 ```
 安装 Apple Reminders Skill。
-来源：https://clawhub.ai/steipete/apple-reminders（★ 54）
+来源：https://clawhub.ai/steipete/skills/apple-reminders（★ 54）
 安装后，Agent 可通过 remindctl CLI 管理 Apple 提醒事项：列表、日期筛选、增删改和 JSON/纯文本输出。
 ```
 
@@ -1675,7 +1673,7 @@ Office/PDF 文档创建、编辑与格式转换。
 
 ```
 安装 CalDAV Calendar Skill。
-来源：https://clawhub.ai/asleep123/caldav-calendar（★ 242）
+来源：https://clawhub.ai/asleep123/skills/caldav-calendar（★ 242）
 安装后，可以用 vdirsyncer 把 CalDAV 日历（iCloud、Google、Fastmail、Nextcloud 等）
 同步到本地 .ics 文件，再用 khal 查看、搜索、创建和编辑事件。仅支持 Linux。
 ```
@@ -1718,7 +1716,7 @@ Office/PDF 文档创建、编辑与格式转换。
 
 ```
 安装 Multi Search Engine Skill。
-来源：https://clawhub.ai/gpyangyoujun/multi-search-engine（★ 727）
+来源：https://clawhub.ai/gpyangyoujun/skills/multi-search-engine（★ 727）
 安装后，Agent 可调用 16 个搜索引擎（7 国内 + 9 全球），
 支持高级搜索运算符、时间筛选、站内搜索和隐私引擎。
 ```
@@ -1737,7 +1735,7 @@ Office/PDF 文档创建、编辑与格式转换。
 
 ```
 安装 Tavily 搜索 Skill。
-来源：https://clawhub.ai/jacky1n7/openclaw-tavily-search（★ 263）
+来源：https://clawhub.ai/jacky1n7/skills/openclaw-tavily-search（★ 263）
 安装后，当需要联网搜索、查找资料或获取链接时，可通过 Tavily API 搜索，
 作为 Brave web_search 不可用时的替代方案。
 ```
@@ -1756,7 +1754,7 @@ Office/PDF 文档创建、编辑与格式转换。
 
 ```
 安装 Baidu 搜索 Skill。
-来源：https://clawhub.ai/ide-rea/baidu-search（★ 216）
+来源：https://clawhub.ai/ide-rea/skills/baidu-search（★ 216）
 安装后，Agent 可用百度 AI 搜索引擎联网搜索，适合查询实时信息、文档资料或研究类中文内容。
 ```
 
@@ -1774,7 +1772,7 @@ Office/PDF 文档创建、编辑与格式转换。
 
 ```
 安装 Agent Browser Skill。
-来源：https://clawhub.ai/matrixy/agent-browser-clawdbot（★ 424）
+来源：https://clawhub.ai/matrixy/skills/agent-browser-clawdbot（★ 424）
 安装后，Agent 可以驱动无头浏览器自动化网页操作，
 通过可访问性树快照和 ref 元素引用精准定位和点击页面元素。
 ```
@@ -1785,7 +1783,7 @@ Office/PDF 文档创建、编辑与格式转换。
 
 | 字段 | 值 |
 |------|-----|
-| **来源** | browser-use（⭐ 100k） |
+| **来源** | browser-use（⭐ 112k） |
 | **分类** | 搜索与浏览 |
 | **一句话** | 让 AI 像真人一样点鼠标、登录、填表，ETH Zurich 学生团队出品 |
 
@@ -1793,7 +1791,7 @@ Office/PDF 文档创建、编辑与格式转换。
 
 ```
 安装 browser-use Skill。
-来源：https://github.com/browser-use/browser-use（⭐ 100k）
+来源：https://github.com/browser-use/browser-use（⭐ 112k）
 安装后，Agent 可驱动真实浏览器进行页面操作：点击、输入、登录、
 表单填写等，适合需要交互操作的场景。
 ```
@@ -1886,7 +1884,7 @@ Office/PDF 文档创建、编辑与格式转换。
 |------|-----|
 | **来源** | Panniantong |
 | **分类** | 数据采集与爬虫 |
-| **一句话** | 一 CLI 零 API 费用实时抓取 Twitter/X、Reddit、YouTube、GitHub、Bilibili 情报 |
+| **一句话** | 一 CLI 零 API 费用实时抓取 Twitter/X、Reddit、YouTube、GitHub、Bilibili、小红书情报 |
 
 **安装指令：**
 
@@ -1903,7 +1901,7 @@ Office/PDF 文档创建、编辑与格式转换。
 
 | 字段 | 值 |
 |------|-----|
-| **来源** | firecrawl（⭐ 140k，GitHub Top 100） |
+| **来源** | firecrawl（⭐ 176k，GitHub Top 100） |
 | **分类** | 数据采集与爬虫 |
 | **一句话** | 丢个 URL 进去整站爬完，吐出 AI 能直接吃的干净数据，JS 渲染页面也扛得住 |
 
@@ -1911,7 +1909,7 @@ Office/PDF 文档创建、编辑与格式转换。
 
 ```
 安装 Firecrawl Skill。
-来源：https://github.com/firecrawl/firecrawl（⭐ 140k）
+来源：https://github.com/firecrawl/firecrawl（⭐ 176k）
 安装后，Agent 可一键爬取整站并返回结构化数据，
 支持 JS 渲染页面抓取，输出格式 AI 可直接消费。
 ```
@@ -1922,7 +1920,7 @@ Office/PDF 文档创建、编辑与格式转换。
 
 | 字段 | 值 |
 |------|-----|
-| **来源** | unclecode（⭐ 70k） |
+| **来源** | unclecode（⭐ 81k） |
 | **分类** | 数据采集与爬虫 |
 | **一句话** | 把网站整成 LLM 能直接读的文本，不要 API Key 不要钱 |
 
@@ -1930,7 +1928,7 @@ Office/PDF 文档创建、编辑与格式转换。
 
 ```
 安装 Crawl4AI Skill。
-来源：https://github.com/unclecode/crawl4ai（⭐ 70k）
+来源：https://github.com/unclecode/crawl4ai（⭐ 81k）
 安装后，Agent 可直接将 URL 内容转为 LLM 友好文本格式，
 无需任何 API Key，零成本使用。
 ```
@@ -1960,7 +1958,7 @@ Office/PDF 文档创建、编辑与格式转换。
 
 | 字段 | 值 |
 |------|-----|
-| **来源** | scrapy（⭐ 高星） |
+| **来源** | scrapy（⭐ 64k） |
 | **分类** | 数据采集与爬虫 |
 | **一句话** | 干了十多年的老牌爬虫框架，几百万页面照样稳，永久免费 |
 
@@ -2036,7 +2034,7 @@ Office/PDF 文档创建、编辑与格式转换。
 
 | 字段 | 值 |
 |------|-----|
-| **来源** | NanmiCoder（⭐ 54.6k） |
+| **来源** | NanmiCoder（⭐ 64k） |
 | **分类** | 数据采集与爬虫 |
 | **一句话** | 多平台自媒体数据采集：小红书/抖音/B站/微博/快手/贴吧/知乎，支持关键词搜索和评论爬取 |
 
@@ -2044,7 +2042,7 @@ Office/PDF 文档创建、编辑与格式转换。
 
 ```
 安装 MediaCrawler Skill。
-来源：https://github.com/NanmiCoder/MediaCrawler（⭐ 54.6k）
+来源：https://github.com/NanmiCoder/MediaCrawler（⭐ 64k）
 安装后，Agent 可采集小红书、抖音、快手、B 站、微博、贴吧、知乎等平台
 的帖子/视频/评论公开数据，支持关键词搜索和指定 ID 爬取。
 ```
@@ -2109,7 +2107,7 @@ Office/PDF 文档创建、编辑与格式转换。
 
 ```
 安装 Peekaboo Skill。
-来源：https://clawhub.ai/steipete/peekaboo（★ 82）
+来源：https://clawhub.ai/steipete/skills/peekaboo（★ 82）
 安装后，Agent 可通过 Peekaboo CLI 捕获屏幕并自动化 macOS 界面操作。
 ```
 
@@ -2127,7 +2125,7 @@ Office/PDF 文档创建、编辑与格式转换。
 
 ```
 安装 tmux Skill。
-来源：https://clawhub.ai/steipete/tmux（★ 43）
+来源：https://clawhub.ai/steipete/skills/tmux（★ 43）
 安装后，Agent 可以远程控制 tmux 会话，向交互式 CLI 发送按键并抓取输出，
 适合自动化需要 TTY 的命令行程序。
 ```
@@ -2138,7 +2136,7 @@ Office/PDF 文档创建、编辑与格式转换。
 
 | 字段 | 值 |
 |------|-----|
-| **来源** | Genymobile（⭐ 140k） |
+| **来源** | Genymobile（⭐ 149k） |
 | **分类** | 终端与自动化 |
 | **一句话** | 用电脑远程操控安卓手机，专治那些只有 App 没网页的数据源 |
 
@@ -2146,7 +2144,7 @@ Office/PDF 文档创建、编辑与格式转换。
 
 ```
 安装 scrcpy Skill。
-来源：https://github.com/Genymobile/scrcpy（⭐ 140k）
+来源：https://github.com/Genymobile/scrcpy（⭐ 149k）
 安装后，Agent 可通过电脑远程操控安卓手机，
 适合抓取只有移动 App 没有网页端的数据源。
 ```
@@ -2189,7 +2187,7 @@ Office/PDF 文档创建、编辑与格式转换。
 
 ```
 安装 Weather Skill。
-来源：https://clawhub.ai/steipete/weather（★ 417）
+来源：https://clawhub.ai/steipete/skills/weather（★ 417）
 安装后，Agent 可查询实时天气和预报，无需任何 API Key。
 ```
 
@@ -2207,7 +2205,7 @@ Office/PDF 文档创建、编辑与格式转换。
 
 ```
 安装 OpenAI Whisper Skill。
-来源：https://clawhub.ai/steipete/openai-whisper（★ 325）
+来源：https://clawhub.ai/steipete/skills/openai-whisper（★ 325）
 安装后，Agent 可用 Whisper CLI 在本地做语音转文字，无需 API Key。
 ```
 
@@ -2225,7 +2223,7 @@ Office/PDF 文档创建、编辑与格式转换。
 
 ```
 安装 OpenAI Whisper API Skill。
-来源：https://clawhub.ai/steipete/openai-whisper-api（★ 52）
+来源：https://clawhub.ai/steipete/skills/openai-whisper-api（★ 52）
 安装后，Agent 可通过 OpenAI Audio Transcriptions API 转录音频。
 ```
 
@@ -2243,7 +2241,7 @@ Office/PDF 文档创建、编辑与格式转换。
 
 ```
 安装 Sag Skill。
-来源：https://clawhub.ai/steipete/sag（★ 26）
+来源：https://clawhub.ai/steipete/skills/sag（★ 26）
 安装后，Agent 可用 ElevenLabs 做文字转语音，体验类似 macOS 的 say 命令。
 ```
 
@@ -2261,7 +2259,7 @@ Office/PDF 文档创建、编辑与格式转换。
 
 ```
 安装 Spotify Player Skill。
-来源：https://clawhub.ai/steipete/spotify-player（★ 54）
+来源：https://clawhub.ai/steipete/skills/spotify-player（★ 54）
 安装后，Agent 可在终端控制 Spotify 播放和搜索（优先 spogo，或 spotify_player）。
 ```
 
@@ -2279,7 +2277,7 @@ Office/PDF 文档创建、编辑与格式转换。
 
 ```
 安装 Sonoscli Skill。
-来源：https://clawhub.ai/steipete/sonoscli（★ 55）
+来源：https://clawhub.ai/steipete/skills/sonoscli（★ 55）
 安装后，Agent 可控制 Sonos 音箱：发现设备、查看状态、播放、调节音量和分组。
 ```
 
@@ -2297,7 +2295,7 @@ Office/PDF 文档创建、编辑与格式转换。
 
 ```
 安装 goplaces Skill。
-来源：https://clawhub.ai/steipete/goplaces（★ 30）
+来源：https://clawhub.ai/steipete/skills/goplaces（★ 30）
 安装后，Agent 可用 goplaces CLI 查询 Google Places API，
 做文本搜索、地点详情、解析和评价，支持人性化输出或 JSON。
 ```
@@ -2316,7 +2314,7 @@ Office/PDF 文档创建、编辑与格式转换。
 
 ```
 安装 Gemini Skill。
-来源：https://clawhub.ai/steipete/gemini（★ 56）
+来源：https://clawhub.ai/steipete/skills/gemini（★ 56）
 安装后，Agent 可用 Gemini CLI 做一次性问答、摘要和内容生成。
 ```
 
@@ -2334,7 +2332,7 @@ Office/PDF 文档创建、编辑与格式转换。
 
 ```
 安装 Session-logs Skill。
-来源：https://clawhub.ai/guogang1024/session-logs（★ 30）
+来源：https://clawhub.ai/guogang1024/skills/session-logs（★ 30）
 安装后，Agent 可用 jq 搜索和分析自己的会话日志（更早或父级对话）。
 ```
 
@@ -2352,7 +2350,7 @@ Office/PDF 文档创建、编辑与格式转换。
 
 ```
 安装 Healthcheck Skill。
-来源：https://clawhub.ai/stellarhold170nt/healthcheck（★ 11）
+来源：https://clawhub.ai/stellarhold170nt/skills/healthcheck（★ 11）
 安装后，Agent 可用 JSON 文件存储追踪你每日的喝水和睡眠情况。
 ```
 
@@ -2487,9 +2485,9 @@ Office/PDF 文档创建、编辑与格式转换。
 
 【基础与元 Skill】
 1. Skill Creator — Anthropic 官方，用于创建 Skill 的 Skill
-2. Find Skills — ClawHub，从 ClawHub 全网搜索 Skill（https://clawhub.ai/fangkelvin/find-skills-skill）
+2. Find Skills — ClawHub，从 ClawHub 全网搜索 Skill（https://clawhub.ai/fangkelvin/skills/find-skills-skill）
 9. ZeroToken Skill — Token 高效约束，减少无效输出
-27. book-to-skill — virgiliojr94（⭐ 6.2k），把书籍转化为 Agent Skill，按需加载
+27. book-to-skill — virgiliojr94（⭐ 28k），把书籍转化为 Agent Skill，按需加载
 31. Skill Vetter — ClawHub（★ 1.2k），安装第三方 Skill 前的安全审查
 35. Auto-Updater — ClawHub（★ 428），每天自动更新 Agent 和 Skill
 75. Skill Creator（ClawHub 版）— ClawHub（★ 319），社区版 Skill 创建指南
@@ -2502,7 +2500,7 @@ Office/PDF 文档创建、编辑与格式转换。
 33. Self-Improving + Proactive Agent — ClawHub（★ 1.2k），自我反思与自组织记忆
 34. Ontology — ClawHub（★ 638），类型化知识图谱记忆
 79. cognee — topoteretes，开源长期记忆平台，知识图谱引擎
-98. agency-agents — msitarzewski（⭐ 121k），232 个领域专家 AI Agent 合集
+98. agency-agents — msitarzewski（⭐ 150k），232 个领域专家 AI Agent 合集
 
 【开发与编码】
 3. Superpowers — ⭐ 21 万+ Star，开发流程规范化
@@ -2510,40 +2508,40 @@ Office/PDF 文档创建、编辑与格式转换。
 20. bug-hunt — 复现定位 Bug，最小修复验证
 21. code-review — 审查代码，发现缺陷和回归
 24. release-notes — 整理发布说明和升级指南
-28. Ponytail — DietrichGebert（⭐ 110k），懒人开发哲学，代码量减少 54%
+28. Ponytail — DietrichGebert（⭐ 122k），懒人开发哲学，代码量减少 54%
 83. opencode — anomalyco，TypeScript 开源编码 Agent
 102. ui-test — browserbase（⭐ 3.7k），AI 对抗性 UI 测试
 120. codebase-inspection — Hermes Agent 官方内置，代码库体检
 
 【前端与设计】
 5. Frontend Design — Anthropic 官方，去 AI 感设计
-6. ui-ux-pro-max — ⭐ 92.2k，50 种设计风格 + 97 种配色方案
+6. ui-ux-pro-max — ⭐ 124k，50 种设计风格 + 97 种配色方案
 22. frontend-polish — 优化界面细节和视觉一致性
-84. taste-skill — Leonxlnx（⭐ 53.5k），反模板化前端设计框架
-85. gsap-skills — greensock（⭐ 10.5k），GSAP 动画官方 AI Skill
+84. taste-skill — Leonxlnx（⭐ 84k），反模板化前端设计框架
+85. gsap-skills — greensock（⭐ 14.8k），GSAP 动画官方 AI Skill
 112. architecture-diagram — Hermes Agent 官方内置，暗色 SVG 架构图
-113. excalidraw — Hermes Agent 官方内置，手绘风 Excalidraw 图表
+113. excalidraw — Hermes Agent 官方可选，手绘风 Excalidraw 图表
 114. popular-web-designs — Hermes Agent 官方内置，54 个大厂设计系统
 126. design-md — Hermes Agent 官方内置，DESIGN.md 设计 token 规范
 
 【内容创作】
-7. baoyu-skills — JimLiu（⭐ 21.7k），20 个视觉设计 Skill
+7. baoyu-skills — JimLiu（⭐ 25.6k），20 个视觉设计 Skill
 12. Moon Lovers — 白月光风格恋爱聊天回复
 70. Nano Banana Pro — ClawHub（★ 405），Gemini 3 Pro Image 生成/编辑图片
 71. OpenAI Image Gen — ClawHub（★ 37），批量生成图片
 72. Humanizer — ClawHub（★ 669），去除文本 AI 味
 117. youtube-content — Hermes Agent 官方内置，YouTube 字幕转内容
-121. comfyui — Hermes Agent 官方内置，ComfyUI 扩散生图/视频
+121. comfyui — Hermes Agent 官方可选，ComfyUI 扩散生图/视频
 122. songwriting-and-ai-music — Hermes Agent 官方内置，写歌 + Suno 提示词
 
 【文档处理】
-8. NotebookLM Skill — ⭐ 1.5 万+，打通 Agent 与 NotebookLM
-23. officecli — AI Agent 专用 Office 文档工具（⭐ 27.8k）
-25. docx — 完整的 DOCX 创建、编辑与分析能力（⭐ 187）
+8. NotebookLM Skill — ⭐ 19.1k，打通 Agent 与 NotebookLM
+23. officecli — AI Agent 专用 Office 文档工具（⭐ 29.8k）
+25. docx — 完整的 DOCX 创建、编辑与分析能力（⭐ 232）
 26. pdf — 专业 PDF 工具集：57 种工具，生成/提取/合并/表单（⭐ 1）
 73. Nano PDF — ClawHub（★ 260），自然语言编辑 PDF
 94. MarkItDown — Microsoft，PDF/Office/HTML/图片批量转 Markdown
-108. ocr-and-documents — Hermes Agent 官方内置，PDF/扫描件 OCR 提取
+108. ocr-and-documents — ⚠️ 已失效（官方已移除，OCR 并入 pdf Skill）
 109. document-to-action-items — Hermes Agent 官方内置，文档转带引用的行动项
 
 【视频制作】
@@ -2557,7 +2555,7 @@ Office/PDF 文档创建、编辑与格式转换。
 76. FFmpeg Skill — 专业视频处理命令行神器（fabriqaai/LobeHub）
 77. OpenMontage — 开源 agentic 视频生产系统（calesthio）
 78. Manim Skill — 3Blue1Brown 同款数学动画引擎（adithya-s-k）
-99. seedance-2.0 — Emily2040（⭐ 1.8k），Seedance 2.0 完整导演制作管线
+99. seedance-2.0 — Emily2040（⭐ 7.1k），Seedance 2.0 完整导演制作管线
 
 【商业与金融】
 10. Business Data Analyst — 商业分析与指标拆解
@@ -2568,7 +2566,7 @@ Office/PDF 文档创建、编辑与格式转换。
 57. Automation Workflows — ClawHub（★ 305），自动化工作流设计
 58. Model Usage — ClawHub（★ 113），各模型用量成本统计
 59. Blogwatcher — ClawHub（★ 70），监控博客和 RSS 更新
-101. solo-law-firm-agents — saysoph（⭐ 35），一人律所 28 位 AI 虚拟专员 7 大部门
+101. solo-law-firm-agents — saysoph（⭐ 41），一人律所 28 位 AI 虚拟专员 7 大部门
 105. competitor-analysis — browserbase（⭐ 3.7k），竞品四维深度分析报告
 106. company-research — browserbase（⭐ 3.7k），ICP 目标公司发现与打分
 111. competitor-news-monitor — Hermes Agent 官方内置，竞品重大新闻监控
@@ -2594,28 +2592,28 @@ Office/PDF 文档创建、编辑与格式转换。
 50. Tavily 搜索 — ClawHub（★ 263），Tavily API 联网搜索
 51. Baidu 搜索 — ClawHub（★ 216），百度 AI 搜索
 52. Agent Browser — ClawHub（★ 424），无头浏览器自动化
-89. browser-use — browser-use（⭐ 100k），AI 浏览器自动化
+89. browser-use — browser-use（⭐ 112k），AI 浏览器自动化
 100. chrome-mcp-bridge-2026-skill — phoenixlucky，Chrome MCP 桥接
 104. browser — browserbase（⭐ 3.7k），最强浏览器自动化（CAPTCHA/住宅代理）
 107. arxiv — Hermes Agent 官方内置，arXiv 论文搜索
 
 【数据采集与爬虫】
 82. Agent-Reach — Panniantong，全网情报一键抓取+总结
-87. Firecrawl — firecrawl（⭐ 140k），整站爬取 AI 直接读
-88. Crawl4AI — unclecode（⭐ 70k），网站转 LLM 文本
+87. Firecrawl — firecrawl（⭐ 176k），整站爬取 AI 直接读
+88. Crawl4AI — unclecode（⭐ 81k），网站转 LLM 文本
 90. Crawlee — apify，自动代理/重试/伪装指纹
 91. Scrapy — scrapy，老牌爬虫框架百万级稳定
 92. Scrapling — D4Vinci，自适应网站改版绕封禁
 93. AutoScraper — alirezamika，给样例自动学规律
 96. curl-impersonate — lwthiker，HTTP 请求伪装 Chrome 指纹
-97. MediaCrawler — NanmiCoder（⭐ 54.6k），多平台自媒体数据采集
+97. MediaCrawler — NanmiCoder（⭐ 64k），多平台自媒体数据采集
 103. browser-to-api — browserbase（⭐ 3.7k），网站流量转 OpenAPI 规范
 110. product-price-monitor — Hermes Agent 官方内置，商品/航班价格监控
 
 【终端与自动化】
 53. Peekaboo — ClawHub（★ 82），macOS UI 自动化
 54. tmux — ClawHub（★ 43），远程控制 tmux 会话
-95. scrcpy — Genymobile（⭐ 140k），电脑远程操控安卓手机
+95. scrcpy — Genymobile（⭐ 149k），电脑远程操控安卓手机
 119. computer-use — Hermes Agent 官方内置，后台桌面操控不抢焦点
 
 【生活与媒体】
