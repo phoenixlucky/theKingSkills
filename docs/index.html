@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>The King Skills — AI Agent Skill 索引</title>
-  <link rel="stylesheet" href="css/style.css?v=7">
+  <link rel="stylesheet" href="css/style.css?v=8">
 </head>
 <body>
   <header class="header">
@@ -46,6 +46,32 @@
       <textarea id="outputText" readonly rows="12"></textarea>
       <button class="btn btn-primary" id="copyBtn">📄 复制到剪贴板</button>
     </section>
+
+    <!-- LSP recommendations -->
+    <section class="lsp-section" id="lspSection">
+      <div class="section-head">
+        <h2>🧩 语言服务器（LSP）推荐</h2>
+        <p class="section-sub">让 AI Agent 获得类型分析、跳转与重构能力 · 共 <strong id="lspTotalCount">0</strong> 个 · 可独立勾选并生成安装指令</p>
+      </div>
+
+      <section class="stats-bar">
+        <span>已选 <strong id="lspSelectedCount">0</strong> 个 LSP</span>
+        <button class="btn btn-secondary" id="lspSelectAllBtn">✅ 全选</button>
+        <button class="btn btn-primary" id="lspGenerateBtn">📋 生成安装指令</button>
+        <button class="btn btn-secondary" id="lspClearBtn">清除选择</button>
+      </section>
+
+      <section class="skills-grid" id="lspGrid">
+        <!-- Rendered by JS -->
+      </section>
+
+      <section class="output-section" id="lspOutputSection" style="display:none;">
+        <h2>📋 LSP 安装指令</h2>
+        <p class="output-hint">将下方内容直接提供给 AI Agent：</p>
+        <textarea id="lspOutputText" readonly rows="12"></textarea>
+        <button class="btn btn-primary" id="lspCopyBtn">📄 复制到剪贴板</button>
+      </section>
+    </section>
   </main>
 
   <footer class="footer">
@@ -56,6 +82,6 @@
 
   <div class="toast" id="toast"></div>
 
-  <script src="js/script.js?v=9"></script>
+  <script src="js/script.js?v=10"></script>
 </body>
 </html>

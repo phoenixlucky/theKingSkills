@@ -408,6 +408,45 @@ a:hover { text-decoration: underline; }
 }
 .output-section textarea:focus { outline: none; border-color: var(--primary); box-shadow: 0 0 0 3px rgba(79,70,229,.12); }
 
+/* ===== LSP Section ===== */
+.section-head {
+  margin: 34px 0 16px;
+  padding-top: 26px;
+  border-top: 1px solid var(--border);
+}
+.section-head h2 { font-size: 1.2rem; letter-spacing: -.2px; }
+.section-sub { font-size: .85rem; color: var(--text-secondary); margin-top: 4px; }
+.section-sub strong { color: var(--primary); }
+
+.lsp-card .skill-icon {
+  background: linear-gradient(135deg, #14b8a6, #0d9488);
+  color: #fff;
+  box-shadow: 0 2px 6px rgba(13,148,136,.3);
+  font-size: .65rem;
+  overflow: hidden;
+}
+.lsp-card .skill-name { font-family: var(--font-mono); font-size: .88rem; }
+.lsp-card .skill-cat.lsp-lang {
+  --cat-color: #0d9488;
+  --cat-bg: rgba(13,148,136,.13);
+  --cat-border: rgba(13,148,136,.28);
+}
+.lsp-rating { font-size: .72rem; letter-spacing: -.06em; white-space: nowrap; }
+.lsp-install {
+  margin-top: 8px;
+  padding: 5px 9px;
+  font-family: var(--font-mono);
+  font-size: .72rem;
+  color: var(--text-secondary);
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  white-space: nowrap;
+  overflow-x: auto;
+  scrollbar-width: thin;
+}
+.lsp-card.selected .lsp-install { background: rgba(79,70,229,.06); }
+
 /* ===== Footer ===== */
 .footer {
   margin-top: auto;
@@ -462,6 +501,7 @@ a:hover { text-decoration: underline; }
   .stats-bar { flex-direction: column; align-items: stretch; text-align: center; }
   .stats-bar span { flex: none; }
   .output-section { padding: 16px; }
+  .lsp-install { white-space: normal; overflow-wrap: anywhere; }
 }
 
 @media (max-width: 420px) {

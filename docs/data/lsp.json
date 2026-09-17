@@ -1,0 +1,126 @@
+{
+  "total": 11,
+  "items": [
+    {
+      "id": 1,
+      "lang": "TypeScript / JavaScript",
+      "icon": "TS",
+      "lsp": "typescript-language-server",
+      "rating": 5,
+      "category": "必装",
+      "install": "npm install -g typescript-language-server typescript",
+      "repo": "https://github.com/typescript-language-server/typescript-language-server",
+      "desc": "基本必装，类型分析、跳转、重构能力最好"
+    },
+    {
+      "id": 2,
+      "lang": "Python",
+      "icon": "Py",
+      "lsp": "pyright",
+      "rating": 5,
+      "category": "必装",
+      "install": "npm install -g pyright",
+      "repo": "https://github.com/microsoft/pyright",
+      "desc": "比 pylsp 更适合 AI Agent，类型推断强"
+    },
+    {
+      "id": 3,
+      "lang": "Go",
+      "icon": "Go",
+      "lsp": "gopls",
+      "rating": 5,
+      "category": "必装",
+      "install": "go install golang.org/x/tools/gopls@latest",
+      "repo": "https://github.com/golang/tools",
+      "desc": "官方级支持，重构和引用分析优秀"
+    },
+    {
+      "id": 4,
+      "lang": "Rust",
+      "icon": "Rs",
+      "lsp": "rust-analyzer",
+      "rating": 5,
+      "category": "必装",
+      "install": "rustup component add rust-analyzer",
+      "repo": "https://github.com/rust-lang/rust-analyzer",
+      "desc": "Rust 开发必备，理解 crate / trait 很强"
+    },
+    {
+      "id": 5,
+      "lang": "C / C++",
+      "icon": "C++",
+      "lsp": "clangd",
+      "rating": 5,
+      "category": "必装",
+      "install": "winget install LLVM.LLVM   # 或 apt install clangd / brew install llvm",
+      "repo": "https://clangd.llvm.org",
+      "desc": "类型解析、跳转、补全成熟"
+    },
+    {
+      "id": 6,
+      "lang": "Java",
+      "icon": "Java",
+      "lsp": "jdtls",
+      "rating": 4,
+      "category": "推荐",
+      "install": "brew install jdtls   # 或从 GitHub 下载最新 release 解压使用",
+      "repo": "https://github.com/eclipse-jdtls/eclipse.jdt.ls",
+      "desc": "Eclipse 官方语言服务器"
+    },
+    {
+      "id": 7,
+      "lang": "Kotlin",
+      "icon": "Kt",
+      "lsp": "kotlin-language-server",
+      "rating": 4,
+      "category": "推荐",
+      "install": "brew install kotlin-language-server   # 或下载 GitHub release",
+      "repo": "https://github.com/fwcd/kotlin-language-server",
+      "desc": "Android / Kotlin 项目"
+    },
+    {
+      "id": 8,
+      "lang": "C#",
+      "icon": "C#",
+      "lsp": "omnisharp / Roslyn LSP",
+      "rating": 4,
+      "category": "推荐",
+      "install": "dotnet tool install --global csharp-ls   # 或安装 OmniSharp",
+      "repo": "https://github.com/OmniSharp/omnisharp-roslyn",
+      "desc": ".NET 项目"
+    },
+    {
+      "id": 9,
+      "lang": "Ruby",
+      "icon": "Rb",
+      "lsp": "ruby-lsp",
+      "rating": 4,
+      "category": "推荐",
+      "install": "gem install ruby-lsp",
+      "repo": "https://github.com/Shopify/ruby-lsp",
+      "desc": "Rails 项目推荐"
+    },
+    {
+      "id": 10,
+      "lang": "PHP",
+      "icon": "PHP",
+      "lsp": "intelephense",
+      "rating": 4,
+      "category": "推荐",
+      "install": "npm install -g intelephense",
+      "repo": "https://intelephense.com",
+      "desc": "PHP 生态常用"
+    },
+    {
+      "id": 11,
+      "lang": "Terraform",
+      "icon": "Tf",
+      "lsp": "terraform-ls",
+      "rating": 4,
+      "category": "推荐",
+      "install": "brew install hashicorp/tap/terraform-ls   # 或下载 GitHub release",
+      "repo": "https://github.com/hashicorp/terraform-ls",
+      "desc": "IaC 项目"
+    }
+  ]
+}
