@@ -1,8 +1,8 @@
 ---
 title:   "The King Skills — AI 一键安装索引"
-version: "1.4"
-updated: "2026-09-03"
-total:   125
+version: "1.5"
+updated: "2026-10-09"
+total:   128
 ---
 
 # 🎯 The King Skills — AI 一键安装索引
@@ -657,6 +657,30 @@ HTML/CSS 设计系统，做出高质感前端。
 
 ---
 
+### 127 — shaders（WebGPU 特效组件）
+
+| 字段 | 值 |
+|------|-----|
+| **来源** | shader-effects-inc（⭐ 3.6k） |
+| **分类** | 前端与设计 |
+| **一句话** | 200+ WebGPU 特效组件：渐变/噪点/玻璃/金属/光效/畸变/转场/模糊/光标特效，支持 React/Vue/Svelte/Solid/JS/Framer |
+
+**安装指令：**
+
+```
+安装 shaders Skill。
+来源：https://github.com/shader-effects-inc/shaders（⭐ 3.6k）
+安装方式：npx skills add shader-effects-inc/shaders（或 npx shaders skill）
+安装后，Agent 获得 200+ WebGPU 特效组件能力：
+- 声明式组件 API，图层可嵌套、混合、遮罩，全部在 GPU 上合成
+- 一等公民支持 React / Vue / Svelte / Solid / JavaScript（同一套 props），附 Framer 插件
+- 附带 CLI（npx shaders search/preview/install/update）与 MCP server（npx shaders install-mcp）
+- 可视化设计编辑器导出对应框架组件代码（shaders.com，免费）
+引擎与组件 MIT 开源；1000+ 预设 / 55+ 网页区块为 Pro 付费内容。
+```
+
+---
+
 ## ✍️ 内容创作
 
 文案、图像生成与聊天陪伴等内容产出工具。
@@ -809,6 +833,33 @@ HTML/CSS 设计系统，做出高质感前端。
 安装方式：安装 Hermes Agent 后内置，直接 /songwriting-and-ai-music 调用。
 安装后，Agent 懂写歌结构和歌词技巧，能生成 Suno AI 音乐提示词，
 帮你从词到曲完成歌曲创作。
+```
+
+---
+
+### 129 — lieflat-less-ai-tone（去 AI 味）
+
+| 字段 | 值 |
+|------|-----|
+| **来源** | larashero3-dotcom（⭐ 2.5k） |
+| **分类** | 内容创作 |
+| **一句话** | 基于 283 万字语料统计的去 AI 味 skill：用语言学方法量化「什么是 AI 味」并逐项检验后可复算地去痕 |
+
+**安装指令：**
+
+```
+安装 lieflat-less-ai-tone Skill（去 AI 味）。
+来源：https://github.com/larashero3-dotcom/lieflat-less-ai-tone（⭐ 2.5k）
+安装方式：npx skills add larashero3-dotcom/lieflat-less-ai-tone
+（或直接在 MoxtHub 打开：https://moxt.ai/zh-CN/hub?type=skill&id=lieflat-less-ai-tone；
+  也可把 SKILL.md 当 system prompt 用，适配任何支持自定义指令的工具）
+
+安装后，Agent 可按基于 629 篇 / 283 万字对照语料检验出的规则集清除生成痕迹：
+- 通过检验的 11 项特征（对举结构、顿号并列、相邻句同构、破折号、冒号滥用、序数词小标题、
+  拟人化喻体、起首语、译文句式、段首零回指评论等）逐项改写
+- 白名单 + 信息守恒：不新增细节、不改判断强度，未命中项逐字保留
+- 公开可复算脚本（compare-human-ai.py / check-structure.py / check-translationese.py）
+与 writing-dna-skill 配合：前者负责风格逼近，本 skill 负责清除生成痕迹。
 ```
 
 ---
@@ -1194,6 +1245,34 @@ OCR 提取能力已并入内置 pdf Skill（skills/productivity/pdf，含 pymupd
 - 多语言提示词（中/日/韩/英/西/俄）
 - 专业分镜、续拍预案、安全改写、质量评估、交付检查
 - 内置 33 个风格示例库和 12 条质量评估管线
+```
+
+---
+
+### 128 — huashu-art-motion（艺术动画）
+
+| 字段 | 值 |
+|------|-----|
+| **来源** | alchaincyf / 花叔（⭐ 2.7k） |
+| **分类** | 视频制作 |
+| **一句话** | 用代码让画动起来：35 种艺术风格配方 + 9 种解说语法，让 coding agent 把艺术风格写成会动的画 |
+
+**安装指令：**
+
+```
+安装 huashu-art-motion Skill。
+来源：https://github.com/alchaincyf/huashu-art-motion（⭐ 2.7k）
+安装方式：npx skills add alchaincyf/huashu-art-motion
+依赖：uv、ffmpeg、Playwright Chromium（uv run --with playwright playwright install chromium）
+
+安装后，Agent 获得「艺术动画」制作能力：
+- 35 种艺术风格配方卡（岩洞/埃及壁画/梵高/克里姆特/包豪斯/Kirby 漫画/8-bit/蒸汽波/新海诚等），
+  每张附参数、母题动作、签名转场和对应的 Canvas 场景代码
+- 9 种解说视频语法（Kurzgesagt/Vox/白板/storytime/动态文字/3Blue1Brown/发布会 UI/财经图表等），
+  8 种示范片 + 参数化片段，喂一份 JSON 即可出时长精确到帧的片段（横竖屏/可透明底）
+- 长卷穿越片骨架（角色从左走到右，跨边界换画风）＋拆解脚本（把参考动画量成转场/节拍/热图）
+- QA 数字验收（qa.py 量稳定/效率/动感/流畅）＋纯代码配乐、字体子集、绿幕抠图等工具
+代码与文档 MIT 开源；花叔卡通形象与角色帧仅供本 skill 示范，不随 MIT 授权他用。
 ```
 
 ---
@@ -2523,6 +2602,7 @@ OCR 提取能力已并入内置 pdf Skill（skills/productivity/pdf，含 pymupd
 113. excalidraw — Hermes Agent 官方可选，手绘风 Excalidraw 图表
 114. popular-web-designs — Hermes Agent 官方内置，54 个大厂设计系统
 126. design-md — Hermes Agent 官方内置，DESIGN.md 设计 token 规范
+127. shaders — shader-effects-inc（⭐ 3.6k），200+ WebGPU 特效组件（React/Vue/Svelte/Solid/JS）
 
 【内容创作】
 7. baoyu-skills — JimLiu（⭐ 25.6k），20 个视觉设计 Skill
@@ -2533,6 +2613,7 @@ OCR 提取能力已并入内置 pdf Skill（skills/productivity/pdf，含 pymupd
 117. youtube-content — Hermes Agent 官方内置，YouTube 字幕转内容
 121. comfyui — Hermes Agent 官方可选，ComfyUI 扩散生图/视频
 122. songwriting-and-ai-music — Hermes Agent 官方内置，写歌 + Suno 提示词
+129. lieflat-less-ai-tone — larashero3-dotcom（⭐ 2.5k），基于 283 万字语料统计的去 AI 味
 
 【文档处理】
 8. NotebookLM Skill — ⭐ 19.1k，打通 Agent 与 NotebookLM
@@ -2556,6 +2637,7 @@ OCR 提取能力已并入内置 pdf Skill（skills/productivity/pdf，含 pymupd
 77. OpenMontage — 开源 agentic 视频生产系统（calesthio）
 78. Manim Skill — 3Blue1Brown 同款数学动画引擎（adithya-s-k）
 99. seedance-2.0 — Emily2040（⭐ 7.1k），Seedance 2.0 完整导演制作管线
+128. huashu-art-motion — alchaincyf（⭐ 2.7k），35 种艺术风格 + 9 种解说语法的艺术动画
 
 【商业与金融】
 10. Business Data Analyst — 商业分析与指标拆解
