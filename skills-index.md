@@ -2,7 +2,7 @@
 title:   "The King Skills — AI 一键安装索引"
 version: "1.6"
 updated: "2026-10-09"
-total:   136
+total:   137
 ---
 
 # 🎯 The King Skills — AI 一键安装索引
@@ -1050,6 +1050,33 @@ CLI：npx impeccable detect <目录|文件|URL>，可接 CI（--json）。Apache
 - 3397 条分类词库 + 检索/生成/完整性检查脚本（python3 scripts/check_terms.py）
 - 按需求写明人物身份/风格/构图/使用模型，生成后可持续调整
 基于 AI绘梦师葉子（huimengshiyezi/ai-image-prompt）定制扩展（MIT）。
+```
+
+---
+
+### 138 — cy-carousel（图文轮播）
+
+| 字段 | 值 |
+|------|-----|
+| **来源** | chengyi-ai（⭐ 129） |
+| **分类** | 内容创作 |
+| **一句话** | 给一个选题，查证/找素材/排版/检查/打包，交付封面 + 10 页（1440×1920）成套可直接发布的图文轮播 |
+
+**安装指令：**
+
+```
+安装 cy-carousel Skill。
+来源：https://github.com/chengyi-ai/cy-carousel-skill（⭐ 129）
+安装方式（Claude Code）：
+  git clone https://github.com/chengyi-ai/cy-carousel-skill.git ~/.claude/skills/cy-carousel
+  python3 -m pip install -r ~/.claude/skills/cy-carousel/requirements.txt
+（Codex）改路径为 ~/.codex/skills/cy-carousel，装好后新开对话。
+
+安装后，Agent 按流程产出一整套图文轮播（含标题/正文/置顶评论/来源清单）：
+- 选题（2–4 候选对比）→ 查证（回到一手出处，PyMuPDF 定位原句）→ 找素材（只用开放授权，记链接/许可/SHA256）
+- 手排（scripts/手排.py：照片卡、论文矢量纸条、扫描书页、红圈/下划线、毛笔双色标题、电子青大数字）
+- 渲染 render.py → 检查 check_all.py（红线/出界/背景分类，errors 必须为零）→ 打包 package.py（不自动发布）
+依赖：Python 3.10+、Pillow、numpy、PyMuPDF（扫描书页找词需 macOS Vision）。代码 MIT，字体 SIL OFL 1.1。
 ```
 
 ---
@@ -2837,6 +2864,7 @@ OCR 提取能力已并入内置 pdf Skill（skills/productivity/pdf，含 pymupd
 122. songwriting-and-ai-music — Hermes Agent 官方内置，写歌 + Suno 提示词
 129. lieflat-less-ai-tone — larashero3-dotcom（⭐ 2.5k），基于 283 万字语料统计的去 AI 味
 137. Character Prompt Studio — joshesye（⭐ 18），人物设计与生图提示词（3397 条词库）
+138. cy-carousel — chengyi-ai（⭐ 129），给一个选题产出封面 + 10 页图文轮播
 
 【文档处理】
 8. NotebookLM Skill — ⭐ 19.1k，打通 Agent 与 NotebookLM
