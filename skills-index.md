@@ -1,8 +1,8 @@
 ---
 title:   "The King Skills — AI 一键安装索引"
-version: "1.5"
+version: "1.6"
 updated: "2026-10-09"
-total:   130
+total:   136
 ---
 
 # 🎯 The King Skills — AI 一键安装索引
@@ -180,6 +180,58 @@ total:   130
 来源：https://github.com/headroomlabs-ai/headroom
 安装后，自动压缩日志、文件和 RAG chunks，减少 60-95% token 消耗。
 支持 library / proxy / MCP server 三种集成模式，高频 Agent 场景省钱省时。
+```
+
+---
+
+### 135 — Caveman（穴居人省 token）
+
+| 字段 | 值 |
+|------|-----|
+| **来源** | JuliusBrussee（⭐ 111k） |
+| **分类** | 基础与元 Skill |
+| **一句话** | 让 Agent「说穴居人话」省 token：输出压缩 + 代理压缩，整段会话省 33% 输入 token，答案不变 |
+
+**安装指令：**
+
+```
+安装 Caveman Skill。
+来源：https://github.com/JuliusBrussee/caveman（⭐ 111k）
+安装方式（二选一）：
+- 只要短回答（skill）：npx skills add JuliusBrussee/caveman -g
+- 连输入也省（proxy，推荐）：npm install -g @caveman-ai/cli && caveman setup --install，再 caveman claude
+（支持 Claude Code / Codex / Gemini / Cursor / Copilot / OpenCode 等 30+，需 Node.js 22.13+）
+
+安装后，Agent 用最少 token 表达且不改动代码/命令/路径/数字：
+- /caveman、/ultracave、/megacave 三档口吻；/caveman-commit、/caveman-review、/caveman-compress、/caveman-stats
+- 代理把日志/CSV/YAML/JSON/测试输出压小 98%+，整段会话输入 token 减 33.2%，18/18 答案正确
+- 研究表明改用户 prompt 会适得其反，故 caveman 从不改写你的提示词
+被 Adobe Research、JetBrains、Elastic 引用与实测。Apache-2.0 开源。
+```
+
+---
+
+### 136 — awesome-claude-skills（Skill 精选合集）
+
+| 字段 | 值 |
+|------|-----|
+| **来源** | ComposioHQ（⭐ 76.7k） |
+| **分类** | 基础与元 Skill |
+| **一句话** | 1000+ 生产级 Claude Skill / 插件精选清单，覆盖文档、开发、数据、营销、协作等全场景 |
+
+**安装指令：**
+
+```
+安装 awesome-claude-skills（Skill 精选合集）。
+来源：https://github.com/ComposioHQ/awesome-claude-skills（⭐ 76.7k）
+使用方式：直接阅读仓库 README 目录，按分类挑选所需 Skill；
+配合 connect-apps 插件可让 Claude 对 1000+ 应用执行真实操作：
+- claude --plugin-dir ./connect-apps-plugin 然后 /connect-apps:setup
+
+这条索引本身收录了 1000+ 生产级 Skill 与插件，按 12 个类别组织：
+- 文档处理 / 开发与代码工具 / 数据与分析 / 商业与营销 / 沟通与写作 / 创意与媒体 /
+  效率与组织 / 协作与项目管理 / 安全与系统 / 辅助技术 / 应用自动化（Composio）
+跨 Claude.ai、Claude Code，以及 Codex、Cursor、Gemini CLI、Antigravity 等编码 Agent。
 ```
 
 ---
@@ -508,6 +560,33 @@ Hal Stack 系列成员。
 
 ---
 
+### 132 — Graphify（代码库知识图谱）
+
+| 字段 | 值 |
+|------|-----|
+| **来源** | Graphify-Labs（⭐ 125k，YC S26） |
+| **分类** | 开发与编码 |
+| **一句话** | 把代码、文档、SQL、配置、PDF 变成可查询知识图谱：本地确定性 AST 解析，每条边可解释，无需向量库 |
+
+**安装指令：**
+
+```
+安装 Graphify Skill。
+来源：https://github.com/Graphify-Labs/graphify（⭐ 125k）
+安装方式：
+- uv tool install graphifyy   # 或 pipx install graphifyy
+- graphify install            # 注册 skill 到 AI 助手（支持 Claude Code / Cursor / Codex / Gemini / OpenCode 等 20+）
+
+安装后，Agent 可用 /graphify . 把工程映射成知识图谱（graph.html / GRAPH_REPORT.md / graph.json）：
+- 代码本地 tree-sitter AST 解析（无 LLM，不出机器），节点/边带 EXTRACTED / INFERRED 置信标签
+- 40 种语言跨文件调用/导入/继承/混入解析；Leiden 社区发现、god nodes、跨模块意外连接
+- 文档/PDF/图片/音视频并入同一图谱；# NOTE:/# WHY: 注释与 ADR 引用成为一等节点
+- 支持 query（提问取子图）、path（两点路径）、explain（单概念），可导出 MCP server / wiki / Obsidian
+CLI 命令为 graphify，PyPI 包名为 graphifyy（双 y）。
+```
+
+---
+
 ## 🎨 前端与设计
 
 UI 设计规范、视觉风格与动效，告别 AI 味界面。
@@ -710,6 +789,60 @@ HTML/CSS 设计系统，做出高质感前端。
 
 ---
 
+### 133 — Archify（交互式架构图）
+
+| 字段 | 值 |
+|------|-----|
+| **来源** | tt-a1i（⭐ 81k，GitHub Trending 周榜第一） |
+| **分类** | 前端与设计 |
+| **一句话** | 把任何想法、方案或代码库变成漂亮的交互式 HTML 图（架构/流程/时序/数据流/生命周期），可探索、可分享 |
+
+**安装指令：**
+
+```
+安装 Archify Skill。
+来源：https://github.com/tt-a1i/archify（⭐ 81k）
+安装方式：npx skills add tt-a1i/archify -g
+（支持 Claude Code / Codex / Cursor / OpenCode；也可上传 archify.zip 到 Claude.ai）
+
+安装后，Agent 用一句话或读仓库生成自包含的交互式 HTML 图：
+- 五种图类型：Architecture / Workflow / Sequence / Data Flow / Lifecycle
+- 类型化 JSON IR + 渲染前 schema/布局/路由/标签避让原子校验，失败带可修复诊断
+- 节点详情、上下游 reach、精确路径、角色对比、演示舞台；暗/亮主题一键切换
+- 可导出 PNG / 静态与动态格式 / 1200×630 路线分享卡；输出为单 HTML 文件，无需安装即可查看
+可选 Architecture Delta 对比 Before/Delta/After，做设计或 PR 评审。MIT 开源。
+```
+
+---
+
+### 134 — Impeccable（AI 设计语言）
+
+| 字段 | 值 |
+|------|-----|
+| **来源** | pbakaus / Paul Bakaus（⭐ 78.9k） |
+| **分类** | 前端与设计 |
+| **一句话** | 让 AI 编码 Agent 更懂设计的技能：1 个 skill + 24 个命令 + 实时浏览器迭代 + 59 条确定性检测规则 |
+
+**安装指令：**
+
+```
+安装 Impeccable Skill。
+来源：https://github.com/pbakaus/impeccable（⭐ 78.9k）
+安装方式：项目根目录执行 npx impeccable install，再在 AI 工具里运行 /impeccable init
+（支持 Cursor / Claude Code / Copilot / Codex / Gemini / OpenCode / Trae 等 17+；更新用 npx impeccable update）
+
+安装后，Agent 获得一套设计语言与命令：
+- 24 个命令：craft / init / document / extract / shape / critique / audit / polish / bolder / quieter /
+  distill / harden / onboard / animate / colorize / typeset / layout / delight / overdrive / clarify /
+  adapt / optimize / live / generate
+- 59 条确定性检测规则（无需 LLM / API Key）+ LLM 批评检查，专治 AI 味前端（Inter 到处用、
+  紫蓝渐变、卡片套卡片、纯黑纯灰、bounce 缓动等），并附明确反模式清单
+- 设计钩子在 Claude Code / Copilot / Codex / Cursor / Grok 上编辑 UI 文件时自动给出检测发现
+CLI：npx impeccable detect <目录|文件|URL>，可接 CI（--json）。Apache-2.0 开源。
+```
+
+---
+
 ## ✍️ 内容创作
 
 文案、图像生成与聊天陪伴等内容产出工具。
@@ -889,6 +1022,34 @@ HTML/CSS 设计系统，做出高质感前端。
 - 白名单 + 信息守恒：不新增细节、不改判断强度，未命中项逐字保留
 - 公开可复算脚本（compare-human-ai.py / check-structure.py / check-translationese.py）
 与 writing-dna-skill 配合：前者负责风格逼近，本 skill 负责清除生成痕迹。
+```
+
+---
+
+### 137 — Character Prompt Studio（人物设计与生图提示词）
+
+| 字段 | 值 |
+|------|-----|
+| **来源** | joshesye（⭐ 18） |
+| **分类** | 内容创作 |
+| **一句话** | 把一句灵感或一张参考图整理成可用生图提示词：外貌/服装/构图/材质/光影，含 3397 条分类词库 |
+
+**安装指令：**
+
+```
+安装 Character Prompt Studio（Skill 名：ai-image-prompt）。
+来源：https://github.com/joshesye/Character-Prompt-Studio（⭐ 18）
+安装方式（Codex）：
+- 下载仓库 ZIP 解压，文件夹改名为 ai-image-prompt，放到 ~/.codex/skills/ai-image-prompt/
+  （Windows：%USERPROFILE%\.codex\skills\ai-image-prompt\），确保目录内直接是 SKILL.md，重启 Codex
+- 或把仓库地址发给 Codex：帮我安装这个 Skill：https://github.com/joshesye/Character-Prompt-Studio
+
+安装后，Agent 可把灵感变成结构化人物提示词：
+- 人物设定：面部特写 + 正面/侧面/背面全身的角色资产布局
+- 冷酷科幻人物、韩式财阀千金（香槟金丝缎/血红天鹅绒/黑丝绒星链三套礼服模板，3D 漫剧写实厚涂）
+- 3397 条分类词库 + 检索/生成/完整性检查脚本（python3 scripts/check_terms.py）
+- 按需求写明人物身份/风格/构图/使用模型，生成后可持续调整
+基于 AI绘梦师葉子（huimengshiyezi/ai-image-prompt）定制扩展（MIT）。
 ```
 
 ---
@@ -2627,6 +2788,8 @@ OCR 提取能力已并入内置 pdf Skill（skills/productivity/pdf，含 pymupd
 75. Skill Creator（ClawHub 版）— ClawHub（★ 319），社区版 Skill 创建指南
 80. agent-skills — addyosmani，从 .claude 提炼结构化技能
 81. headroom — headroomlabs-ai，Token 压缩减少 60-95%
+135. Caveman — JuliusBrussee（⭐ 111k），穴居人话省 token（会话输入 -33%）
+136. awesome-claude-skills — ComposioHQ（⭐ 76.7k），1000+ 生产级 Claude Skill 精选合集
 
 【Agent 智能化】
 30. Self-Improving Agent — ClawHub（★ 3.8k），自动记录错误与经验，永久进化
@@ -2647,6 +2810,7 @@ OCR 提取能力已并入内置 pdf Skill（skills/productivity/pdf，含 pymupd
 102. ui-test — browserbase（⭐ 3.7k），AI 对抗性 UI 测试
 120. codebase-inspection — Hermes Agent 官方内置，代码库体检
 131. Understand-Anything — Egonex-AI（⭐ 85.7k），把代码库变成交互式知识图谱
+132. Graphify — Graphify-Labs（⭐ 125k），代码/文档/PDF 转可查询知识图谱（本地 AST）
 
 【前端与设计】
 5. Frontend Design — Anthropic 官方，去 AI 感设计
@@ -2659,6 +2823,8 @@ OCR 提取能力已并入内置 pdf Skill（skills/productivity/pdf，含 pymupd
 114. popular-web-designs — Hermes Agent 官方内置，54 个大厂设计系统
 126. design-md — Hermes Agent 官方内置，DESIGN.md 设计 token 规范
 127. shaders — shader-effects-inc（⭐ 3.6k），200+ WebGPU 特效组件（React/Vue/Svelte/Solid/JS）
+133. Archify — tt-a1i（⭐ 81k），把想法/方案/代码库变成交互式 HTML 图
+134. Impeccable — pbakaus（⭐ 78.9k），AI 设计语言（24 命令 + 59 条检测规则）
 
 【内容创作】
 7. baoyu-skills — JimLiu（⭐ 25.6k），20 个视觉设计 Skill
@@ -2670,6 +2836,7 @@ OCR 提取能力已并入内置 pdf Skill（skills/productivity/pdf，含 pymupd
 121. comfyui — Hermes Agent 官方可选，ComfyUI 扩散生图/视频
 122. songwriting-and-ai-music — Hermes Agent 官方内置，写歌 + Suno 提示词
 129. lieflat-less-ai-tone — larashero3-dotcom（⭐ 2.5k），基于 283 万字语料统计的去 AI 味
+137. Character Prompt Studio — joshesye（⭐ 18），人物设计与生图提示词（3397 条词库）
 
 【文档处理】
 8. NotebookLM Skill — ⭐ 19.1k，打通 Agent 与 NotebookLM
