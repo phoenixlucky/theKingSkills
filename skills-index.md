@@ -2,7 +2,7 @@
 title:   "The King Skills — AI 一键安装索引"
 version: "1.5"
 updated: "2026-10-09"
-total:   128
+total:   129
 ---
 
 # 🎯 The King Skills — AI 一键安装索引
@@ -1273,6 +1273,32 @@ OCR 提取能力已并入内置 pdf Skill（skills/productivity/pdf，含 pymupd
 - 长卷穿越片骨架（角色从左走到右，跨边界换画风）＋拆解脚本（把参考动画量成转场/节拍/热图）
 - QA 数字验收（qa.py 量稳定/效率/动感/流畅）＋纯代码配乐、字体子集、绿幕抠图等工具
 代码与文档 MIT 开源；花叔卡通形象与角色帧仅供本 skill 示范，不随 MIT 授权他用。
+```
+
+---
+
+### 130 — seedance-2-5-video-director（Seedance 2.5 视频导演）
+
+| 字段 | 值 |
+|------|-----|
+| **来源** | liyue-aigc（★ 566） |
+| **分类** | 视频制作 |
+| **一句话** | 面向 Dreamina／即梦 Seedance 2.5 的视频导演 Skill：把创意/参考图/视频/音频整理成脚本、导演方案、诊断结果与复制即用的提示词 |
+
+**安装指令：**
+
+```
+安装 seedance-2-5-video-director Skill。
+来源：https://github.com/liyue-aigc/seedance-2-5-video-director（★ 566）
+安装方式：npx skills add liyue-aigc/seedance-2-5-video-director -g -y
+（无 Node.js 时可在 Codex 中发送：请使用 $skill-installer，从 GitHub 安装 liyue-aigc/seedance-2-5-video-director）
+
+安装后，Agent 获得 Seedance 2.5 视频导演能力：
+- 4–30 秒普通视频与精确 30 秒时间轴，30–180 秒 Long Video
+- 视频前置/后置续写、Smart Edit、标记区域编辑、Clay Renderer 粗/精白模
+- 两段无缝转场、多格分镜动画、多人物与对白音色、BGM 移除与声画同步
+- 人物身份/体型/服装/配饰锁定，提示词冲突诊断并按原结构改写
+只在本地产出策划/脚本/诊断/提示词文本，不调用付费接口、不消耗积分。
 ```
 
 ---
@@ -2638,6 +2664,7 @@ OCR 提取能力已并入内置 pdf Skill（skills/productivity/pdf，含 pymupd
 78. Manim Skill — 3Blue1Brown 同款数学动画引擎（adithya-s-k）
 99. seedance-2.0 — Emily2040（⭐ 7.1k），Seedance 2.0 完整导演制作管线
 128. huashu-art-motion — alchaincyf（⭐ 2.7k），35 种艺术风格 + 9 种解说语法的艺术动画
+130. seedance-2-5-video-director — liyue-aigc（★ 566），Seedance 2.5 视频导演（脚本/诊断/人物锁定）
 
 【商业与金融】
 10. Business Data Analyst — 商业分析与指标拆解
