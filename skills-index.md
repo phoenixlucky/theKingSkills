@@ -2,7 +2,7 @@
 title:   "The King Skills — AI 一键安装索引"
 version: "1.5"
 updated: "2026-10-09"
-total:   129
+total:   130
 ---
 
 # 🎯 The King Skills — AI 一键安装索引
@@ -475,6 +475,35 @@ Hal Stack 系列成员。
 安装方式：安装 Hermes Agent 后内置，直接 /codebase-inspection 调用。
 安装后，Agent 用 pygount 快速统计仓库的代码行数、语言占比和目录分布，
 评估代码规模与技术栈构成。
+```
+
+---
+
+### 131 — Understand-Anything（代码转知识图谱）
+
+| 字段 | 值 |
+|------|-----|
+| **来源** | Egonex-AI（⭐ 85.7k） |
+| **分类** | 开发与编码 |
+| **一句话** | 把任意代码库/知识库/文档变成可探索、可搜索、可提问的交互式知识图谱，附可视化 Dashboard |
+
+**安装指令：**
+
+```
+安装 Understand-Anything Skill。
+来源：https://github.com/Egonex-AI/Understand-Anything（⭐ 85.7k）
+安装方式（多平台）：
+- Claude Code：/plugin marketplace add Egonex-AI/Understand-Anything 然后 /plugin install understand-anything
+- macOS / Linux：curl -fsSL https://raw.githubusercontent.com/Egonex-AI/Understand-Anything/main/install.sh | bash -s <平台>
+  （平台：codex / opencode / gemini / antigravity / vibe / cline / kimi / trae / kiro 等）
+- Windows PowerShell：iwr -useb https://raw.githubusercontent.com/Egonex-AI/Understand-Anything/main/install.ps1 | iex
+
+安装后，Agent 获得代码库理解能力（Tree-sitter 静态解析 + LLM 语义补全的多 Agent 管线）：
+- /understand 扫描代码库，生成知识图谱（.ua/knowledge-graph.json），支持 --language zh 中文输出
+- /understand-dashboard 打开可视化 Dashboard（按架构分层着色、搜索、点击）
+- /understand-chat 提问 / -diff 变更影响分析 / -explain 深挖文件 / -onboard 新人导览
+- /understand-domain 提取业务领域与流程 / -knowledge 分析 Karpathy 式 LLM wiki
+增量更新、可提交图谱 JSON 供团队共享，也支持本地模型（Ollama）。
 ```
 
 ---
@@ -2617,6 +2646,7 @@ OCR 提取能力已并入内置 pdf Skill（skills/productivity/pdf，含 pymupd
 83. opencode — anomalyco，TypeScript 开源编码 Agent
 102. ui-test — browserbase（⭐ 3.7k），AI 对抗性 UI 测试
 120. codebase-inspection — Hermes Agent 官方内置，代码库体检
+131. Understand-Anything — Egonex-AI（⭐ 85.7k），把代码库变成交互式知识图谱
 
 【前端与设计】
 5. Frontend Design — Anthropic 官方，去 AI 感设计
