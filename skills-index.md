@@ -1,8 +1,8 @@
 ---
 title:   "The King Skills — AI 一键安装索引"
-version: "1.6"
+version: "1.7"
 updated: "2026-10-09"
-total:   137
+total:   142
 ---
 
 # 🎯 The King Skills — AI 一键安装索引
@@ -232,6 +232,33 @@ total:   137
 - 文档处理 / 开发与代码工具 / 数据与分析 / 商业与营销 / 沟通与写作 / 创意与媒体 /
   效率与组织 / 协作与项目管理 / 安全与系统 / 辅助技术 / 应用自动化（Composio）
 跨 Claude.ai、Claude Code，以及 Codex、Cursor、Gemini CLI、Antigravity 等编码 Agent。
+```
+
+---
+
+### 139 — i-have-adhd（重点前置输出）
+
+| 字段 | 值 |
+|------|-----|
+| **来源** | ayghri（⭐ 56.3k） |
+| **分类** | 基础与元 Skill |
+| **一句话** | 让编码 Agent 别把答案埋没：先给动作、编号步骤、结尾一个下一步，去掉寒暄和总结 |
+
+**安装指令：**
+
+```
+安装 i-have-adhd Skill。
+来源：https://github.com/ayghri/i-have-adhd（⭐ 56.3k）
+安装方式（任选）：
+- 把仓库地址直接发给编码 Agent：Install the i-have-adhd skill/plugin from
+  https://github.com/ayghri/i-have-adhd, refer to the repo's AGENTS.md
+- Claude Code：/plugin marketplace add ayghri/i-have-adhd 然后 /plugin install i-have-adhd@i-have-adhd
+
+安装后，Agent 输出遵守 10 条规则：
+- 先给下一步动作、编号多步任务、结尾给一个具体下一步、抑制跑题
+- 每轮复述状态、给具体时间估计（分钟）、错误平淡陈述、列表最多 5 条
+- 无开场白、无复述、无“希望有帮助”式收尾
+跨 Claude Code / Codex / Cursor / Gemini / OpenCode 等（MIT）。
 ```
 
 ---
@@ -839,6 +866,32 @@ HTML/CSS 设计系统，做出高质感前端。
   紫蓝渐变、卡片套卡片、纯黑纯灰、bounce 缓动等），并附明确反模式清单
 - 设计钩子在 Claude Code / Copilot / Codex / Cursor / Grok 上编辑 UI 文件时自动给出检测发现
 CLI：npx impeccable detect <目录|文件|URL>，可接 CI（--json）。Apache-2.0 开源。
+```
+
+---
+
+### 142 — emilkowalski/skills（Emil 设计工程技能）
+
+| 字段 | 值 |
+|------|-----|
+| **来源** | emilkowalski（⭐ 45k） |
+| **分类** | 前端与设计 |
+| **一句话** | Vercel/Linear 设计工程师 Emil Kowalski 的界面与动画技能包：让 Agent 选对缓动/时长/属性，做出「顺滑」的交互 |
+
+**安装指令：**
+
+```
+安装 emilkowalski/skills Skill 包。
+来源：https://github.com/emilkowalski/skills（⭐ 45k）
+安装方式：npx skills@latest add emilkowalski/skills
+
+安装后，Agent 获得一套界面/动画判断力（含 43 条动画规则、7 大类，按影响排序）：
+- emil-design-eng（主技能：动画 + 设计建议）、animate（从零搭动画，选对曲线/时长/属性）
+- animate-expo（React Native/Expo：手势/抽屉/触感/转场，避开 JS 线程）
+- review-animations（按规则严格评审）、improve-animations（审计全库并给可执行计划）
+- find-animation-opportunities（找该动的地方 + 不该动的地方）、animation-vocabulary（用对术语）
+- apple-design、write-swift、pick-ui-library、prototype、mobile-native、break-ui、ask-sonner
+适合去 AI 味、打磨前端手感。MIT。
 ```
 
 ---
@@ -1760,6 +1813,35 @@ OCR 提取能力已并入内置 pdf Skill（skills/productivity/pdf，含 pymupd
 
 ---
 
+### 143 — marketingskills（40+ 营销技能包）
+
+| 字段 | 值 |
+|------|-----|
+| **来源** | coreyhaines31 / Corey Haines（⭐ 32.8k） |
+| **分类** | 商业与金融 |
+| **一句话** | 面向营销的 AI Agent 技能合集：CRO、文案、SEO、分析、增长工程，40+ 个可复用营销技能 |
+
+**安装指令：**
+
+```
+安装 marketingskills Skill 包。
+来源：https://github.com/coreyhaines31/marketingskills（⭐ 32.8k）
+安装方式（任选）：
+- 全部：npx skills add coreyhaines31/marketingskills
+- 指定：npx skills add coreyhaines31/marketingskills --skill page-cro copywriting
+- Claude Code 插件：/plugin install marketing-skills
+
+安装后，Agent 覆盖 20+ 营销工作流，如：
+- 转化优化：page-cro、form-cro、signup-flow-cro、onboarding-cro
+- 文案：copywriting、copy-editing；社媒 social-content
+- 邮件：email-sequence；增长：marketing-ideas（140 条）、marketing-psychology（70+ 心智模型）
+- 发布：launch-strategy；定价：pricing-strategy
+先用 .agents/product-marketing.md（或 .claude/ 回退）写入产品营销上下文。
+支持 Claude Code / Codex / Cursor / Windsurf 等。MIT。
+```
+
+---
+
 ## 🔌 集成与协作
 
 打通第三方服务：GitHub、邮箱、日历、密码等。
@@ -2196,6 +2278,34 @@ OCR 提取能力已并入内置 pdf Skill（skills/productivity/pdf，含 pymupd
 
 ---
 
+### 141 — last30days（近 30 天舆情调研）
+
+| 字段 | 值 |
+|------|-----|
+| **来源** | mvanhorn（⭐ 63.9k） |
+| **分类** | 搜索与浏览 |
+| **一句话** | 跨 Reddit/X/YouTube/TikTok/HN/Polymarket/GitHub 等平台，调研任何话题最近 30 天真实讨论，综合成带引用的简报 |
+
+**安装指令：**
+
+```
+安装 last30days Skill。
+来源：https://github.com/mvanhorn/last30days-skill（⭐ 63.9k）
+安装方式（任选）：
+- Claude Code：/plugin marketplace add mvanhorn/last30days-skill 然后 /plugin install last30days
+- 其他 50+ Agent Skills 宿主：npx skills add mvanhorn/last30days-skill -g
+- claude.ai 网页版：下载 last30days.skill 上传到 Settings > Capabilities > Skills
+
+安装后，/last30days <话题> 并行搜索多平台并按真实互动（赞/票/真金下注）打分，综合成一份简报：
+- 零配置即可用：Reddit（含评论）+ HN + Polymarket + GitHub
+- 首次运行向导 30 秒解锁 X / YouTube / TikTok / arXiv / Techmeme 等
+- 支持对比模式（/last30days A vs B）、发现模式（what's trending）、--emit=html 简报
+- 人物模式、--hiring-signals、watchlist 趋势监控、本地 library 检索
+MIT 开源、本地运行、2700+ 测试。
+```
+
+---
+
 ## 🕷️ 数据采集与爬虫
 
 网页抓取、爬虫框架与反爬伪装。
@@ -2489,6 +2599,34 @@ OCR 提取能力已并入内置 pdf Skill（skills/productivity/pdf，含 pymupd
 安装方式：安装 Hermes Agent 后内置，直接 /computer-use 调用。
 安装后，Agent 可在后台驱动桌面（点击/输入/截图），不抢你正在用的窗口焦点，
 适合 GUI 自动化、重复点击类任务。
+```
+
+---
+
+### 140 — claude-hud（实时状态 HUD）
+
+| 字段 | 值 |
+|------|-----|
+| **来源** | jarrodwatts（⭐ 28.4k） |
+| **分类** | 终端与自动化 |
+| **一句话** | Claude Code 状态栏插件：实时显示上下文用量、速率限制、活跃工具、运行中的 Agent 和 todo 进度 |
+
+**安装指令：**
+
+```
+安装 claude-hud 插件。
+来源：https://github.com/jarrodwatts/claude-hud（⭐ 28.4k）
+安装方式：在 Claude Code 内依次执行
+  /plugin marketplace add jarrodwatts/claude-hud
+  /plugin install claude-hud
+  /reload-plugins
+  /claude-hud:setup
+
+安装后，输入框下方常驻一条 HUD（无需 tmux，任意终端可用）：
+- 模型/provider、项目路径、git 分支；上下文用量条 + 订阅速率限制条
+- 可选行：活跃工具、运行中的 Agent、todo 进度、会话时长、成本、缓存命中率等
+- /claude-hud:configure 配置布局与元素，支持中英文标签，本地运行、无网络请求
+MIT 开源。要求 Claude Code v2.1.260+、Node.js 18+（或 Bun）。
 ```
 
 ---
@@ -2817,6 +2955,7 @@ OCR 提取能力已并入内置 pdf Skill（skills/productivity/pdf，含 pymupd
 81. headroom — headroomlabs-ai，Token 压缩减少 60-95%
 135. Caveman — JuliusBrussee（⭐ 111k），穴居人话省 token（会话输入 -33%）
 136. awesome-claude-skills — ComposioHQ（⭐ 76.7k），1000+ 生产级 Claude Skill 精选合集
+139. i-have-adhd — ayghri（⭐ 56.3k），重点前置输出（先动作、编号、去寒暄）
 
 【Agent 智能化】
 30. Self-Improving Agent — ClawHub（★ 3.8k），自动记录错误与经验，永久进化
@@ -2852,6 +2991,7 @@ OCR 提取能力已并入内置 pdf Skill（skills/productivity/pdf，含 pymupd
 127. shaders — shader-effects-inc（⭐ 3.6k），200+ WebGPU 特效组件（React/Vue/Svelte/Solid/JS）
 133. Archify — tt-a1i（⭐ 81k），把想法/方案/代码库变成交互式 HTML 图
 134. Impeccable — pbakaus（⭐ 78.9k），AI 设计语言（24 命令 + 59 条检测规则）
+142. emilkowalski/skills — emilkowalski（⭐ 45k），Emil 设计工程技能（动画/手势/评审）
 
 【内容创作】
 7. baoyu-skills — JimLiu（⭐ 25.6k），20 个视觉设计 Skill
@@ -2904,6 +3044,7 @@ OCR 提取能力已并入内置 pdf Skill（skills/productivity/pdf，含 pymupd
 105. competitor-analysis — browserbase（⭐ 3.7k），竞品四维深度分析报告
 106. company-research — browserbase（⭐ 3.7k），ICP 目标公司发现与打分
 111. competitor-news-monitor — Hermes Agent 官方内置，竞品重大新闻监控
+143. marketingskills — coreyhaines31（⭐ 32.8k），40+ 营销技能包（CRO/文案/SEO/增长）
 
 【集成与协作】
 36. Github — ClawHub（★ 636），用 gh CLI 操作 GitHub
@@ -2930,6 +3071,7 @@ OCR 提取能力已并入内置 pdf Skill（skills/productivity/pdf，含 pymupd
 100. chrome-mcp-bridge-2026-skill — phoenixlucky，Chrome MCP 桥接
 104. browser — browserbase（⭐ 3.7k），最强浏览器自动化（CAPTCHA/住宅代理）
 107. arxiv — Hermes Agent 官方内置，arXiv 论文搜索
+141. last30days — mvanhorn（⭐ 63.9k），跨平台近 30 天舆情调研
 
 【数据采集与爬虫】
 82. Agent-Reach — Panniantong，全网情报一键抓取+总结
@@ -2949,6 +3091,7 @@ OCR 提取能力已并入内置 pdf Skill（skills/productivity/pdf，含 pymupd
 54. tmux — ClawHub（★ 43），远程控制 tmux 会话
 95. scrcpy — Genymobile（⭐ 149k），电脑远程操控安卓手机
 119. computer-use — Hermes Agent 官方内置，后台桌面操控不抢焦点
+140. claude-hud — jarrodwatts（⭐ 28.4k），Claude Code 实时状态 HUD 插件
 
 【生活与媒体】
 60. Weather — ClawHub（★ 417），天气查询
